@@ -1,2 +1,5 @@
-# cs50x-archive
-CS50x ders notları ve kendi aldığım notlar - pset örnekleri
+## CS50x - Arşivi
+
+CS50x derslerinin notlarını ve pset örneklerinin arşivi
+
+[Twitter](https://twitter.com/bounjeedaily) | [Website](https://bounjee.github.io/) | [Bionluk](https://bionluk.com/bounjee) | [İnstagram](https://www.instagram.com/grbuzmustafa)
