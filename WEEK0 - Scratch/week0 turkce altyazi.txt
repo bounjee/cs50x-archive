@@ -1,0 +1,8978 @@
+1 00:00:00,000 --> 00:01:17,581
+[MÜZİK ÇALIYOR]
+
+2 00:01:17,581 --> 00:01:18.501
+
+3 00:01:18,501 --> 00:01:22,981
+DAVID MALAN: Pekala, bu CS50,
+Harvard Üniversitesi'nin tanıtımı
+
+4 00:01:22,981 --> 00:01:25,291
+bilgisayar biliminin entelektüel
+girişimlerine
+
+5 00:01:25,291 --> 00:01:29,041 ve
+programlama sanatı, burada kampüste
+güzel Sanders Theatre'da
+
+6 00:01:29,041 --> 00:01:31,111
+uzun bir aradan sonra ilk kez.
+
+7 00:01:31,111 --> 00:01:33,701
+Derse hoş geldiniz.
+
+8 00:01:33,701 --> 00:01:35,081
+Benim adım David--
+
+9 00:01:35,081 --> 00:01:35,847
+Tamam.
+10
+00:01:35,847 --> 00:01:39,249
+[TEŞEKKÜRLER VE ALKIŞLAR]
+
+11 00:01:44,601 --> 00:01:46,011
+Yani benim adım David Malan.
+12
+00:01:46,011 --> 00:01:49,611 Bu
+dersi bir süre önce ben de almıştım
+ama neredeyse almıyordum.
+
+13 00:01:49,611 --> 00:01:52,821
+İkinci sınıf sonbaharıydı ve ben
+
+Machine Translated by Google
+sınıfta oturuyordu.
+14
+00:01:52,821 --> 00:01:55,131
+Ve biraz merak ettim ama,
+eh, gerçekten değil
+15
+00:01:55,131 --> 00:01:57,208
+benim için tarla gibi.
+16
+00:01:57,208 --> 00:01:59,541
+Kesinlikle bir bilgisayar
+insanıydım, ama bilgisayar bilimi
+17
+00:01:59,541 --> 00:02:01,014
+tamamen bir şey gibi hissettim.
+18
+00:02:01,014 --> 00:02:02,931
+Ve sadece derse girmek
+için cesaretimi topladım.
+19
+00:02:02,931 --> 00:02:05,571
+sonuçta, çünkü o zamanki profesör
+Brian Kernighan,
+20
+00:02:05,571 --> 00:02:08,301
+başlangıçta dersten başarılı/kalmış
+olmama izin verdi.
+21
+00:02:08,301 --> 00:02:10.191 Ve
+tüm farkı yaratan da bu.
+
+22
+00:02:10.191 --> 00:02:12.681
+Bilgisayar biliminin
+sadece
+23
+00:02:12,681 --> 00:02:15.501
+bilgisayarınızda ayrı ayrı programlama
+ve çalışma hakkında.
+24
+00:02:15,501 --> 00:02:18,091 Bu
+aslında daha genel olarak problem
+çözmekle ilgilidir.
+
+Machine Translated by Google
+25
+
+00:02:18,091 --> 00:02:20.781
+Ve açıkçası ev ödeviyle ilgili
+bir şey vardı,
+26
+00:02:20.781 --> 00:02:24,171 19
+yıldır belki de ilk defa gerçekten
+eğlenceliydi.
+27
+00:02:24,171 --> 00:02:26,696
+Ve bu yetenek hakkında bir
+şey vardı
+28
+00:02:26,696 --> 00:02:28,821
+tüm sınıf arkadaşlarımla birlikte
+keşfettiğim,
+29
+00:02:28,821 --> 00:02:33,073
+gerçekten bir şey yaratmak ve bir sorunu
+çözmek için bir bilgisayarı hayata geçirmek,
+30
+00:02:33,073 --> 00:02:35,781 ve
+her gün kullandığım bir şeyi ortaya
+çıkardım
+31
+00:02:35,781 --> 00:02:38,961 ama
+gerçekten emniyet kemeri kullanmayı
+bilmiyordum, o zamandan beri bu çok sevindirici oldu,
+
+32
+00:02:38,961 --> 00:02:40,851 ve
+kesinlikle zorlu ve sinir bozucu.
+
+33
+00:02:40,851 --> 00:02:43,453
+Sanki, bu güne
+kadar, bunca yıl sonra,
+34
+00:02:43,453 --> 00:02:46,161
+Hata olarak da bilinen hatalarla
+karşılaşacaksınız,
+35
+00:02:46,161 --> 00:02:47,811
+programlamada, bu sizi çıldırtıyor.
+
+Machine Translated by Google
+36
+00:02:47,811 --> 00:02:49,311 Ve
+duvara çarpmış gibi hissediyorsunuz.
+37
+00:02:49,311 --> 00:02:51,651
+Ama işin püf noktası, ona
+yeterince zaman vermektir,
+
+38
+00:02:51,651 --> 00:02:53,881
+geri adım atmak, gerektiğinde
+ara vermek için.
+39
+00:02:53,881 --> 00:02:57,141
+Ve sanırım, bu tatmin duygusundan
+daha iyi bir şey yok
+40
+00:02:57,141 --> 00:02:58,869 ve
+bir şey aldığınızda gerçekten
+gurur
+
+41 00:02:58,869 --> 00:03:01,161
+çalışmak ve bunun gibi bir sınıfta,
+mevcut, nihayetinde,
+42
+00:03:01,161 --> 00:03:04,791
+dönem sonunda, kendi final
+projeniz gibi bir şey.
+43
+00:03:04,791 --> 00:03:08,251 Şimdi,
+bu %100 mükemmel bir şekilde kabul
+ettiğim anlamına gelmiyor.
+
+44
+00:03:08,251 --> 00:03:13,461
+Aslında, daha geçen hafta eski CS50
+ciltleyicime baktım, hala
+45
+00:03:13,461 --> 00:03:15,981 25
+yıl öncesine ait ve bir fotoğraf
+çekti
+46
+00:03:15,981 --> 00:03:20.661
+yazıp gönderdiğim ilk programdı,
+
+47
+
+Machine Translated by Google
+
+00:03:20.661 --> 00:03:22,971 ve hızlı
+eksi 2 puan aldı.
+
+48
+00:03:22,971 --> 00:03:26,151
+Ancak bu, önümüzdeki günlerde
+yakında göreceğimiz bir program.
+49
+00:03:26,151 --> 00:03:30,441 bu
+durumda oldukça basit bir şekilde
+"Merhaba, CS50" yazdırmak gibi bir şey yapar,
+50
+00:03:30,441 --> 00:03:31,109 ekrana.
+
+51
+00:03:31,109 --> 00:03:32,901
+Ve adil olmak
+gerekirse, teknik olarak gerçekten
+
+52
+00:03:32,901 --> 00:03:35,181
+yönergeleri takip ettim, bu yüzden
+birkaç puanı kaybettim.
+53
+00:03:35,181 --> 00:03:38,503
+Ama buna sadece bakarsanız, özellikle daha
+önce hiç programlamadıysanız,
+54
+00:03:38,503 --> 00:03:40,461
+Programlama dilini duymuş
+olabilirsiniz
+55
+00:03:40,461 --> 00:03:42,419 ama
+hiç böyle bir şey yazmadın,
+
+56
+00:03:42,419 --> 00:03:44,181
+şüphesiz şifreli görünecek.
+57
+00:03:44,181 --> 00:03:46,221
+Ama açıkçası, insan
+dillerinden farklı olarak,
+58
+00:03:46,221 --> 00:03:50,181 çok
+daha karmaşıktı, çok daha fazla
+kelime hazinesi, çok daha fazlası
+
+Machine Translated by Google
+59
+00:03:50,181 --> 00:03:54,321
+gramer kuralları, programlama
+
+60
+00:03:54,321 --> 00:03:57,434 nasıl
+çalışır ve bu çeşitli diller nelerdir, çok
+kolay,
+61
+00:03:57,434 --> 00:03:59,601
+Böyle bir dersten birkaç ay sonra,
+
+62
+00:03:59,601 --> 00:04:01,701
+sonra kendi kendine öğretmeye
+başlamak için,
+63
+00:04:01,701 --> 00:04:05,431
+diğer diller, gelecek yıllarda da
+gelebilirler.
+64
+00:04:05,431 --> 00:04:08,751
+Peki bu özel kursta nihayetinde
+önemli olan şey
+65
+00:04:08,751 --> 00:04:11,391,
+sınıf arkadaşlarına göre sonun o
+kadar fazla değil
+66
+00:04:11,391 --> 00:04:14.601 ama
+başladığın zaman kendine göre
+sona erdiğin yer.
+67
+00:04:14,601 --> 00:04:16.081 Ve
+gerçekten de bugün başlayacaksınız.
+
+68
+00:04:16,081 --> 00:04:19,611 Ve
+bu sınıfta nihai olarak önemli olan tek
+deneyim kendi deneyiminizdir.
+69
+00:04:19,611 --> 00:04:21,741 Ve
+bugün nerede olduğunuzu bir düşünün.
+70
+
+Machine Translated by Google
+00:04:21,741 --> 00:04:24,231
+
+Belki de böyle bir şeyin ne
+kadar gizemli olduğunu düşünün.
+71
+00:04:24,231 --> 00:04:25,551
+birkaç saniye önce baktı.
+72
+00:04:25,551 --> 00:04:28,881
+Ve bundan sadece birkaç ay sonra
+tüm bunları bilmenin rahatlığını yaşayın.
+73
+00:04:28,881 --> 00:04:31,109 sizin
+elinizde olacaktır.
+74
+00:04:31,109 --> 00:04:34,401
+Ve eğer bunu düşünüyorsanız, tamam,
+kesinlikle önümde, soldaki kişi,
+75
+00:04:34,401 --> 00:04:38,121
+sağda, arkamda, benden daha fazlasını biliyor,
+istatistiksel olarak durum böyle değil.
+76
+00:04:38,121 --> 00:04:42,801
+CS50 öğrencilerinin 2/3'ü daha önce hiç CS
+kursu almamıştır, yani,
+77
+00:04:42,801 --> 00:04:47,431 Tüm
+bu dönem boyunca çok iyi bir
+şirkettesiniz.
+78
+00:04:47,431 --> 00:04:49,521 O
+halde bilgisayar bilimi nedir?
+79
+00:04:49,521 --> 00:04:51,141 Bunun
+problem çözmek olduğunu iddia ediyorum.
+
+80
+00:04:51,141 --> 00:04:53,421
+Ve bunun iyi tarafı, problem
+çözmenin
+
+81 00:04:53,421 --> 00:04:55,731
+her zaman yaptığımız bir şey.
+82
+
+Machine Translated by Google
+00:04:55,731 --> 00:04:58,534
+
+Ama bir bilgisayar bilimi
+sınıfı, programlamayı öğreniyor,
+83
+00:04:58,534 --> 00:05:00,201
+Sanırım düşüncelerinizi biraz arındırıyor.
+84
+00:05:00,201 --> 00:05:03,741
+Daha metodik, daha dikkatli, daha fazla
+düşünmeyi öğrenmenize yardımcı olur.
+85
+00:05:03,741 --> 00:05:05,331 daha
+doğrusu.
+86
+00:05:05,331 --> 00:05:07,164
+Çünkü dürüst olmak
+gerekirse, bilgisayar çalışmıyor
+87
+00:05:07,164 --> 00:05:10.371 doğru,
+kesin ve metodik olmadıkça istediğini
+yapmak.
+88
+00:05:10.371 --> 00:05:12,596
+Ve böylece, bu yan faydalar
+var
+89
+00:05:12,596 --> 00:05:15,471 sadece
+bir bilgisayar bilimcisi ve bir
+programcı gibi düşünmeyi öğrenmek.
+90
+00:05:15,471 --> 00:05:18,261 Ve
+bunu yapmaya başlamak o kadar
+da uzun sürmüyor.
+91
+00:05:18,261 --> 00:05:21,921
+Bu, örneğin, bilgisayar biliminin belki
+de en basit resmidir,
+92
+00:05:21,921 --> 00:05:23,841
+elbette, ama genel olarak gerçekten
+problem çözme.
+93
+00:05:23,841 --> 00:05:27,171
+Sorunlar tamamen girdi almakla ilgilidir,
+
+Machine Translated by Google
+
+çözmek istediğiniz problem gibi.
+94
+00:05:27,171 --> 00:05:29,061
+
+Çözüme ulaşmak istiyorsunuz, namı diğer
+95
+00:05:29,061 --> 00:05:29,751 çıktı.
+
+96
+00:05:29,751 --> 00:05:32,451
+Ve burada ilginç bir şeyler oluyor
+olmalı,
+97
+00:05:32,451 --> 00:05:35,941
+burada, bu girdilerden çıktılara
+ulaşmaya çalışırken.
+98
+00:05:35,941 --> 00:05:38,511
+Şimdi, özellikle
+bilgisayar dünyasında,
+99
+00:05:38,511 --> 00:05:42,381 Bu
+girdi ve çıktıları nasıl temsil edeceğimize
+önceden karar vermemiz gerekiyor.
+100
+00:05:42,381 --> 00:05:46,424
+Mac'ler mi, PC'ler mi, telefonlar mı yoksa başka
+bir şey mi olduğuna hepimiz karar vermemiz gerekiyor.
+
+101
+00:05:46,424 --> 00:05:49,341
+başka, ne olursa olsun ortak bir dil
+konuşacağız
+102
+00:05:49,341 --> 00:05:51,541
+insan dilimizin de.
+103
+00:05:51,541 --> 00:05:55,251
+Ve bilgisayarların yalnızca konuşma
+eğiliminde olduğunu çok iyi biliyor olabilirsiniz.
+
+104
+00:05:55,251 --> 00:05:59,441
+tabiri caizse hangi dil?
+105
+00:05:59,441 --> 00:06:01,931
+
+Machine Translated by Google
+Montaj, bir, ancak ikili, iki,
+tercihiniz olabilir.
+106
+00:06:01,931 --> 00:06:05,021
+Ve ikili, ikiyi ima ederek, bilgisayar
+dünyasının
+107
+00:06:05,021 --> 00:06:08,681'in
+emrinde sadece iki rakam vardır, 0
+ve 1.
+108
+00:06:08,681 --> 00:06:12,761
+Ve gerçekten, biz insanlar bundan çok daha
+fazlasına sahibiz, kesinlikle sadece sıfırlar değil
+
+109
+00:06:12,761 --> 00:06:13,391 ve
+yalnız olanlar.
+110
+00:06:13,391 --> 00:06:15,821 Ama bir
+bilgisayarda gerçekten de yalnızca
+sıfırlar ve birler vardır.
+
+111
+00:06:15,821 --> 00:06:18,041 Yine
+de bir şekilde bu kadar çok şey yapabilirler.
+112
+00:06:18,041 --> 00:06:20.411
+sayıları sıkıştırabilirler
+Excel, metin mesajları gönderin,
+113
+00:06:20.411 --> 00:06:23,781
+görüntüler, resimler, filmler ve daha
+fazlasını oluşturun.
+114
+00:06:23,781 --> 00:06:27,491
+Ve böylece, birkaç sıfır, birkaç bir gibi basit bir
+şeyden nasıl elde edersiniz?
+115
+00:06:27,491 --> 00:06:29,621 bugün
+yaptığımız her şeye
+
+116
+00:06:29,621 --> 00:06:31,571
+ceplerimizde, dizüstü ve masaüstü bilgisayarlarımızda mı?
+
+Machine Translated by Google
+117
+
+00:06:31,571 --> 00:06:34,271
+Görünüşe göre oldukça basit bir
+şekilde başlayabiliriz.
+118
+00:06:34,271 --> 00:06:38,171
+Bir bilgisayar saymak kadar basit bir
+şey yapmak isteseydi, peki,
+119
+00:06:38,171 --> 00:06:38,891 ne
+yapabilirdi?
+120
+00:06:38,891 --> 00:06:41,891
+Bizim insan dünyamızda, bunu
+yapmayı sayabiliriz,
+121
+00:06:41,891 --> 00:06:46,479 1, 2, 3,
+4, 5 gibi, sözde üniter gösterimi
+kullanarak, kelimenin tam anlamıyla rakamlar
+122
+00:06:46,479 --> 00:06:49,271
+parmağınızın odadaki bir kişiyi temsil
+ettiği yerde,
+123
+00:06:49,271 --> 00:06:51,221
+Örneğin, yoklama alıyorsam.
+124
+00:06:51,221 --> 00:06:55,301 Şimdi,
+biz insanlar genellikle 1, 2, 3, 4, 5, 6
+sayardık.
+125
+00:06:55,301 --> 00:06:58,181
+Ve biz sadece bu beş basamağı geçip
+çok daha yüksek sayardık,
+126
+00:06:58,181 --> 00:06:59,651 sıfırdan
+dokuza kadar.
+127
+00:06:59,651 --> 00:07:02,57 Ancak
+bilgisayarlarda bir şekilde sadece bu
+sıfırlar ve birler var.
+128
+00:07:02,571 --> 00:07:05,891
+Yani bir bilgisayar sadece bir şekilde
+
+Machine Translated by Google
+ikili, sıfırlar ve birler konuşur,
+129
+00:07:05,891 --> 00:07:08,881
+1'den sonra nasıl sayılır?
+
+130
+00:07:08,881 --> 00:07:11.441
+Eh, burada 3 tane sıfır var elbette.
+131
+00:07:11,441 --> 00:07:14.951
+Ve bu sayıyı ikili olarak
+çevirirseniz, 000,
+132
+00:07:14,951 --> 00:07:18,851
+daha tanıdık bir ondalık sayıya, biz buna
+sadece sıfır derdik.
+133
+00:07:18,851 --> 00:07:19,721
+Yeter dedi.
+134
+00:07:19,721 --> 00:07:22,571
+1 sayısını bir bilgisayarla
+temsil edecek olsaydık,
+135
+00:07:22,571 --> 00:07:25,631
+aslında 001 olurdu, ki bu şaşırtıcı
+değil,
+136
+00:07:25,631 --> 00:07:28,691
+bizim insan dünyamızda
+yapabileceğimizin tamamen aynısı,
+137
+00:07:28,691 --> 00:07:32,201
+ama başlangıçta iki sıfırı yazmakla
+uğraşmayabiliriz.
+138
+00:07:32,201 --> 00:07:34,871
+Ama bir bilgisayar, eğer
+ikiye kadar saymak istiyorsa,
+139
+00:07:34,871 --> 00:07:36,401 2
+rakamına sahip değil.
+140
+
+Machine Translated by Google
+00:07:36,401 --> 00:07:39,131 Ve bu
+yüzden farklı bir sıfır ve bir düzeni
+kullanması gerekiyor.
+141
+00:07:39,131 --> 00:07:41,321 Ve bu
+010 olur.
+142
+00:07:41,321 --> 00:07:43,511 Yani
+bu, önünde sıfır olan 10 değil.
+
+143
+00:07:43,511 --> 00:07:45,981 İkili
+bağlamında gerçekten de sıfır bir
+sıfır.
+144
+00:07:45,981 --> 00:07:48,101
+Ve şimdi ikiden daha fazla
+saymak istiyorsak,
+145
+00:07:48,101 --> 00:07:52,241 3'ü
+elde etmek için bu sıfırları ve birleri
+daha fazla ince ayar yapmamız gerekecek.
+146
+00:07:52,241 --> 00:07:56,711
+Ve sonra 4 veya 5 veya 6
+veya 7 istersek,
+147
+00:07:56,711 --> 00:07:59,621
+sadece bu sıfırlar ve birler arasında
+geçiş yapmak, aka
+148
+00:07:59,621 --> 00:08:04,108 bit,
+bu farklı desenler aracılığıyla temsil eden
+ikili rakamlar için,
+149
+00:08:04,108 --> 00:08:06,191
+insanlar olarak sizin ve benim
+bildiğimiz farklı sayılar,
+150
+00:08:06,191 --> 00:08:09,431
+elbette, sözde ondalık sistem olarak,
+0'dan 9'a,
+151
+00:08:09,431 --> 00:08:13,091
+
+Machine Translated by Google
+
+dec 10, 10 hane anlamına gelir,
+
+bu sıfırlardan dokuza kadar.
+152
+00:08:13,091 --> 00:08:15,461 Peki
+neden bu özel kalıp?
+153
+00:08:15,461 --> 00:08:17,381 Peki
+neden bu belirli sıfırlar ve birler?
+154
+00:08:17,381 --> 00:08:20.711
+Bir şeyi ya da diğerini
+temsil ettiği ortaya çıktı.
+155
+00:08:20.711 --> 00:08:23,061 bir
+bilgisayar için gerçekten çok basit.
+156
+00:08:23,061 --> 00:08:23,561
+Neden?
+157
+00:08:23,561 --> 00:08:25,811
+Günün sonunda, elektrikle çalışırlar.
+
+158
+00:08:25,811 --> 00:08:28,781
+Ve sadece biraz elektrik depolamak
+gerçekten basit bir şey.
+159
+00:08:28,781 --> 00:08:30,491 veya
+biraz elektrik depolamayın.
+160
+00:08:30,491 --> 00:08:33,611 Sanki,
+bu dünyanın alabileceği kadar
+basit, açık veya kapalı.
+161
+00:08:33,611 --> 00:08:35,811 1
+veya 0, tabiri caizse.
+162
+00:08:35,811 --> 00:08:38,521
+Yani aslında bir bilgisayarın,
+telefonun, herhangi bir şeyin içinde
+
+163
+00:08:38,521 --> 00:08:40,271 bu
+günlerde
+
+Machine Translated by Google
+elektronik, oldukça
+164
+00:08:40,271 --> 00:08:43,463,
+transistör olarak da bilinen bir
+dizi anahtardır.
+165
+00:08:43,463 --> 00:08:44,171 Ve
+çok küçükler.
+166
+00:08:44,171 --> 00:08:47,553
+Bugünlerde Mac'inizde, PC'nizde veya
+telefonunuzda binlerce, milyonlarca var.
+167
+00:08:47,553 --> 00:08:50,511 Ve
+bunlar açılıp kapanabilen küçük
+anahtarlardır.
+168
+00:08:50,511 --> 00:08:53,171
+Ve bu şeyleri kalıplarda açıp
+kapatarak,
+169
+00:08:53,171 --> 00:08:56,974 bir
+bilgisayar 0'dan 7'ye kadar, hatta
+bundan daha fazla sayabilir.
+170
+00:08:56,974 --> 00:08:59,891
+Ve bu anahtarlar, gerçekten,
+anahtarlar gibi düşünebilirsiniz.
+171
+00:08:59,891 --> 00:09:00,391
+bunun gibi.
+172
+00:09:00,391 --> 00:09:02,683
+Buradaki küçük sahne ışıklarımızdan
+birini ödünç almama izin verin.
+
+173
+00:09:02,683 --> 00:09:03,671 İşte
+bir ampul.
+174
+00:09:03,671 --> 00:09:04,961 Şu
+anda kapalı.
+175
+00:09:04,961 --> 00:09:07,391
+
+Machine Translated by Google
+Ve böylece, bunu temsili
+olarak düşünebilirim,
+176
+00:09:07,391 --> 00:09:10.811 dizüstü
+bilgisayarımda, bir transistör, 0'ı
+temsil eden bir anahtar.
+177
+00:09:10,811 --> 00:09:15,821 Ama
+biraz elektriğin akmasına izin
+verirsem, şimdi aslında 1'im var.
+178
+00:09:15,821 --> 00:09:17,431 Peki,
+1'den büyük nasıl sayabilirim?
+179
+00:09:17,431 --> 00:09:19,041 Elbette
+başka bir ampule ihtiyacım var.
+180
+00:09:19,041 --> 00:09:21,231 O
+halde bir tane daha alayım.
+181
+00:09:21,231 --> 00:09:26,051 Ve
+eğer onu aynı türden bir kalıba koyarsam,
+sadece bunu yapmak istemiyorum.
+182
+00:09:26,051 --> 00:09:29,841 Bu bir
+tür eski parmak sayma yöntemi,
+sadece 1, 2.
+183
+00:09:29,841 --> 00:09:31,841
+Aslında kalıbı dikkate
+almak istiyorum
+184
+00:09:31,841 --> 00:09:33,381
+bunlardan biri açılıp kapanıyor.
+185
+00:09:33,381 --> 00:09:39,431
+Yani bu bir dakika önceyse, daha önce yaptığımı
+düşündüğüm şey onu kapatmaktı.
+186
+00:09:39,431 --> 00:09:43,361 ve bir
+sonrakinin devam etmesine izin verin, aka
+187
+00:09:43,361 --> 00:09:44,771
+
+Machine Translated by Google
+010.
+188
+00:09:44,771 --> 00:09:47,811 Ve
+izin verirseniz bize üçüncü bir parça
+vereyim.
+189
+00:09:47,811 --> 00:09:49,301 Ve bu
+yeterli geliyor.
+190
+00:09:49,301 --> 00:09:53,140 Şimdi
+aynı model, başlangıçta 3 ile başlıyor.
+
+191
+00:09:53,140 --> 00:09:55,541 İşte
+000.
+192
+00:09:55,541 --> 00:09:58,421 İşte
+001.
+193
+00:09:58,421 --> 00:10:05,471 İşte
+010, namı diğer ondalık insan
+dünyamızda, 2.
+194
+00:10:05,471 --> 00:10:07,871 Ve
+sonra tabii ki daha fazla saymaya
+devam edebiliriz.
+195
+00:10:07,871 --> 00:10:10,641 Bu
+şimdi 3 ve nokta nokta olacaktır.
+196
+00:10:10,641 --> 00:10:13,571
+Bu diğer ampul şimdi yanarsa
+ve o anahtar açılırsa
+197
+00:10:13,571 --> 00:10:16,061 ve
+üçü de açık kalıyor-- bu yine hangi
+sayıydı?
+198
+00:10:16,061 --> 00:10:16,736
+İZLEYİCİ: Yedi.
+199
+00:10:16,736 --> 00:10:18,281 DAVID
+MALAN: Tamam, yani, yedi.
+
+Machine Translated by Google
+200
+00:10:18,281 --> 00:10:22,511 Yani
+bu kadar basit, görece, eğer
+isterseniz.
+201
+00:10:22,511 --> 00:10:26,681 Peki
+bu kalıplar nasıl oluştu?
+
+202
+00:10:26,681 --> 00:10:29,506 Bu
+modeller aslında çok tanıdık bir
+şeyi takip ediyor.
+203
+00:10:29,506 --> 00:10:31,631
+Sen ve ben gerçekten
+bu seviyede düşünmüyoruz
+204
+00:10:31,631 --> 00:10:35,501 artık
+çünkü muhtemelen sınıftan beri matematik
+ve sayılar yapıyoruz
+205
+00:10:35,501 --> 00:10:36,971 okul
+falan.
+206
+00:10:36,971 --> 00:10:41,861
+Ama 123 sayısı gibi bir şeyi ondalık
+olarak düşünürsek,
+207
+00:10:41,861 --> 00:10:43,001
+Hemen buna atlıyorum.
+208
+00:10:43,001 --> 00:10:45,671 Bu,
+ondalık olarak 123 gibi görünüyor.
+209
+00:10:45,671 --> 00:10:46,361 Ama
+neden?
+210
+00:10:46,361 --> 00:10:50,501
+Gerçekten sadece üç sembol, 1,
+biraz eğri ile 2, 3
+211
+00:10:50,501 --> 00:10:52,991
+birkaç eğri ile, bu
+
+Machine Translated by Google
+sen ve ben şimdi içgüdüsel olarak
+
+212
+00:10:52,991 --> 00:10:54,851
+sadece anlam atayın.
+213
+00:10:54,851 --> 00:10:59,701
+Ama birkaç yılı geri sararsak, bu
+yüz yirmi üç
+214
+00:10:59,701 --> 00:11:03,181
+çünkü bu sütunların her birine anlam
+yüklüyorsunuz.
+215
+00:11:03,181 --> 00:11:06,031 3,
+birler denilen yerdedir.
+216
+00:11:06,031 --> 00:11:09,631 2,
+onlar basamağındadır.
+217
+00:11:09,631 --> 00:11:12,541 Ve
+1, sözde yüzler basamağındadır.
+
+218
+00:11:12,541 --> 00:11:14,551 Ve
+sonra matematik hızla kafanızda
+belirir.
+219
+00:11:14,551 --> 00:11:20,011 Bu
+teknik olarak 100 çarpı 1, artı 10 çarpı
+2, artı 1 çarpı 3, yani
+220
+00:11:20.011 --> 00:11:21,691 100
+artı 20 artı 3.
+221
+00:11:21,691 --> 00:11:27,091 Ve
+orada 123 olarak bildiğimiz
+türden bir matematiksel kavram elde ederiz.
+222
+00:11:27,091 --> 00:11:31,271
+Yeterince güzel, ikili olarak,
+aslında aynı şey.
+223
+00:11:31,271 --> 00:11:33,721
+
+Machine Translated by Google
+Sadece bu sütunlar biraz farklı
+bir şey ifade ediyor.
+224
+00:11:33,721 --> 00:11:37,711
+Ondalık olarak üç basamak
+kullanırsanız ve birler basamağınız varsa,
+225
+00:11:37,711 --> 00:11:42,031
+onlar basamağı ve yüzler basamağı, peki,
+neden 1, 10 ve 100 idi?
+226
+00:11:42,031 --> 00:11:43.931
+Teknik olarak sadece 10'un kuvvetleridir.
+227
+00:11:43,931 --> 00:11:46,321 Yani
+10 üzeri 0, 10 üzeri 1, 10 üzeri 2.
+
+228
+00:11:46,321 --> 00:11:47,221
+Neden 10?
+229
+00:11:47,221 --> 00:11:49,141
+Ondalık sistem, "dec" 10 anlamına gelir.
+230
+00:11:49,141 --> 00:11:51,541
+0'dan 9'a kadar 8 ve 10 haneniz var.
+231
+00:11:51,541 --> 00:11:54,091
+İkili sistemde, eğer üç rakam
+kullanacaksanız,
+232
+00:11:54,091 --> 00:11:57,611
+sadece sıfırlar ve birler
+kullanıyorsanız sadece tabanları değiştirin.
+233
+00:11:57,611 --> 00:12:01,831 Yani
+şimdi 2 üzeri 0, 2 üzeri 1, 2 üzeri 2,
+aka
+234
+00:12:01,831 --> 00:12:04,601
+sırasıyla 1 ve 2 ve 4.
+235
+00:12:04,601 --> 00:12:08,821
+
+Machine Translated by Google
+Ve devam edersen, 8s sütunu, 16s
+sütunu, 32, 64 olacak,
+236
+00:12:08,821 --> 00:12:10.211 vb.
+
+237
+00:12:10,211 --> 00:12:12,961 Peki,
+yaptığımız bu kalıpları neden elde
+ettik?
+238
+00:12:12,961 --> 00:12:18,991 İşte
+000'iniz çünkü 4 çarpı 0, 2 çarpı 0, 1 çarpı
+0, açıkçası 0.
+239
+00:12:18,991 --> 00:12:22,171 Bu
+yüzden ikili sistemde ondalık sayı
+1'i aldık.
+240
+00:12:22,171 --> 00:12:26,041
+Bu yüzden 2 sayısını ikili dosyada aldık,
+çünkü 4 katı
+241
+00:12:26,041 --> 00:12:33,751 0, artı
+2 çarpı 1, artı 1 çarpı 0 ve şimdi 3 ve şimdi
+4 ve şimdi 5 ve şimdi 6,
+242
+00:12:33,751 --> 00:12:34,531 ve
+şimdi 7.
+243
+00:12:34,531 --> 00:12:38,073
+Ve tabii ki, 8'e kadar saymak
+istiyorsanız, açık olmak gerekirse,
+244
+00:12:38,073 --> 00:12:39,031 ne
+yapmanız gerekiyor?
+245
+00:12:39,031 --> 00:12:41,531 Bir
+bilgisayarın 7'den daha fazla saymak
+için ne yapması gerekir?
+246
+00:12:41,531 --> 00:12:42,513
+İZLEYİCİ: Biraz ekleyin.
+247
+
+Machine Translated by Google
+00:12:42,513 --> 00:12:43,581
+DAVID MALAN: Biraz ekleyin.
+248
+00:12:43,581 --> 00:12:45,231
+Başka bir ampul, başka bir anahtar ekleyin.
+249
+00:12:45,231 --> 00:12:47,511
+Ve gerçekten de
+bilgisayarlar nasıl standart hale geldiler?
+250
+00:12:47,511 --> 00:12:49,941
+birçok sıfır ve bir veya bit veya
+anahtar,
+251
+00:12:49,941 --> 00:12:51.721 bu
+tür problemlere atıyorlar.
+252
+00:12:51,721 --> 00:12:56,001 Ve
+aslında çoğu bilgisayar aynı anda en az
+sekiz tane kullanır.
+253
+00:12:56,001 --> 00:12:58,671
+Ve sadece üç veya yediye kadar
+sayıyor olsanız bile,
+254
+00:12:58,671 --> 00:13:01,131 yine
+de sekiz tane kullanırsınız ve bir
+sürü sıfırınız olur.
+255
+00:13:01,131 --> 00:13:04,251
+Ama sorun değil, çünkü
+bugünlerde bilgisayarlar kesinlikle
+256
+00:13:04,251 --> 00:13:08,001 çok
+daha fazla, binlerce, milyonlarca
+transistör ve anahtara sahip
+257
+00:13:08,001 --> 00:13:10.621 bu
+gayet normal.
+258
+00:13:10.621 --> 00:13:14.371
+Pekala, bununla birlikte, şimdi
+yediye kadar sayabilirsek
+
+Machine Translated by Google
+259
+
+00:13:14,371 --> 00:13:16,861 veya
+açıkçası istediğimiz kadar yüksek, bu
+sadece
+260
+00:13:16,861 --> 00:13:19,471,
+bilgisayarları Excel gibi şeyler için
+kullanışlı hale getiriyor gibi görünüyor,
+261
+00:13:19,471 --> 00:13:20.731 sayı
+çarpması gibi.
+262
+00:13:20.731 --> 00:13:22,981
+Ancak bilgisayarlar, elbette, metin
+mesajları göndermenize izin verir,
+
+263
+00:13:22,981 --> 00:13:24,941 belge
+yazma ve çok daha fazlası.
+264
+00:13:24,941 --> 00:13:28,231
+Peki bir bilgisayar bir harf gibi bir şeyi nasıl
+temsil eder?
+265
+00:13:28,231 --> 00:13:32,561 İngiliz
+alfabesinin A harfi gibi, eğer günün
+sonunda,
+266
+00:13:32,561 --> 00:13:35,379 sahip
+oldukları tek şey anahtarlar mı?
+267
+00:13:35,379 --> 00:13:35,921 Bir
+fikrin var mı?
+268
+00:13:35,921 --> 00:13:36,421 Evet.
+
+269
+00:13:36,421 --> 00:13:38,661 İZLEYİCİ:
+Harfleri sayılarla gösterebilirsiniz.
+
+270
+00:13:38,661 --> 00:13:41,271 DAVID
+MALAN: Tamam, yani sayıları kullanarak
+harfleri gösterebiliriz.
+
+Machine Translated by Google
+271
+
+00:13:41,271 --> 00:13:42,704
+Tamam, peki teklif nedir?
+272
+00:13:42,704 --> 00:13:44,121 Hangi
+sayı neyi temsil etmelidir?
+273
+00:13:44,121 --> 00:13:47,921
+İZLEYİCİ: Diyelim ki alfabenin başından
+başlıyorsanız,
+274
+00:13:47,921 --> 00:13:51,446 1'in A,
+2'nin B, 3'ün C olduğunu söyleyebilirsiniz.
+275
+00:13:51,446 --> 00:13:52,321 DAVID
+MALAN: Mükemmel.
+276
+00:13:52,321 --> 00:13:55,331
+Evet, hepimizin bir şekilde bir sayı olduğu
+konusunda hemfikir olmamız gerekiyor.
+
+277
+00:13:55,331 --> 00:13:56,581 bir
+harfi temsil edecek.
+278
+00:13:56,581 --> 00:14:01,191 Yani 1
+A'dır, 2 B'dir, 3 C'dir, Z 26'dır vb.
+
+279
+00:14:01,191 --> 00:14:03,691 Belki
+büyük ve küçük harfleri de hesaba
+katabiliriz.
+280
+00:14:03,691 --> 00:14:06,931 Sadece
+anlaşmamız ve bir çeşit küresel
+standartta yazmamız gerekiyor.
+281
+00:14:06,931 --> 00:14:09,161 Ve
+gerçekten de insanlar tam da bunu yaptı.
+282
+00:14:09,161 --> 00:14:10.711 1, 2, 3
+kullanmadılar.
+283
+00:14:10,711 --> 00:14:12,811
+
+Machine Translated by Google
+Görünüşe göre biraz daha
+yukarıdan başladılar.
+284
+00:14:12,811 --> 00:14:16,831
+Başkent A, 65 sayısı olarak
+standartlaştırılmıştır.
+285
+00:14:16,831 --> 00:14:20.281 Ve
+büyük harf B, 66 sayısı olarak
+standart hale getirildi.
+286
+00:14:20,281 --> 00:14:23,071 Ve
+oradan nasıl yükseldiğini hayal
+edebilirsiniz.
+287
+00:14:23,071 --> 00:14:25,951
+Ve bunun nedeni, temsil ettiğiniz
+her neyse,
+288
+00:14:25,951 --> 00:14:30,161 günün
+sonunda yalnızca sıfırlar ve birler
+olarak saklanabilir.
+289
+00:14:30,161 --> 00:14:33,811
+Ve böylece, daha önce bir odadaki bazı insanlar,
+büyük A'nın 65 olmasına karar verdiler,
+290
+00:14:33,811 --> 00:14:37,801 veya
+gerçekten, her bilgisayarın içindeki
+bu sıfırlar ve birler kalıbı
+291
+00:14:37,801 --> 00:14:41.491
+dünyada, 01000001.
+292
+00:14:41,491 --> 00:14:45,181
+Yani bu sıfırlar ve birler deseni bir
+bilgisayarda ortaya çıkarsa,
+293
+00:14:45,181 --> 00:14:50.611 o
+zaman gerçekten büyük bir A harfi, bu
+bitlerin sekizi olarak yorumlanabilir
+294
+00:14:50,611 --> bir seferde
+00:14:51,511.
+
+Machine Translated by Google
+295
+00:14:51,511 --> 00:14:55,891
+Ama endişeliyim, açık olmak
+gerekirse, şimdi bir sorun yaratmış olabiliriz.
+296
+00:14:55,891 --> 00:14:58,381
+Bunu safça oynarsam,
+öyle görünebilir, tamam,
+297
+00:14:58,381 --> 00:15:01,561
+şimdi 65 rakamıyla nasıl matematik
+yapabilirim?
+298
+00:15:01,561 --> 00:15:06,271
+Eğer şimdi Excel 65'i gösteriyorsa,
+Bs ve C'leri bırakın.
+299
+00:15:06,271 --> 00:15:09,931
+Peki bir bilgisayar önerdiğiniz
+gibi nasıl yapabilir,
+300
+00:15:09,931 --> 00:15:14.576
+rakamlardan harflere bu eşlemeye
+sahip, ancak yine de sayıları destekliyor mu?
+301
+00:15:14,576 --> 00:15:16,201 Bir
+şeylerden vazgeçmişiz gibi geliyor.
+302
+00:15:16,201 --> 00:15:16,701
+Evet?
+303
+00:15:16,701 --> 00:15:18,963
+İZLEYİCİ: Harfler için bir ön ek
+alarak mı?
+304
+00:15:18,963 --> 00:15:20.296
+DAVID MALAN: Bir önek alarak mı?
+305
+00:15:20.296 --> 00:15:21,587
+İZLEYİCİ: Önek ve sonekleriniz
+olabilir.
+306
+00:15:21,587 --> 00:15:24,341
+
+Machine Translated by Google
+DAVID MALAN: Tamam, belki bir tür
+önekimiz olabilir,
+307
+00:15:24,341 --> 00:15:25,931 bazı
+sıfırlar ve birler kalıbı gibi-308
+00:15:25,931 --> 00:15:28,901
+Bunu beğendim-bu bilgisayara işaret ediyor
+309
+00:15:28,901 --> 00:15:31.571
+burada bir harfi temsil eden başka
+bir kalıp geliyor.
+310
+00:15:31,571 --> 00:15:35,621
+Burada bir sayıyı veya harfi temsil
+eden başka bir kalıp geliyor.
+311
+00:15:35,621 --> 00:15:36,251 Fena
+değil.
+312
+00:15:36,251 --> 00:15:37,071 Bunu
+beğendim.
+313
+00:15:37,071 --> 00:15:38,321 Başka
+düşünceler?
+314
+00:15:38,321 --> 00:15:41,181 Bir
+bilgisayar bu ikisini nasıl ayırt
+edebilir?
+315
+00:15:41,181 --> 00:15:41,681 Evet.
+
+316
+00:15:41,681 --> 00:15:44,061
+İZLEYİCİ: Farklı bir dosya
+biçimine sahip olun, bu nedenle,
+
+317
+00:15:44,061 --> 00:15:48,821 like,
+tek metin veya sadece grafiği
+kontrol edin veya-318
+00:15:48,821 --> 00:15:50,541
+
+Machine Translated by Google
+DAVID MALAN: Gerçekten de, bu tam yerinde.
+319
+00:15:50,541 --> 00:15:53,481
+Önerdiğin şeyde yanlış bir şey yok, ama
+dünya genel olarak bunu yapıyor.
+320
+00:15:53,481 --> 00:15:56,314
+Dünyadaki tüm bu farklı dosya
+biçimlerine sahip olmamızın nedeni,
+321
+00:15:56,314 --> 00:16:01,221
+JPEG ve GIF ve PNG'ler ve Word
+belgeleri gibi, .docx,
+322
+00:16:01,221 --> 00:16:04,971 ve
+Excel dosyaları vb., çünkü bir
+grup insan bir odaya girdi
+323
+00:16:04,971 --> 00:16:08,481 ve
+karar verdi, peki, bu tür bir dosya
+bağlamında, ya da gerçekten,
+324
+00:16:08,481 --> 00:16:11,301
+daha spesifik olarak, bu tür
+program bağlamında,
+325
+00:16:11,301 --> 00:16:14,841
+Excel'e karşı Photoshop'a karşı
+Google Dokümanlar veya benzerleri,
+
+326
+00:16:14,841 --> 00:16:19,251
+herhangi bir sıfır ve bir örüntüsünü
+belki sayı olarak yorumlayacağız
+327
+00:16:19,251 --> 00:16:23,751
+Excel için, belki bir metin mesajı
+programında veya Google Dokümanlar'da harfler,
+328
+00:16:23,751 --> 00:16:27,171
+veya hatta Photoshop gibi bir şeyde
+gökkuşağının renkleri ve daha fazlası.
+329
+00:16:27,171 --> 00:16:28,311
+Yani bağlama bağlıdır.
+
+Machine Translated by Google
+330
+00:16:28,311 --> 00:16:31,191
+Ve göreceğiz, kendimiz
+programlamaya başladığımızda,
+331
+00:16:31,191 --> 00:16:33,171
+programcının eninde sonunda
+sağlayacağınız
+332
+00:16:33,171 --> 00:16:38,371
+Bilgisayara bazı ipuçları veren bilgisayara
+şu şekilde yorum yapın.
+333
+00:16:38,371 --> 00:16:41,331
+Yani, buna benzer, ancak bunlarla
+tam olarak standardize edilmemiş
+334
+00:16:41,331 --> 00:16:41,961 önek.
+
+335
+00:16:41,961 --> 00:16:45,351
+Yani buradaki sistem aslında Amerikan
+Standardı olan ASCII adında bir isme sahip.
+336
+00:16:45,351 --> 00:16:47,121 Bilgi
+Değişimi Kodu.
+337
+00:16:47,121 --> 00:16:49,461
+Ve gerçekten, burada ABD'de
+başladı ve bu
+338
+00:16:49,461 --> 00:16:52,251 neden
+aslında A'lara ve Z'lere karşı biraz
+önyargılı
+339
+00:16:52,251 --> 00:16:54,001 ve
+biraz da noktalama işareti.
+340
+00:16:54,001 --> 00:16:55,621 Ve bu
+hızla bir sorun haline geldi.
+341
+00:16:55,621 --> 00:16:59,481
+Ama basitçe şimdi başlarsak,
+
+Machine Translated by Google
+İngilizce, haritalama
+342
+00:16:59,481 --> 00:17:01,561'in
+kendisi oldukça basittir.
+343
+00:17:01,561 --> 00:17:05,991
+Yani A 65, B 66 ve nokta
+nokta ise, varsayalım
+344
+00:17:05,991 --> 00:17:08,721 bir
+arkadaşınızdan kısa mesaj, eposta aldınız,
+345
+00:17:08,721 --> 00:17:11,781 ve
+tabiri caizse kaputun altında
+
+346
+00:17:11,781 --> 00:17:15,441
+bilgisayarın içine baktı, bu metinde teknik
+olarak ne aldınız
+347
+00:17:15,441 --> 00:17:20.781
+veya bu e-posta 72, 73, 33,
+
+348
+00:17:20,781 --> 00:17:23,511
+veya aslında sıfırlar ve birlerin
+temel modeli.
+349
+00:17:23,511 --> 00:17:29,077
+Arkadaşınız size mesaj olarak ne göndermiş
+olabilir, eğer 72, 73, 33 ise?
+350
+00:17:29,077 --> 00:17:30,913
+İZLEYİCİ: Hey.
+351
+00:17:30,913 --> 00:17:31,621
+DAVID MALAN: Hey?
+352
+00:17:31,621 --> 00:17:31,981
+Kapat.
+353
+00:17:31,981 --> 00:17:32,641
+
+Machine Translated by Google
+İZLEYİCİ: Merhaba.
+354
+00:17:32,641 --> 00:17:33,481 DAVID
+MALAN: Merhaba.
+355
+00:17:33,481 --> 00:17:34,481
+Gerçekten de merhaba.
+356
+00:17:34,481 --> 00:17:34,981 Neden?
+
+357
+00:17:34,981 --> 00:17:39,481
+Görünüşe göre, bu küçük hile kağıdına
+göre, H 72, I 73.
+358
+00:17:39,481 --> 00:17:42,121
+33'ün ne olduğu bu
+çizelgeden belli değil.
+359
+00:17:42,121 --> 00:17:44,221 ama
+aslında bu kalıp "merhaba"yı temsil
+eder.
+360
+00:17:44,221 --> 00:17:46,474 Ve
+tahmin etmek isteyen var mı, ya da
+33'ün ne olduğunu biliyorsan?
+361
+00:17:46,474 --> 00:17:47,641
+İZLEYİCİ: Ünlem işareti.
+362
+00:17:47,641 --> 00:17:48,721 DAVID
+MALAN: Ünlem işareti.
+363
+00:17:48,721 --> 00:17:51,263 Ve
+açıkçası bu çoğu insanın bildiği
+türden bir şey değil.
+364
+00:17:51,263 --> 00:17:54,941 Ancak
+bunun gibi güzel, kullanıcı dostu bir
+grafikle kolayca erişilebilir.
+365
+00:17:54,941 --> 00:17:56,371 Yani
+bu bir ASCII tablosu.
+
+Machine Translated by Google
+366
+00:17:56,371 --> 00:17:59,131
+Bu haritalamayı daha önce
+yazmamız gerektiğini söylediğimde,
+367
+00:17:59,131 --> 00:18:00,211
+insanların yaptığı buydu.
+368
+00:18:00,211 --> 00:18:02,003
+Bunu bir kitaba ya da çizelgeye
+yazdılar.
+369
+00:18:02,003 --> 00:18:06,661
+Ve örneğin, işte H için 72'miz,
+işte I için 73'ümüz,
+370
+00:18:06,661 --> 00:18:10.561 ve
+işte ünlem işareti için 33'ümüz.
+
+371
+00:18:10.561 --> 00:18:13,891
+Ve bilgisayarlar, Mac'ler, PC'ler,
+iPhone'lar, Android cihazlar,
+372
+00:18:13,891 --> 00:18:16,421
+İsterseniz bu haritayı ezbere bilin.
+
+373
+00:18:16,421 --> 00:18:19,151 Bu
+harfleri anlamak için tasarlandılar.
+
+374
+00:18:19,151 --> 00:18:20.821 Yani
+burada "merhaba" almış olabilirim.
+375
+00:18:20.821 --> 00:18:24,450
+Teknik olarak, aldığım şey bu sıfırlar
+ve birler kalıpları.
+376
+00:18:24,450 --> 00:18:27,660
+Ancak, bu sıfır ve bir kalıplarını
+aldığınızda şunu not etmek önemlidir:
+377
+
+Machine Translated by Google
+00:18:27,660 --> 00:18:30,721
+
+herhangi bir biçimde, e-posta, metin
+veya dosya olsun,
+378
+00:18:30,721 --> 00:18:33,361
+standart uzunluklarda olma
+eğilimindedirler,
+379
+00:18:33,361 --> 00:18:37,051 belirli
+sayıda sıfır ve bir ile birlikte.
+
+380
+00:18:37,051 --> 00:18:39,900 Ve bu
+8 artı 8 artı 8 olur.
+381
+00:18:39,900 --> 00:18:43,261
+Yani sadece "merhaba, ünlem
+işareti" mesajını almak için,
+382
+00:18:43,261 --> 00:18:47,701 en
+azından 24 bit alırdınız.
+
+383
+00:18:47,701 --> 00:18:51,031
+Ama açıkçası, bitler kelimenin tam
+anlamıyla ve matematiksel olarak çok küçük,
+
+384
+00:18:51,031 --> 00:18:53,761
+genellikle bit cinsinden düşünme
+veya konuşma eğiliminde değiliz.
+385
+00:18:53,761 --> 00:18:56,071
+Baytlara muhtemelen daha aşinasınız.
+
+386
+00:18:56,071 --> 00:19:00,181 BYTES
+bir bayttır, bir bayttır, bir bayttır.
+
+387
+00:19:00,181 --> 00:19:02,041 Bir
+bayt sadece 8 bittir.
+388
+00:19:02,041 --> 00:19:05,074
+Ve açıkçası bunlar bile değil
+
+Machine Translated by Google
+
+matematiği çözersek bu işe yarar.
+
+389
+00:19:05,074 --> 00:19:06,991
+Sekiz bitiniz varsa ne kadar
+yüksek sayabilirsiniz?
+390
+00:19:06,991 --> 00:19:08,621
+Bilen var mı?
+391
+00:19:08,621 --> 00:19:10.831
+Tekrar söyle?
+392
+00:19:10.831 --> 00:19:11.971
+Bundan daha yüksek.
+393
+00:19:11,971 --> 00:19:15,271
+Negatif gitmek istemiyorsanız,
+sorun değil.
+394
+00:19:15,271 --> 00:19:17,851
+256, teknik olarak 255.
+395
+00:19:17,851 --> 00:19:21,331
+Uzun lafın kısası, eğer tüm bu sıfırların
+yabani otlarına gerçekten girdiysek
+396
+00:19:21,331 --> 00:19:26,761 ve
+birler ve 11111111'in matematiksel
+olarak neyi topladığını bulduk
+397
+00:19:26,761 --> 00:19:30,271
+ondalık olarak, gerçekten 255
+veya daha az olurdu
+398
+00:19:30,271 --> 00:19:32,981
+negatif sayıları da temsil etmek
+istiyorsanız.
+399
+00:19:32,981 --> 00:19:36,841
+Yani bu kullanışlı çünkü artık sadece
+bayt cinsinden değil konuşabiliyoruz.
+400
+00:19:36,841 --> 00:19:39,511
+
+Machine Translated by Google
+
+ancak dosyalar daha
+büyükse, kilobayt binlerce bayttır,
+401
+00:19:39,511 --> 00:19:43,291
+megabayt milyonlarca bayttır,
+gigabayt milyarlarca bayttır,
+402
+00:19:43,291 --> 00:19:46,781
+terabayt trilyonlarca bayttır vb.
+
+403
+00:19:46,781 --> 00:19:53,221
+Giderek artan bu büyük miktardaki
+veriler için bir kelime dağarcığımız var.
+404
+00:19:53,221 --> 00:19:57,051
+Sorun şu ki, eğer kullanıyorsanız
+ASCII ve dolayısıyla sekiz bit veya bir
+405
+00:19:57,051 --> 00:20:00,501 bayt
+karakter başına ve başlangıçta
+yalnızca yedi
+406
+00:20:00,501 --> 00:20:03,091
+yalnızca 255 karakteri temsil edebilir.
+407
+00:20:03,091 --> 00:20:06,681 Ve
+bu aslında sıfır dahil toplam 256
+karakter.
+408
+00:20:06,681 --> 00:20:10.491
+Ve bu durumda, kelimenin tam
+anlamıyla İngilizce kullanıyorsanız sorun değil,
+
+409
+00:20:10,491 --> 00:20:11,841 artı
+bir sürü noktalama işareti.
+410
+00:20:11,841 --> 00:20:14.781
+Ama dünyada birçok insan
+dili var
+411
+00:20:14,781 --> 00:20:18,111 çok
+daha fazla sembole ve dolayısıyla
+çok daha fazla bite ihtiyaç duyar.
+
+Machine Translated by Google
+412
+00:20:18,111 --> 00:20:20.991
+Neyse ki, dünya bizim
+gerçekten yapacağımıza karar verdi.
+413
+00:20:20,991 --> 00:20:24,141
+yalnızca ABD'yi değil
+İngilizce klavye, ama hepsi
+414
+00:20:24,141 --> 00:20:27,201 bazı
+diller için isteyebileceğiniz aksanlı
+karakterler.
+415
+00:20:27,201 --> 00:20:30,441
+Heck, yeterince bit, sıfır ve bir
+kullanırsak,
+416
+00:20:30,441 --> 00:20:34,431 Tüm
+insan dillerini sadece yazılı olarak
+temsil etmekle kalmıyoruz,
+417
+00:20:34,431 --> 00:20:36,351 ve yol
+boyunca bazı duygular,
+
+418
+00:20:36,351 --> 00:20:39,321 emoji
+denilen bu şeylerle ikincisini
+yakalayabilir.
+419
+00:20:39,321 --> 00:20:41,931 Ve
+gerçekten de bunlar bugünlerde
+çok moda.
+420
+00:20:41,931 --> 00:20:45,651
+Muhtemelen herhangi bir gün bunlardan
+birçoğunu gönderiyor ve/veya alıyorsunuz.
+421
+00:20:45,651 --> 00:20:49,221
+Bunlar sadece karakterler, bir
+alfabenin harfleri, desenler gibi
+422
+00:20:49,221 --> 00:20:53,271
+aldığınız sıfırlar ve birler, dünyanın da
+standartlaştırdığı.
+
+Machine Translated by Google
+423
+00:20:53,271 --> 00:20:55,391
+Örneğin, bazı
+emojiler var.
+424
+00:20:55,391 --> 00:20:57,421
+belirli bit kalıplarıyla temsil edilir.
+
+425
+00:20:57,421 --> 00:21:00,771
+Ve onları aldığınızda, telefonunuz,
+dizüstü bilgisayarınız, masaüstünüz,
+426
+00:21:00,771 --> 00:21:02,701
+onları bu şekilde görüntüler.
+427
+00:21:02,701 --> 00:21:05,481 Ve
+bu yeni standarda Unicode denir.
+
+428
+00:21:05,481 --> 00:21:07,971 Yani
+bizim ASCII dediğimiz şeyin bir
+üst kümesi.
+429
+00:21:07,971 --> 00:21:12,651
+Ve Unicode sadece çok daha fazla sayıdan
+çok daha fazla harfe eşlenmesidir.
+430
+00:21:12,651 --> 00:21:15,021 veya
+daha genel olarak
+
+431
+00:21:15,021 --> 00:21:17,841
+geriye dönük uyumluluk için sekiz
+bit kullanın
+432
+00:21:17,841 --> 00:21:22,521
+ASCII ile bir şeyler yapmanın eski yolu ile,
+ancak 16 bit de kullanabilirler.
+433
+00:21:22,521 --> 00:21:24,381
+Ve eğer 16 bitiniz
+varsa, aslında yapabilirsiniz
+
+Machine Translated by Google
+434
+
+00:21:24,381 --> 00:21:27,414
+65.000'den fazla olası harfi temsil
+eder.
+435
+00:21:27,414 --> 00:21:28,581 Ve bu
+yukarı doğru çıkıyor.
+436
+00:21:28,581 --> 00:21:34,041
+Heck, Unicode harfleri ve sayıları temsil
+etmek için 32 bit bile kullanabilir
+437
+00:21:34,041 --> 00:21:35,931 ve
+noktalama işaretleri ve emojiler.
+438
+00:21:35,931 --> 00:21:39,111 Ve bu
+size 4 milyara kadar olasılık verir.
+
+439
+00:21:39,111 --> 00:21:42,681
+Ve sanırım bugünlerde bu kadar çok emoji
+görmemizin nedenlerinden biri,
+440
+00:21:42,681 --> 00:21:43,761'de çok
+fazla yer var.
+441
+00:21:43,761 --> 00:21:46,761 Yani,
+kelimenin tam anlamıyla milyarlarca
+kişiye yerimiz var.
+442
+00:21:46,761 --> 00:21:48,981
+Yani, aslında, küçük bir
+önemsiz şey olarak,
+443
+00:21:48,981 --> 00:21:54,201 Bu
+ondalık sayıyı daha önce alan oldu mu veya
+şimdi ikiliyi tercih ederseniz,
+444
+00:21:54,201 --> 00:21:58,671
+telefonunuza bu sıfır ve bir düzenini alan
+oldu mu?
+445
+00:21:58,671 --> 00:22:01,771 bir
+metin veya e-posta ile,
+
+Machine Translated by Google
+belki bu geçen yıl?
+446
+00:22:01,771 --> 00:22:06,651
+Aslında buna bakarsanız, bu
+ezoterik sıfırlar ve birler dizisi
+447
+00:22:06,651 --> 00:22:09,831
+tıbbi maskeli yüzü temsil ediyor.
+
+448
+00:22:09,831 --> 00:22:13,641
+Ve bir iPhone veya Android
+cihazınız varsa,
+449
+00:22:13,641 --> 00:22:15,991
+farklı şeyler görüyor olabilirsiniz.
+450
+00:22:15,991 --> 00:22:19,281
+Aslında bu, bunun en son
+Android versiyonu.
+451
+00:22:19,281 --> 00:22:21.921
+Bu, en son iOS sürümüdür.
+
+452
+00:22:21,921 --> 00:22:24,591
+Ve diğer şirketler tarafından
+bir sürü başka yorum var
+453
+00:22:24,591 --> 00:22:25,741 de.
+
+454
+00:22:25,741 --> 00:22:28,431
+Yani Unicode, bir
+konsorsiyum olarak, eğer istersen,
+
+455
+00:22:28,431 --> 00:22:31,561
+bunların ne olduğuna ilişkin
+açıklamaları standart hale getirdi.
+456
+00:22:31,561 --> 00:22:35,091
+Ama şirketlerin kendileri, oradaki
+üreticiler,
+
+Machine Translated by Google
+457
+
+00:22:35,091 --> 00:22:37,701
+genel olarak uygun gördüğünüz
+şekilde yorumladı.
+458
+00:22:37,701 --> 00:22:41,031 Ve
+bu, insanların bazı yanlış
+iletişimlerine yol açabilir.
+459
+00:22:41,031 --> 00:22:44,571
+Aslında, kelimenin tam
+anlamıyla, utanç verici bir şekilde, bir veya iki yıl gibi,
+
+460
+00:22:44,571 --> 00:22:47,481
+Bu tür emojileri kullanma
+alışkanlığı kazanmaya başladım.
+461
+00:22:47,481 --> 00:22:50.521
+böyle çünkü woo, mutlu surat ya da
+her neyse gibi olduğunu düşündüm.
+462
+00:22:50,521 --> 00:22:52,461
+Bunun sarılma emojisi
+olduğunu bilmiyordum
+
+463
+00:22:52,461 --> 00:22:57,051
+çünkü kullandığım cihaz şuna benziyor,
+böyle değil.
+464
+00:22:57,051 --> 00:22:59,871 Ve
+bu onların verileri
+yorumlamalarından kaynaklanıyor.
+465
+00:22:59,871 --> 00:23:04,251
+Silah olan su olunca bu da oldu
+
+466
+00:23:04,251 --> 00:23:06,291 bazı
+üreticilerin gözünde tabanca.
+467
+00:23:06,291 --> 00:23:10.671
+Ve bu, hepimizin sahip olduğu bilgiler
+arasında ilginç bir ikilik.
+468
+
+Machine Translated by Google
+00:23:10,671 --> 00:23:15,201
+
+temsil etmek istiyoruz ve
+nihayetinde onu nasıl temsil etmeyi seçiyoruz.
+469
+00:23:15,201 --> 00:23:18,591
+O halde, formatların bu
+temsillerine ilişkin sorular,
+470
+00:23:18,591 --> 00:23:21.721
+sayılar veya harfler veya yakında daha fazlası.
+471
+00:23:21,721 --> 00:23:22,221 Evet?
+
+472
+00:23:22,221 --> 00:23:24,841
+İZLEYİCİ: Bilgisayar için ondalık
+sayı neden popülerdir?
+473
+00:23:24,841 --> 00:23:27,439 eğer
+her şeyin temeli ikili ise?
+474
+00:23:27,439 --> 00:23:29,231
+DAVID MALAN: Pardon, neden bu
+kadar popüler?
+475
+00:23:29,231 --> 00:23:32,011
+İZLEYİCİ: İkili temel sayıysa ondalık sayı neden
+popüler-476
+00:23:32,011 --> 00:23:34,601
+DAVID MALAN: Evet, bu yüzden birkaç hafta
+sonra buna geri döneceğiz, aslında.
+477
+00:23:34,601 --> 00:23:36,511
+Sayıları göstermenin başka yolları
+da vardır.
+478
+00:23:36,511 --> 00:23:37.621 İkili
+birdir.
+479
+00:23:37,621 --> 00:23:38,701
+Ondalık başka bir sayıdır.
+480
+
+Machine Translated by Google
+
+00:23:38,701 --> 00:23:39,871 Bir
+
+diğeridir.
+481
+00:23:39,871 --> 00:23:45,181
+Ve onaltılık toplam 16 basamak kullanan
+dördüncü sayıdır, kelimenin tam anlamıyla 0
+
+482
+00:23:45,181 --> 00:23:48,241'den
+9'a kadar artı A, B, C, D, E, F. Ve bir
+şekilde,
+483
+00:23:48,241 --> 00:23:51,301 Benzer
+şekilde bunlarla daha da yüksek
+sayabilirsiniz.
+484
+00:23:51,301 --> 00:23:53,821 Bunun
+neden zorlayıcı olduğunu birkaç
+hafta içinde göreceğiz.
+485
+00:23:53,821 --> 00:23:57,481 Ancak
+onaltılık, uzun lafın kısası, basamak
+başına dört bit kullanır.
+486
+00:23:57,481 --> 00:24:00,991 Ve
+böylece dört bit, eğer onaltılık iki
+rakamınız varsa, bu size sekiz verir.
+487
+00:24:00,991 --> 00:24:03,511 Ve bu
+çok uygun bir ölçü birimidir.
+
+488
+00:24:03,511 --> 00:24:06,841 Ve
+aynı zamanda dosyalar ve diğer şeyler
+dünyasındaki insan geleneğidir.
+489
+00:24:06,841 --> 00:24:08,574 Ama
+buna yakında döneceğiz.
+490
+00:24:08,574 --> 00:24:09,241 Başka
+sorular?
+491
+00:24:09,241 --> 00:24:12,624
+İZLEYİCİ: Sahnedeki ışıklar güya şöyle
+diyor--
+
+Machine Translated by Google
+492
+00:24:12,624 --> 00:24:15,291
+DAVID MALAN: Sahnedeki ışıklar sözde bir
+şey söylüyor mu?
+493
+00:24:15,291 --> 00:24:19,011
+Pekala, belki 64 ampul kullanmayı
+önceden düşünseydik,
+494
+00:24:19,011 --> 00:24:24,351 bize
+sahnede toplam 8 bayt veriyor gibi
+görünüyor, 8 çarpı 8,
+495
+00:24:24,351 --> 00:24:25,461 bize
+tam da bunu veriyor.
+496
+00:24:25,461 --> 00:24:26,721 Belki.
+
+497
+00:24:26,721 --> 00:24:27,871 Güzel
+soru.
+498
+00:24:27,871 --> 00:24:31,147 0'lar
+ve 1'ler hakkında başka sorular?
+499
+00:24:31,147 --> 00:24:33,831
+Burası biraz aydınlık.
+500
+00:24:33,831 --> 00:24:34,761 Hayır?
+
+501
+00:24:34,761 --> 00:24:37.611 Ah,
+evet?
+502
+00:24:37,611 --> 00:24:41.631
+Herkesin belirli bir yeri işaret ettiği
+yer.
+503
+00:24:41,631 --> 00:24:42,271 İşte
+başlıyoruz.
+504
+00:24:42,271 --> 00:24:42,861
+
+Machine Translated by Google
+Afedersiniz.
+
+505
+00:24:42,861 --> 00:24:44,091 Bu
+köşe çok parlak.
+506
+00:24:44,091 --> 00:24:47,563
+İZLEYİCİ: Ben sadece 255 bit
+hakkında soru soracaktım,
+507
+00:24:47,563 --> 00:24:49,047
+maksimum karakterle beğeni.
+508
+00:24:49,047 --> 00:24:49,547
+[DUYILMAZ]
+509
+00:24:49,547 --> 00:24:52,255
+DAVID MALAN: Ah, elbette, buna bir
+şekilde geri döneceğiz,
+510
+00:24:52,255 --> 00:24:54,831
+önümüzdeki günlerde de daha
+yavaş bir hızda,
+511
+00:24:54,831 --> 00:24:58,774
+sekiz bit ile birincisi için iki olası
+değere sahibiz
+512
+00:24:58,774 --> 00:25:01,191 ve
+sonra iki tane sonraki için, iki
+tane sonraki için vb.
+513
+00:25:01,191 --> 00:25:02,831
+Yani 2 çarpı 2 çarpı 2.
+514
+00:25:02,831 --> 00:25:04,931
+Bu 2 üzeri sekizinci
+toplam, ki
+515
+00:25:04,931 --> 00:25:09,431
+toplam 256 olası sıfır ve bir
+düzenine sahip olabileceğiniz anlamına gelir.
+516
+00:25:09,431 --> 00:25:13,281
+
+Machine Translated by Google
+Ama yakında göreceğimiz gibi
+bilgisayar bilimcileri, programcılar,
+
+517
+00:25:13,281 --> 00:25:17,951
+yazılım genellikle kural olarak 0'dan
+saymaya başlar ve bunlardan birini kullanırsanız
+518
+00:25:17,951 --> 00:25:23,681
+desen, 00000000 sıfır olduğunu
+bildiğimiz ondalık sayıyı temsil eder,
+519
+00:25:23,681 --> 00:25:29,531
+Geriye sadece 255'e kadar sayılacak 255
+model kaldı.
+520
+00:25:29,531 --> 00:25:30,411
+Hepsi bu.
+521
+00:25:30,411 --> 00:25:32,121
+Güzel soru.
+522
+00:25:32,121 --> 00:25:37,121
+Pekala, o zaman bu emojiler ve
+harflerden başka elimizde ne olabilir?
+523
+00:25:37,121 --> 00:25:37,691 ve
+sayılar?
+524
+00:25:37,691 --> 00:25:40,151
+Eh, tabii ki renkler ve programlar
+gibi şeyler var
+525
+00:25:40,151 --> 00:25:42,383
+Photoshop ve resim ve fotoğraflar gibi.
+526
+00:25:42,383 --> 00:25:43.841
+Soruyu tekrar sorayım.
+527
+00:25:43,841 --> 00:25:47,051
+Şu anda bildiklerinizi bilen bir bilgisayar,
+sizce nasıl olabilir?
+528
+00:25:47,051 --> 00:25:48,701
+
+Machine Translated by Google
+renk gibi bir şey mi?
+529
+00:25:48,701 --> 00:25:52,211 Tüm
+sahip olduğumuz sıfırlar, birler ve
+anahtarlar ise seçeneklerimiz nelerdir?
+530
+00:25:52,211 --> 00:25:53,058 Evet?
+
+531
+00:25:53,058 --> 00:25:54,521
+İZLEYİCİ: RGB
+532
+00:25:54,521 --> 00:25:56,171
+DAVID MALAN: RGB.
+533
+00:25:56,171 --> 00:25:59,771
+RGB gerçekten de bir miktar kırmızıyı
+temsil eden bu kısaltmadır.
+534
+00:25:59,771 --> 00:26:02,291 ve
+bir miktar yeşil ve mavi ve aslında
+bilgisayarlar
+535
+00:26:02,291 --> 00:26:05,081
+sadece bunu yaparak renkleri temsil edebilir.
+536
+00:26:05,081 --> 00:26:06,593
+Örneğin bu noktayı hatırlamak.
+537
+00:26:06,593 --> 00:26:09,551
+Ekrandaki bu sarı nokta, bu emojilerden
+herhangi birinin parçası olabilir.
+538
+00:26:09,551 --> 00:26:12,311 bu
+günlerde, bu bir miktar kırmızı, bir miktar
+yeşil,
+539
+00:26:12,311 --> 00:26:13,144 bir
+miktar mavi.
+540
+00:26:13,144 --> 00:26:15,041
+Ve eğer bu renkleri bir
+şekilde karıştırırsanız,
+
+Machine Translated by Google
+
+541
+00:26:15,041 --> 00:26:16,781
+gerçekten çok özel bir tane alabilirsiniz.
+542
+00:26:16,781 --> 00:26:19,361
+Ve birazdan görüşürüz.
+
+543
+00:26:19,361 --> 00:26:24,108
+Gerçekten de daha önce insanlar
+toplamda yalnızca yedi bit kullandı.
+
+544
+00:26:24,108 --> 00:26:27,191
+Ve sadece bir kez karar verdiler,
+peki, sekizinci bir parça ekleyelim ki,
+545
+00:26:27,191 --> 00:26:29,801
+ASCII'yi genişletti ve bu
+başlangıçta kısmen oldu
+546
+00:26:29,801 --> 00:26:33,641
+yeterli alana sahip olmama
+sorununa bir çözüm, isterseniz,
+547
+00:26:33,641 --> 00:26:37,948
+tüm karakterleri temsil eden sıfır
+ve bir kalıplarında
+548
+00:26:37,948 --> 00:26:38,781
+isteyebileceğiniz.
+549
+00:26:38,781 --> 00:26:43,031
+Ama bu bile yeterli değildi ve bu
+yüzden şimdi 16 ve 32'ye çıktık.
+550
+00:26:43,031 --> 00:26:44,591
+ve çok geçmiş 7.
+551
+00:26:44,591 --> 00:26:49,661
+Şimdi bu belirli renge geri
+dönersek.
+552
+00:26:49,661 --> 00:26:52,031
+
+Machine Translated by Google
+
+RGB bir şema olarak önerildi, ancak
+bu nasıl işe yarayabilir?
+553
+00:26:52,031 --> 00:26:53,981
+Peki, örneğin şunu düşünün.
+554
+00:26:53,981 --> 00:26:58,361
+Gerçekten de grup olarak gökkuşağının
+herhangi bir rengini temsil etmeye karar verirsek
+
+555
+00:26:58,361 --> 00:27:01,121
+biraz kırmızı, biraz yeşil ve biraz
+mavi karışımıyla,
+556
+00:27:01,121 --> 00:27:06,011
+kırmızı, yeşil ve mavi miktarını nasıl
+temsil edeceğimize karar vermeliyiz.
+557
+00:27:06,011 --> 00:27:09,731
+Görünüşe göre elimizdeki tek şey
+sıfırlar ve birler, yani sayılar,
+558
+00:27:09,731 --> 00:27:11,051
+hadi bunu yapalım.
+559
+00:27:11,051 --> 00:27:17,201
+Örneğin, kullandığımız bir bilgisayar
+varsayalım, bu üç sayı 72, 73, 33,
+560
+00:27:17,201 --> 00:27:20,171
+artık bir e-posta veya kısa mesaj
+bağlamında değil,
+561
+00:27:20,171 --> 00:27:24,401
+ama şimdi Photoshop gibi bir şey
+bağlamında, bir düzenleme programı
+562
+00:27:24,401 --> 00:27:28,031 ve
+grafik dosyaları oluşturma, belki
+bu ilk sayı
+563
+00:27:28,031 --> 00:27:32,841 bir
+miktar kırmızı, yeşil ve maviyi temsil
+ediyor olarak yorumlanabilir,
+
+Machine Translated by Google
+564
+00:27:32,841 --> 00:27:33,388
+sırasıyla.
+565
+00:27:33,388 --> 00:27:34,721 Ve
+olan da tam olarak bu.
+566
+00:27:34,721 --> 00:27:38,441 İlk
+basamağı kırmızı, ikinciyi yeşil,
+üçüncüyü mavi olarak düşünebilirsiniz.
+567
+00:27:38,441 --> 00:27:42,731
+Ve sonuç olarak, bu miktarda kırmızıyı, bu
+miktarda yeşili birleştirdiğinizde,
+568
+00:27:42,731 --> 00:27:46,931 bu
+miktarda mavi, sarının gölgesine
+benzeyecek gibi görünüyor.
+569
+00:27:46,931 --> 00:27:50,741
+Ve gerçekten de 0 ile 255 arasında
+bir sayı bulabilirsin.
+570
+00:27:50,741 --> 00:27:54,161
+istediğiniz diğer renkleri karıştırmak için
+bu renklerin her biri için.
+571
+00:27:54,161 --> 00:27:56,031 Bunu
+pratikte de görebilirsiniz.
+
+572
+00:27:56,031 --> 00:27:59,231
+Ekranlarımız, kuşkusuz,
+gerçekten iyileşiyor olsa da
+573
+00:27:59,231 --> 00:28:03,439
+telefonlarımızda ve dizüstü bilgisayarlarımızda
+noktaları zar zor görebiliyorsunuz, oradalar.
+574
+00:28:03,439 --> 00:28:05,231 Piksel
+terimini daha önce duymuş
+olabilirsiniz.
+575
+
+Machine Translated by Google
+
+00:28:05,231 --> 00:28:07,361
+
+Pixel ekranda sadece
+bir nokta ve sen
+576
+00:28:07,361 --> 00:28:10.961
+bugünlerde yatay ve dikey olarak
+binlerce, milyonlarcası var.
+577
+00:28:10,961 --> 00:28:13,901
+Bu emojiyi bile
+alsam yine olur
+578
+00:28:13,901 --> 00:28:18,911
+tıbbi maskeli bir yüzü tek bir şirketin
+yorumu olmak
+579
+00:28:18,911 --> 00:28:21,251 ve
+biraz yakınlaştırın, belki biraz
+daha yakınlaştırın,
+580
+00:28:21,251 --> 00:28:23,591
+aslında bu pikselleri görmeye
+başlayabilirsiniz.
+581
+00:28:23,591 --> 00:28:26,261
+Her şey pikselleşiyor
+çünkü gördüğünüz şey
+582
+00:28:26,261 --> 00:28:29,981 bu
+belirli görüntüyü oluşturan
+bağımsız noktaların her biri.
+583
+00:28:29,981 --> 00:28:32,381
+Ve görünüşe göre bu
+bireysel noktaların her biri
+584
+00:28:32,381 --> 00:28:37,661
+muhtemelen 24 bit, sekiz bit kırmızı,
+sekiz bit yeşil, sekiz
+585
+00:28:37,661 --> mavi için
+00:28:40,001 bit, bazı modellerde.
+586
+00:28:40,001 --> 00:28:43,991
+
+Machine Translated by Google
+Bu program veya benzeri
+Photoshop bir deseni yorumluyor
+587
+00:28:43,991 --> 00:28:48,971 ve
+beyaz veya sarı veya siyah veya
+arada biraz kahverengi.
+588
+00:28:48,971 --> 00:28:52,571
+Yani biraz garip görünüyorsanız, ancak
+telefonunuza veya dizüstü bilgisayarınıza yakınsanız
+
+589
+00:28:52,571 --> 00:28:56,373 veya
+belki TV'niz, tam olarak bunu da
+görebilirsiniz.
+590
+00:28:56,373 --> 00:28:58,331
+Pekala, peki, peki ya biz
+de
+591
+00:28:58,331 --> 00:28:59,956
+YouTube'da veya benzerlerinde her gün izliyor musunuz?
+
+592
+00:28:59,956 --> 00:29:01,241 Video
+gibi şeyler.
+593
+00:29:01,241 --> 00:29:03,251
+Şimdi bildiklerimizi bilen bir
+bilgisayar nasıl olur da,
+594
+00:29:03,251 --> 00:29:05,246 video
+gibi bir şeyi mi temsil ediyor?
+595
+00:29:07,781 --> 00:29:10.631 Bir
+videoyu yalnızca sıfırlar ve birler
+kullanarak nasıl temsil edebilirsiniz?
+596
+00:29:10.631 --> 00:29:11.461 Evet?
+
+597
+00:29:11,461 --> 00:29:15,961
+İZLEYİCİ: Burada gördüğümüz gibi,
+bunlar görüntüleri temsil ediyor, değil mi?
+598
+
+Machine Translated by Google
+00:29:15,961 --> 00:29:20.461
+[DUYILMAZ] 0 ve 1'lerin de sesleri.
+
+599
+00:29:20.461 --> 00:29:23.461
+[DUYILMAZ]
+600
+00:29:23,461 --> 00:29:24,741
+DAVID MALAN: Evet, aynen.
+601
+00:29:24,741 --> 00:29:28,111
+Özetlemek gerekirse, videonun
+gerçekten eklediği şey sadece bir zaman kavramıdır.
+
+602
+00:29:28,111 --> 00:29:30,831
+Sadece bir resim değil,
+sadece bir harf ya da sayı değil,
+603
+00:29:30,831 --> 00:29:34,611
+zaman geçiyor çünkü muhtemelen
+bir tür dizilim.
+604
+00:29:34,611 --> 00:29:38,481
+Yani bir sürü görüntüyle, belki
+saniyede 24 belki 30,
+605
+00:29:38,481 --> 00:29:41,181
+Onları insan gözüyle uçurursanız,
+
+606
+00:29:41,181 --> 00:29:43,941
+onları şimdi var olan gözlerimizi
+ve beynimizi kullanarak yorumlar.
+607
+00:29:43,941 --> 00:29:46,131
+hareket ve dolayısıyla video.
+608
+00:29:46,131 --> 00:29:48,741 Ses
+veya müzik ile benzer şekilde.
+609
+00:29:48,741 --> 00:29:52,911
+Aynı notaları temsil etmek için bir gelenek
+bulsaydık
+
+Machine Translated by Google
+610
+
+00:29:52,911 --> 00:29:56,061 bir
+müzik aletinde, onları da bilgisayardan
+sentezleyebilir miyiz?
+611
+00:29:56,061 --> 00:29:57,853 Ve
+bu aslında oldukça tanıdık gelebilir.
+
+612
+00:29:57,853 --> 00:30:02,601
+Burada eski bir okul olan hızlı bir video
+çekmeme izin verin
+613
+00:30:02,601 --> 00:30:04,011 aynı
+fikrin versiyonu.
+614
+00:30:04,011 --> 00:30:05,691
+Çocukluğunuzdan hatırlıyor olabilirsiniz.
+615
+00:30:05,691 --> 00:30:09,683
+[MÜZİK ÇALIYOR]
+616
+00:30:13,675 --> 00:30:17,168
+[TIKLAMA]
+617
+00:30:27,661 --> 00:30:31,561
+Yani belirli bir videonun gerçek
+bir video olduğu kabul edildi
+
+618
+00:30:31,561 --> 00:30:35,011 kağıt
+tabanlı bir animasyon, ama aslında,
+gerçekten ihtiyacınız olan tek şey bu,
+619
+00:30:35,011 --> 00:30:38,971 bu
+görüntülerin bir dizi dizisidir, elbette
+kendileri de
+620
+00:30:38,971 --> 00:30:43,021
+yalnızca sıfırlar ve birlerdir çünkü onlar
+yalnızca bu piksel veya noktalardan oluşan bir ızgaradır.
+
+621
+00:30:43.021 --> 00:30:46,704
+Şimdi bunlar gibi müzik notaları gibi bir şey,
+müzisyen olanlarınız
+
+Machine Translated by Google
+622
+00:30:46,704 --> 00:30:48,871
+bunları doğal olarak fiziksel
+cihazlarda oynatabilir,
+623
+00:30:48,871 --> 00:30:51,901 ama
+bilgisayarlar da kesinlikle bu sesleri
+temsil edebilir.
+624
+00:30:51,901 --> 00:30:54,751
+Örneğin, ses için popüler
+bir format
+625
+00:30:54,751 --> 00:30:57,481 MIDI
+olarak adlandırılır ve MIDI sadece
+temsil edebilir
+626
+00:30:57,481 --> 00:31:01,801 az
+önce gördüğünüz her nota esasen bir sayı
+dizisi olarak.
+627
+00:31:01,801 --> 00:31:05,191
+Ama daha genel olarak, müziği
+notalara sahip olarak düşünebilirsiniz,
+628
+00:31:05,191 --> 00:31:08,101
+örneğin, A'dan G'ye, belki bazı daireler
+ve bazı kesiciler,
+629
+00:31:08,101 --> 00:31:11.701
+Notanın ne kadar süreyle duyulduğu veya
+çalındığı gibi sürelere sahip olabilirsiniz.
+630
+00:31:11,701 --> 00:31:13,741 bir
+piyanoda veya başka bir cihazda
+ve ardından
+631
+00:31:13,741 --> 00:31:16,471 bir
+insanın gerçek dünyada ne kadar
+zor yaptığı gibi bir hacim
+632
+00:31:16,471 --> 00:31:19,381 o
+tuşa basın ve bu nedenle bu ses ne
+kadar yüksek?
+
+Machine Translated by Google
+633
+00:31:19,381 --> 00:31:24,271
+Sadece bunun gibi küçük ayrıntıları
+niceliksel olarak hatırlamak gibi görünüyor
+634
+00:31:24,271 --> 00:31:29,791 o
+zaman, aksi takdirde analog olan tüm
+bu insani gerçeklikleri gerçekten temsil edebiliriz.
+635
+00:31:29,791 --> 00:31:33,121
+Yani bu gerçekten bir
+çamaşır yıkama yolu listesi
+636
+00:31:33,121 --> 00:31:35,251
+sadece bilgiyi temsil edebiliriz.
+637
+00:31:35,251 --> 00:31:38,014
+Yine bilgisayarlar veya dijital, tüm bu
+farklı formatlara sahiptir,
+638
+00:31:38,014 --> 00:31:40,681 ama
+günün sonunda ve yıllar içinde o
+cihazlar kadar gösterişli
+639
+00:31:40,681 --> 00:31:44,461
+sadece sıfırlar ve birler, küçük küçük
+anahtarlar veya ampuller,
+640
+00:31:44,461 --> 00:31:47,641
+isterseniz, bir şekilde temsil edilir ve
+bu yazılıma bağlıdır
+641
+00:31:47,641 --> 00:31:50,641 sen,
+ben ve diğerleri bu sıfırları
+kullanmak için yazdık
+642
+00:31:50,641 --> 00:31:54,121 ve
+bilgisayarların bir şeyler yapmasını
+istediğimiz şekillerde
+643
+00:31:54,121 --> 00:31:55,561 daha
+güçlü.
+644
+
+Machine Translated by Google
+00:31:55,561 --> 00:31:59,881
+O halde, bu bilgi temsiline ilişkin sorular, ki
+buna cesaret ediyorum.
+645
+00:31:59,881 --> 00:32:03,511
+sonuçta problem çözmek, bilgiyi almakla
+ilgilidir.
+646
+00:32:03,511 --> 00:32:08,291 ve
+aradaki bazı işlemlerle yeni üretmek.
+
+647
+00:32:08,291 --> 00:32:11.621
+Sorularınız var mı?
+648
+00:32:11,621 --> 00:32:12,771 Evet,
+arkada.
+649
+00:32:12,771 --> 00:32:16,699
+İZLEYİCİ: Evet, farklı dosya biçimlerinin nasıl izin
+verdiğinden bahsettik.
+650
+00:32:16,699 --> 00:32:18,663
+bilgileri yorumlamak için.
+651
+00:32:18,663 --> 00:32:23,573 .mp4
+gibi bir dosya formatı ses ve video
+arasında nasıl ayrım yapar?
+652
+00:32:23,573 --> 00:32:25,046 kendi
+içinde bir değer olarak mı?
+653
+00:32:25,046 --> 00:32:26,671 DAVID
+MALAN: Gerçekten güzel bir soru.
+654
+00:32:26,671 --> 00:32:28,621 Orada
+başka birçok dosya formatı var.
+
+655
+00:32:28,621 --> 00:32:31,431
+Video ve daha genel olarak
+kullanım için MP4'ü ima ediyorsunuz
+656
+
+Machine Translated by Google
+00:32:31,431 --> 00:32:34,041
+
+kodekler ve kapsayıcılar olarak
+adlandırılan şeylerdir.
+657
+00:32:34,041 --> 00:32:37,611
+Örneğin, daha büyük dosyaları
+kullanırken o kadar basit değil,
+658
+00:32:37,611 --> 00:32:41,149 bir
+videonun yalnızca bir görüntü
+dizisi olduğu daha modern biçimlerde,
+
+Örneğin 659 00:32:41,149 -->
+00:32:41,691.
+
+660
+00:32:41,691 --> 00:32:42,261
+Neden?
+661
+00:32:42,261 --> 00:32:45,861
+Bir Hollywood filmi gibi o kadar
+çok görüntü sakladıysanız,
+662
+00:32:45,861 --> 00:32:50,131
+saniyede 24 veya 30 tane gibi, bu
+çok fazla sayıda görüntü demektir.
+663
+00:32:50,131 --> 00:32:52,461
+Ve daha önce telefonunuzda
+fotoğraf çektiyseniz,
+664
+00:32:52,461 --> 00:32:56,481 kaç
+megabayt veya daha büyük tek tek fotoğrafları
+bile biliyor olabilirsiniz
+665
+00:32:56,481 --> 00:32:57,081
+olabilir.
+666
+00:32:57,081 --> 00:33:00,471
+Böylece insanlar yıllar içinde daha
+gösterişli bir yazılım geliştirdiler.
+667
+00:33:00,471 --> 00:33:05,181 aynı
+bilgiyi daha az temsil etmek için çok daha
+fazla matematik kullanır
+
+Machine Translated by Google
+668
+00:33:05,181 --> 00:33:07,941
+sadece bir şekilde daha kısa sıfır
+ve bir kalıpları kullanarak
+669
+00:33:07,941 --> 00:33:10.531
+buradaki en basit gösterimden
+daha fazladır.
+670
+00:33:10.531 --> 00:33:12.861 Ve
+sıkıştırma olarak adlandırılabilecek
+şeyi kullanırlar.
+671
+00:33:12,861 --> 00:33:15,261
+Daha önce bir zip dosyası veya
+başka bir şey kullandıysanız,
+
+672
+00:33:15,261 --> 00:33:17,871 bir
+şekilde bilgisayarınız daha az
+sıfır ve birler kullanıyor
+673
+00:33:17,871 --> 00:33:19,761
+aynı miktarda bilgiyi temsil
+edecek şekilde,
+674
+00:33:19,761 --> 00:33:22,223
+ideal olarak hiçbir bilgiyi kaybetmeden.
+675
+00:33:22,223 --> 00:33:25,431
+Birkaç hafta sonra biraz değineceğimiz
+multimedya dünyasında,
+676
+00:33:25,431 --> 00:33:29,031
+Hem kayıplı hem de kayıpsız
+formatlar var.
+677
+00:33:29,031 --> 00:33:32,661
+Kayıpsız, hiçbir bilgi
+kaybetmediğiniz anlamına gelir.
+678
+00:33:32,661 --> 00:33:38,061
+Ama daha yaygın olarak, birini ima
+ettiğiniz gibi kayıplı sıkıştırma, LOSSY,
+
+Machine Translated by Google
+679
+
+00:33:38,061 --> 00:33:40,851
+burada aslında bir miktar kaliteyi
+çöpe atıyorsunuz.
+680
+00:33:40,851 --> 00:33:43,293
+Olmayabilecek bir miktar
+pikselleşme alıyorsunuz
+681
+00:33:43,293 --> 00:33:46,251 insan
+için mükemmel görünüyor, ama ne yazık
+ki çok daha ucuz ve çok daha kolay
+682
+00:33:46,251 --> 00:33:47,241
+dağıtmak için.
+683
+00:33:47,241 --> 00:33:50,391
+Ve multimedya dünyasında QuickTime
+gibi kapsayıcılarınız var
+684
+00:33:50,391 --> 00:33:53,181 ve
+birleştirilebilen diğer MPEG
+kapsayıcıları
+685
+00:33:53,181 --> 00:33:57,261 farklı
+video formatı, farklı ses formatları tek
+dosyada,
+686
+00:33:57,261 --> 00:33:59,541 ama
+orada da tasarımcıların takdir
+yetkisi var.
+687
+00:33:59,541 --> 00:34:01,611 Birkaç
+hafta içinde çok daha fazlası.
+688
+00:34:01,611 --> 00:34:05,011 O
+zaman buradaki bilgilerle ilgili
+başka sorular da var mı?
+689
+00:34:05,011 --> 00:34:05,511 Evet?
+
+690
+00:34:05,511 --> 00:34:08,223
+İZLEYİCİ: Yani biliyorum
+
+Machine Translated by Google
+eskiden bilgisayarlar çok büyüktü
+691
+00:34:08,223 --> 00:34:10.211 ve
+bütün bir odayı falan kaplıyor.
+
+692
+00:34:10.211 --> 00:34:14.245
+Küçülmelerinin nedeni,
+depolayabildiğimiz için mi?
+693
+00:34:14,245 --> 00:34:16,526 bu
+bilgi parça parça mı?
+694
+00:34:16,526 --> 00:34:17,401
+DAVID MALAN: Kesinlikle.
+695
+00:34:17,401 --> 00:34:20.359
+Yani, bir zamanlar vakum ifadesini
+duymuş olabilirsiniz.
+696
+00:34:20.359 --> 00:34:23,041
+fiziksel olarak büyük bir cihaz gibi
+
+697
+00:34:23,041 --> 00:34:25,981
+yalnızca 0 veya 1 depolamış olabilir.
+698
+00:34:25,981 --> 00:34:28,621
+Evet, bu günlerde donanımın
+minyatürleştirilmesi
+699
+00:34:28,621 --> 00:34:33,421
+daha çok ve çok daha fazla sıfır ve çok
+daha fazlasını saklamamıza izin verdi
+700
+00:34:33,421 --> 00:34:34,361
+birbirine yakın.
+701
+00:34:34,361 --> 00:34:36,284
+Ve biz daha süslü makineler
+yaptıkça
+702
+00:34:36,284 --> 00:34:38,701
+
+Machine Translated by Google
+bu donanımı daha da küçük bir
+ölçekte tasarlayabilir,
+703
+00:34:38,701 --> 00:34:41,231 Bu
+cihazlara giderek daha çok şey
+sığdırıyoruz.
+704
+00:34:41,231 --> 00:34:42,541 Ama
+orada da bir takas var.
+705
+00:34:42,541 --> 00:34:45,811
+Örneğin, telefonunuzu veya dizüstü
+bilgisayarınızı kullanarak öğrenebilirsiniz.
+706
+00:34:45,811 --> 00:34:48.511 uzun
+bir süre, belki kucağınızda ısınmaya
+başlar.
+707
+00:34:48,511 --> 00:34:50,641
+Yani bu gerçek fiziksel yan
+etkiler var
+708
+00:34:50,641 --> 00:34:53,071 bunun
+için artık bazı cihazlarımız ısınıyor.
+
+709
+00:34:53,071 --> 00:34:55,951
+Bu yüzden gerçek
+dünyadaki bir veri merkezi gibi
+710
+00:34:55,951 --> 00:34:58,291, tipik
+bir yerden daha fazla klimaya ihtiyaç
+duyabilir,
+711
+00:34:58,291 --> 00:35:01,413 çünkü
+bu fiziksel eserler de var.
+
+712
+00:35:01,413 --> 00:35:04,621
+Aslında, onlarca yıl önceki en eski
+bilgisayarlardan birini görmek isterseniz,
+713
+00:35:04,621 --> 00:35:08,011 nehrin
+karşısında şimdi Allston
+
+Machine Translated by Google
+yeni mühendislik binasında
+714
+00:35:08,011 --> 00:35:13,321 size
+çok daha iyi bir zihinsel model verecek
+Harvard Mark 1 bilgisayarıdır
+715
+00:35:13,321 --> 00:35:14,681
+sadece bundan.
+716
+00:35:14,681 --> 00:35:17,191
+Peki şimdi bu ilk resme geri
+dönersek
+717
+00:35:17,191 --> 00:35:19,861
+bilgisayar bilimi veya gerçekten
+problem çözme,
+718
+00:35:19,861 --> 00:35:21,811
+Sanırım artık yeterince
+yolumuz var
+719
+00:35:21,811 --> 00:35:25,891 bilgi,
+girdi ve çıktıyı temsil eder, yeter ki
+hepimiz aynı fikirdeyiz
+720
+00:35:25,891 --> 00:35:28,951 bir
+konuda ve şükürler olsun ki bizden
+öncekilerin hepsi bize verdi
+721
+00:35:28,951 --> 00:35:30,661
+ASCII ve Unicode gibi şeyler.
+722
+00:35:30,661 --> 00:35:33,851
+MP4'ler, word belgeleri ve
+benzerlerinden bahsetmiyorum bile.
+723
+00:35:33,851 --> 00:35:37,951
+Ama bu girdilerin içine girdiği bu
+meşhur kara kutunun içinde ne var?
+724
+00:35:37,951 --> 00:35:39,698 giriş
+çıkışları mı geliyor?
+725
+
+Machine Translated by Google
+00:35:39,698 --> 00:35:42,240 Bu
+terimi sizin de duymuş olabileceğiniz
+yer orası.
+726
+00:35:42,240 --> 00:35:47,371
+Bazı problemleri çözmek için sadece adım adım
+talimatlar olan bir algoritma
+727
+00:35:47,371 --> 00:35:50,641 yazılım
+tarafından bilgisayar dünyasında
+vücut buldu.
+728
+00:35:50,641 --> 00:35:53,611
+Yazılım, yani programlar
+yazdığınızda,
+729
+00:35:53,611 --> 00:35:58,800 bir
+veya daha fazla algoritma, bir veya daha fazla
+talimat seti uyguluyor
+730
+00:35:58,800 --> 00:36:02,081 bazı
+problemleri çözmek için ve belki şu ya da bu
+dili kullanıyorsunuz,
+731
+00:36:02,081 --> 00:36:04,123 ancak
+günün sonunda, dil ne olursa olsun
+
+732
+00:36:04,123 --> 00:36:07,111
+bilgisayarı kullanırsan yazdıklarını
+temsil edecek
+733
+00:36:07,111 --> 00:36:10.470 sadece
+sıfırlar ve birler kullanılarak.
+734
+00:36:10.470 --> 00:36:12,961 Peki
+temsili bir algoritma ne olabilir?
+
+735
+00:36:12,961 --> 00:36:15,331
+Bugünlerde telefonunuzu
+oldukça fazla kullanabilirsiniz.
+736
+00:36:15,331 --> 00:36:18,181
+
+Machine Translated by Google
+arama yapmak veya metin veya e-
+
+posta göndermek için ve bu nedenle
+
+737
+00:36:18,181 --> 00:36:20.701 adres
+defterinizde bir sürü kişi var.
+
+738
+00:36:20.701 --> 00:36:22,951
+Günümüzde, elbette, bu
+çok dijital,
+739
+00:36:22,951 --> 00:36:26,041
+ancak iOS'ta veya
+Android veya benzeri,
+740
+00:36:26,041 --> 00:36:28,711 bir
+sürü adınız olabilir, ilk adınız
+
+741
+00:36:28,711 --> 00:36:31,643 ve/
+veya son, ayrıca sayılar, e-postalar
+ve benzerleri.
+742
+00:36:31,643 --> 00:36:34,351
+Telefonunuzda gezinme gibi bir
+alışkanlığınız olabilir
+743
+00:36:34,351 --> 00:36:37,891
+aramak istediğiniz kişiyi bulmak
+için tüm bu isimler.
+744
+00:36:37,891 --> 00:36:41,701
+Muhtemelen ada veya soyadına göre
+alfabetik olarak sıralanmıştır, A'dan Z'ye,
+745
+00:36:41,701 --> 00:36:44,131 veya
+başka bir sembol.
+746
+00:36:44,131 --> 00:36:49,464
+Bu açıkçası benim zamanımda
+yaptığımızla tamamen aynı, CS50,
+747
+00:36:49,464 --> 00:36:50,881
+sadece fiziksel bir kitap kullandığımız zaman.
+
+Machine Translated by Google
+748
+00:36:50,881 --> 00:36:52,714
+Bu fiziksel kitapta bir
+sürü olabilir
+749
+00:36:52,714 --> 00:36:54,871
+soldan sağa alfabetik olarak
+sıralanmış adlar
+750
+00:36:54,871 --> 00:36:57,041 bir
+dizi sayıya karşılık gelir.
+
+751
+00:36:57,041 --> 00:36:59,701
+Diyelim ki bu eski
+Harvard telefon rehberinde
+752
+00:36:59,701 --> 00:37:01,861
+John Harvard'ı aramak istiyoruz.
+753
+00:37:01,861 --> 00:37:04,141
+Elbette en basitinden
+başlayabiliriz
+754
+00:37:04,141 --> 00:37:08,771
+burada, her seferinde bir sayfaya
+bakıyor ve bu bir algoritma.
+755
+00:37:08,771 --> 00:37:13,021
+Bu, kelimenin tam anlamıyla adım
+adım çözümü aramak gibidir.
+
+756
+00:37:13,021 --> 00:37:14.191 bu
+soruna.
+757
+00:37:14.191 --> 00:37:16.411
+Bu anlamda, eğer John
+Harvard telefon rehberinde,
+758
+00:37:16,411 --> 00:37:20.364 bu
+algoritma sayfa sayfa doğru mu?
+
+759
+
+Machine Translated by Google
+00:37:20.364 --> 00:37:21,113
+İZLEYİCİ: Evet.
+760
+00:37:21,113 --> 00:37:21,821 DAVID
+MALAN: Evet.
+761
+00:37:21,821 --> 00:37:23,741
+John Harvard'ın telefon
+rehberinde olması gibi,
+762
+00:37:23,741 --> 00:37:27,341
+Eninde sonunda ona ulaşacağım, yani doğru
+ile kastettiğimiz bu.
+763
+00:37:27,341 --> 00:37:28,841
+Verimli mi?
+764
+00:37:28,841 --> 00:37:31,041 İyi
+tasarlanmış mı?
+765
+00:37:31,041 --> 00:37:31,541 Hayır.
+
+766
+00:37:31,541 --> 00:37:34,691
+Demek istediğim, bu sadece Js veya
+Hs'ye ulaşmak bile sonsuza kadar sürecek,
+767
+00:37:34,691 --> 00:37:35,891 bu
+şeyin nasıl sıralandığına bağlı olarak.
+768
+00:37:35,891 --> 00:37:37.631
+Pekala, biraz daha hızlı gitmeme
+izin verin.
+769
+00:37:37,631 --> 00:37:39,131 Bir
+seferde iki sayfa gibi başlayacağım.
+770
+00:37:39,131 --> 00:37:43,751 2, 4,
+6, 8, 10, 12 vb.
+771
+00:37:43,751 --> 00:37:46,421 Sesler
+daha hızlı, daha mı hızlı, doğru mu?
+
+Machine Translated by Google
+772
+
+00:37:46,421 --> 00:37:47,111
+İZLEYİCİ: Hayır.
+
+773
+00:37:47,111 --> 00:37:49,121
+DAVID MALAN: Tamam, neden doğru değil?
+774
+00:37:49,121 --> 00:37:49,936 Evet?
+
+775
+00:37:49,936 --> 00:37:51,744
+İZLEYİCİ: Yani 1. sayfadan
+başlıyorsanız,
+776
+00:37:51,744 --> 00:37:54,786
+sadece tek sayıda sayfaya gidiyorsunuz,
+yani çift sayılı bir sayfadaysa,
+777
+00:37:54,786 --> 00:37:55,456 onu
+özleyeceksin.
+778
+00:37:55,456 --> 00:37:56,331
+DAVID MALAN: Kesinlikle.
+779
+00:37:56,331 --> 00:37:58,998
+Tek sayıda sayfadan başlarsam
+ve her seferinde iki sayfaya gidersem
+780
+00:37:58,998 --> 00:38:00,931
+Aradaki sayfaları kaçırabilirim.
+781
+00:38:00,931 --> 00:38:03,193
+Ve eğer bu yüzden arkaya
+geçtiğimde sonuca varırsam
+782
+00:38:03,193 --> 00:38:05,901
+kitapta John Harvard yoktu,
+yanılmış olabilirim.
+783
+00:38:05,901 --> 00:38:08,151 Bu
+yine bu hatalardan biri olacaktır.
+784
+00:38:08,151 --> 00:38:11.961
+
+Machine Translated by Google
+Ama biraz daha denersem, bir
+çözüm varmış gibi hissediyorum.
+
+785
+00:38:11,961 --> 00:38:14.251 Bu
+algoritmayı tamamen atmak zorunda
+değiliz.
+786
+00:38:14,251 --> 00:38:16,941 Sanırım
+hala kabaca iki kat daha hızlı
+gidebiliriz.
+787
+00:38:16,941 --> 00:38:19,701 Peki
+bunu düzeltmek için ne yapmalıyız?
+
+788
+00:38:19,701 --> 00:38:21,503 Evet,
+arkada.
+789
+00:38:21,503 --> 00:38:24,975
+İZLEYİCİ: [DUYULMAZ]
+790
+00:38:31,561 --> 00:38:32,311 DAVID
+MALAN: Güzel.
+791
+00:38:32,311 --> 00:38:35,686
+Bence çoğumuz, çoğumuz bu teknolojiyi daha
+fazla kullanırsak
+792
+00:38:35,686 --> 00:38:38,311 bu
+günlerde kabaca telefon rehberinin
+ortasına gidebiliriz
+793
+00:38:38,311 --> 00:38:39,603 sadece
+başlamamıza yardımcı olmak için.
+794
+00:38:39,603 --> 00:38:43,051
+Ve şimdi aşağıya bakıyorum, J'yi arıyorum, ilk
+adın J Harvard olduğunu varsayarak,
+795
+00:38:43,051 --> 00:38:45,761 ve M
+bölümündeyim gibi görünüyor.
+796
+00:38:45,761 --> 00:38:48,459
+
+Machine Translated by Google
+Yani sadece açık olmak
+gerekirse, bundan sonra ne yapmalıyım?
+
+797
+00:38:48,459 --> 00:38:52,363
+İZLEYİCİ: [DUYULMAZ]
+798
+00:38:54,358 --> 00:38:56,441
+DAVID MALAN: Tamam ve
+muhtemelen John Harvard'dır.
+799
+00:38:56,441 --> 00:38:57,649
+bunun solunda olacaktır.
+800
+00:38:57,649 --> 00:39:00,631
+İşte mecazi ve kelimenin tam
+anlamıyla yırtmak için bir fırsat
+801
+00:39:00,631 --> 00:39:05,161 bu
+özel sorunu ikiye bölün, sorunun
+yarısını atın.
+802
+00:39:05,161 --> 00:39:07,681 Bu
+şekilde yaparsanız aslında oldukça
+kolaydır.
+803
+00:39:07,681 --> 00:39:09,491 Zor
+yol burası.
+804
+00:39:09,491 --> 00:39:13.841
+Ama şimdi bu sorunun boyutunu
+gerçekten yarıya indirdim.
+805
+00:39:13,841 --> 00:39:17,941
+Yani 1000 sayfa telefon numarası
+ve isim ile başlasaydım, şimdi
+806
+00:39:17,941 --> 00:39:19,291
+500'e düştüm.
+807
+00:39:19,291 --> 00:39:21,301
+Ve zaten John Harvard'ı
+bulamadık,
+808
+
+Machine Translated by Google
+00:39:21,301 --> 00:39:23,451
+ama bu sorundan büyük bir ısırık.
+
+809
+00:39:23,451 --> 00:39:27,039
+Bunun doğru olduğunu düşünüyorum çünkü eğer
+
+J, elbette M'nin solunda,
+810
+00:39:27,039 --> 00:39:28,831
+kesinlikle orada olmayacak.
+
+811
+00:39:28,831 --> 00:39:32,851
+Sanırım bunu bir kez daha bölerek
+ve fetheterek tekrar edersem, eğer yapacaksan,
+
+812
+00:39:32,851 --> 00:39:34,771
+burada biraz fazla ileri gitmiş olabilirim.
+813
+00:39:34,771 --> 00:39:36,281
+Şimdi E bölümündeyim.
+814
+00:39:36,281 --> 00:39:40,831
+O halde sorunu tekrar ikiye böleyim,
+250 sayfa daha çöpe atayım,
+815
+00:39:40,831 --> 00:39:43,801 ve
+tekrar tekrar, bölme ve bölme
+ve fethetme
+816
+00:39:43,801 --> 00:39:47,251
+sonunda, muhtemelen, elimde
+sadece bir telefon sayfası kalana kadar
+817
+00:39:47,251 --> 00:39:50,791
+John Harvard'ın adının olduğu
+ya da olmadığı kitap,
+818
+00:39:50,791 --> 00:39:54,101
+ancak önerdiğiniz algoritma
+nedeniyle adım adım,
+819
+00:39:54,101 --> 00:39:57,251
+onun içinde olmadığını biliyorum
+
+Machine Translated by Google
+attığım herhangi bir şey.
+820
+00:39:57,251 --> 00:40:00,901
+O kadar travmatik ki
+bu yapılmış olabilir
+821
+00:40:00,901 --> 00:40:04,416 olmak,
+aslında sadece oldukça iyi insan sezgisini
+kullanmaktır.
+822
+00:40:04,416 --> 00:40:06,541 Aslında
+programlama da bununla ilgili.
+
+823
+00:40:06,541 --> 00:40:09,391
+Tamamen yeni bir dünya
+öğrenmekle ilgili değil,
+824
+00:40:09,391 --> 00:40:13,051 ama
+aslında sezgilerinizi ve halihazırda sahip
+olabileceğiniz fikirleri nasıl kullanacağınızı
+825
+00:40:13,051 --> 00:40:16,081 sahip
+olun ve doğal olarak alın, ancak nasıl
+ifade edileceğini öğrenin
+826
+00:40:16,081 --> 00:40:18,601 şimdi
+daha özlü, daha kesin olarak,
+
+827
+00:40:18,601 --> 00:40:21,851
+programlama dilleri denen şeyleri
+kullanarak.
+828
+00:40:21,851 --> 00:40:27,031
+Bulsam neden böyle bir algoritma
+John Harvard, sonuçta, daha iyi
+829
+00:40:27,031 --> 00:40:29,521 sadece
+birinciyi, hatta ikinciyi yapmak
+
+830
+00:40:29,521 --> 00:40:32,641 ve belki
+ikiye katlama
+
+Machine Translated by Google
+bu çift sayfaları kontrol etmek için?
+
+831
+00:40:32,641 --> 00:40:34,531 Şimdi
+buradaki küçük tablolara bakalım.
+
+832
+00:40:34,531 --> 00:40:36,991
+Yine, sayıların nüanslarına
+girmemize gerek yok,
+833
+00:40:36,991 --> 00:40:40,201 ama
+burada bir grafiğimiz varsa, x
+ekseninde xy grafiği
+834
+00:40:40,201 --> 00:40:42,131
+Burada sorunun boyutu olduğunu iddia ediyorum.
+835
+00:40:42,131 --> 00:40:45,141 Yani
+telefon rehberindeki sayfa sayısıyla
+ölçülür.
+836
+00:40:45,141 --> 00:40:48,751 Yani
+buradan ne kadar uzağa giderseniz,
+telefon rehberinde o kadar çok sayfa olur.
+837
+00:40:48,751 --> 00:40:51,341 Ve
+burada y ekseninde çözmek için
+zamanımız var.
+838
+00:40:51,341 --> 00:40:54,031
+Yani ne kadar yükseğe
+çıkarsan, o kadar çok zaman
+
+839
+00:40:54,031 --> 00:40:56,801 bu
+sorunu çözmek için alacak.
+
+840
+00:40:56,801 --> 00:41:00,451
+Öyleyse keyfi olarak diyelim ki, ilk
+algoritma,
+841
+00:41:00,451 --> 00:41:04,211 n
+sayfa gibi, grafiksel olarak bu
+şekilde gösterilebilir.
+
+Machine Translated by Google
+842
+00:41:04,211 --> 00:41:06,631
+Eğim ne olursa olsun,
+bu düz bir çizgi
+843
+00:41:06,631 --> 00:41:09,061
+çünkü muhtemelen bire bir ilişki
+var
+844
+00:41:09,061 --> 00:41:13,141
+sayfa sayısı ile saniye sayısı veya sayfa
+dönüş sayısı arasında.
+845
+00:41:13,141 --> 00:41:13,651
+Neden?
+846
+00:41:13,651 --> 00:41:15,991
+Telefon şirketi seneye bir
+sayfa daha eklerse
+847
+00:41:15,991 --> 00:41:18,001
+çünkü şehre yeni insanlar
+taşınıyor, bu
+848
+00:41:18,001 --> 00:41:19,861
+benim için fazladan bir sayfa
+gerektirecek.
+849
+00:41:19,861 --> 00:41:21,811
+Bire bir.
+850
+00:41:21,811 --> 00:41:25,501
+Yine de, kusurlu olmasına
+rağmen ikinci algoritmayı kullanırsak,
+851
+00:41:25,501 --> 00:41:29,131
+Arada birini düzeltmek için biraz
+geriye gitmedikçe,
+852
+00:41:29,131 --> 00:41:31,981
+bu fazla düz bir çizgi olacak, ama
+
+853
+
+Machine Translated by Google
+00:41:31,981 --> 00:41:35,521
+farklı bir eğim olacak çünkü şimdi 2'ye
+1 veya 1'e 2 var
+854
+00:41:35,521 --> 00:41:38,951
+ilişki çünkü her seferinde
+sayfalara gidiyorum.
+855
+00:41:38,951 --> 00:41:43,681
+Yani telefon şirketi başka bir
+sayfa veya iki sayfa daha eklerse,
+856
+00:41:43,681 --> 00:41:45,708 bu
+hala sadece bir adım daha.
+857
+00:41:45,708 --> 00:41:47,791
+Bunu çizersem farkı görebilirsin.
+
+858
+00:41:47,791 --> 00:41:50,911
+Söz konusu telefon rehberi
+buysa, bu sayfa sayısı,
+859
+00:41:50,911 --> 00:41:53,611
+sarı çizgide bu kadar saniye
+sürebilir
+860
+00:41:53,611 --> 00:41:57,361
+John Harvard gibi birini temsil
+etmek veya bulmak için.
+861
+00:41:57,361 --> 00:42:00,121
+Ama tabii ki ilk algoritmada,
+kırmızı çizgide,
+862
+00:42:00,121 --> 00:42:02,461
+kelimenin tam anlamıyla iki katı
+adım atacak.
+863
+00:42:02,461 --> 00:42:05,011
+Buradaki n ne anlama geliyor? n
+gidilecek değişkendir
+864
+00:42:05,011 --> 00:42:08,951
+
+Machine Translated by Google
+bilgisayar bilimcisi veya programcısı için
+sadece genel olarak bir sayıyı temsil eder.
+865
+00:42:08,951 --> 00:42:11.371
+Yani telefon defterindeki
+sayfa sayısı n ise,
+866
+00:42:11.371 --> 00:42:14.281
+ikinci algoritmanın atacağı adım
+sayısı
+867
+00:42:14,281 --> 00:42:16,966 en
+kötü durumda n bölü 2 olur.
+868
+00:42:16,966 --> 00:42:18,971
+Yarısı kadar çünkü iki kat daha
+hızlı gidiyorsunuz.
+869
+00:42:18,971 --> 00:42:23,311
+Ama üçüncü algoritma, aslında
+logaritmalarınızı hatırlarsanız,
+870
+00:42:23,311 --> 00:42:25,021
+biraz buna benziyor.
+871
+00:42:25,021 --> 00:42:27,451
+Temelde farklı bir ilişki var
+
+872
+00:42:27,451 --> 00:42:30,961
+sorunun boyutu ile çözmek için gereken
+süre arasında
+873
+00:42:30,961 --> 00:42:32,851
+yine teknik olarak log tabanlıdır,
+
+874
+00:42:32,851 --> 00:42:35,611
+ama gerçekten farklı olan şekli.
+
+875
+00:42:35,611 --> 00:42:39,031
+Buradaki ima şu ki, örneğin
+Cambridge ve Allston,
+
+Machine Translated by Google
+876
+00:42:39,031 --> 00:42:41.611
+burada iki farklı kasaba
+Massachusetts, gelecek yıl birleşme
+877
+00:42:41,611 --> 00:42:44,671 ve iki
+katı büyüklüğünde tek bir telefon
+rehberi var,
+878
+00:42:44,671 --> 00:42:47,371 bu
+üçüncü ve son algoritma için önemli
+değil.
+879
+00:42:47,371 --> 00:42:47,881
+Neden?
+880
+00:42:47,881 --> 00:42:50,641
+Sorunu bir kez daha ortadan
+ikiye ayırıyorsun,
+881
+00:42:50,641 --> 00:42:54,061 bir
+bayt daha alıyor, bu kadar, başka
+bir 1.000 bayt değil
+882
+00:42:54,061 --> 00:42:56,461 bayt
+sadece çözüme ulaşmak için.
+883
+00:42:56,461 --> 00:42:59,021
+Başka bir deyişle, o
+şekilde yürüyebilirsin, yol,
+884
+00:42:59,021 --> 00:43:02,221
+buradan çok daha büyük bir telefon
+rehberine ve nihayetinde
+885
+00:43:02,221 --> 00:43:05,251 o
+yeşil hat neredeyse hiç
+kıpırdamayacak.
+886
+00:43:05,251 --> 00:43:08,581
+O halde bu sadece şimdi
+resmileştirmenin ve düşünmenin bir yolu
+887
+
+Machine Translated by Google
+00:43:08,581 --> 00:43:15,101 bu
+algoritmaların performansının veya
+kalitesinin ne olabileceği hakkında.
+888
+00:43:15,101 --> 00:43:18,771
+Şimdi algoritmanın kendisinin bir
+formalizasyonunu daha yapmadan önce,
+889
+00:43:18,771 --> 00:43:24,821 O zaman
+bu verimlilik kavramı veya şimdi fikirlerin
+performansı hakkında herhangi bir sorunuz var mı?
+890
+00:43:24,821 --> 00:43:25,321 Evet.
+
+891
+00:43:25,321 --> 00:43:28,893 İZLEYİCİ:
+Kaç tane telefon rehberiniz var?
+
+892
+00:43:28,893 --> 00:43:31,351
+DAVID MALAN: (GÜLER) Yıllar boyunca bir sürü
+telefon rehberi
+893
+00:43:31,351 --> 00:43:34,741 ve sizin
+veya ailenizin hala bir yeri varsa kesinlikle
+yapabiliriz
+894
+00:43:34,741 --> 00:43:37,201 bulması
+zor olduğu için bunları kullanın.
+895
+00:43:37,201 --> 00:43:38,341 Başka
+sorular?
+896
+00:43:38,341 --> 00:43:40,271 Ama
+teşekkürler.
+897
+00:43:40,271 --> 00:43:42,471 Burada
+başka sorular da var mı?
+898
+00:43:42,471 --> 00:43:42,971 Hayır.
+
+899
+00:43:42,971 --> 00:43:44,681
+
+Machine Translated by Google
+Ah, bu bir mırıltı mıydı?
+900
+00:43:44,681 --> 00:43:45,708 Evet,
+burada.
+901
+00:43:45,708 --> 00:43:48,041
+İZLEYİCİ: Harry Potter'ı konuk konuşmacı
+olarak alabilirsiniz.
+902
+00:43:48,041 --> 00:43:49,174 DAVID
+MALAN: Üzgünüm, tekrar söyle.
+903
+00:43:49,174 --> 00:43:51,481
+İZLEYİCİ: Harry Potter'ı konuk konuşmacı
+olarak alabilirsiniz.
+904
+00:43:51,481 --> 00:43:52,501 DAVID
+MALAN: (GÜLLER) Oh, evet.
+905
+00:43:52,501 --> 00:43:53,001
+Umarım.
+906
+00:43:53,001 --> 00:43:56,081 O
+zaman burada kullanmak için biraz
+daha fazla şeyimiz olurdu.
+907
+00:43:56,081 --> 00:44:01,441
+Şimdi, az önce yaptığımız şeyi daha
+da resmileştirmek istiyorsak,
+908
+00:44:01,441 --> 00:44:03,061
+Devam edip bunu tanıtabiliriz.
+909
+00:44:03,061 --> 00:44:06,028 Bir
+tür kod, diğer bir deyişle sözde kod.
+910
+00:44:06,028 --> 00:44:08,611
+Sözde kod belirli bir dil değil, bir
+şeye benzemiyor
+911
+00:44:08,611 --> 00:44:11.551
+kodlamaya başlamak üzereyiz, bu
+sadece kendinizi ifade etmenin bir yolu
+
+Machine Translated by Google
+912
+00:44:11,551 --> 00:44:14,071
+İngilizce veya kısaca herhangi bir
+insan dilinde
+913
+00:44:14,071 --> 00:44:18,031 bir
+algoritma fikrinizi aktarmanın sonuna
+doğru doğru bir şekilde.
+914
+00:44:18,031 --> 00:44:20.401
+Yani örneğin, burada
+nasıl olabiliriz
+915
+00:44:20,401 --> 00:44:24,031 aynı
+algoritma için sözde kod olan kodu
+resmileştirir.
+916
+00:44:24,031 --> 00:44:26,911 Birinci
+adım, benim yaptığım gibi telefon
+rehberini açmaktı.
+917
+00:44:26,911 --> 00:44:29,641
+İkinci adım, telefon rehberinin
+ortasına açık olabilir,
+918
+00:44:29,641 --> 00:44:31,441
+önerdiğiniz gibi önce biz yapalım.
+919
+00:44:31,441 --> 00:44:34,621
+Üçüncü adım muhtemelen sayfalara
+bakmaktı, öyle yaptım.
+920
+00:44:34,621 --> 00:44:37,231
+Ve dördüncü adım biraz
+daha ilginç hale geliyor
+921
+00:44:37,231 --> 00:44:40,471 çünkü
+çabucak bir karar vermem ve kendime
+bir soru sormam gerekiyordu.
+922
+00:44:40,471 --> 00:44:44,221
+Kişi sayfadaysa, o zaman
+muhtemelen
+
+Machine Translated by Google
+923
+
+00:44:44,221 --> 00:44:45,951 devam
+edin ve o kişiyi arayın.
+924
+00:44:45,951 --> 00:44:48,451
+Ama muhtemelen en azından
+John Harvard için durum böyle değildi.
+925
+00:44:48,451 --> 00:44:50,551 ve M
+bölümünü açtım.
+926
+00:44:50,551 --> 00:44:52,651
+Yani şimdi yapmam
+gereken başka bir soru var
+927
+00:44:52,651 --> 00:44:55,291 kişinin
+kitapta daha önce olup olmadığını
+sorun,
+928
+00:44:55,291 --> 00:44:58,711 o
+zaman sorunu yaptığım gibi ikiye
+bölüp sola gitmeliyim, yani
+929
+00:44:58,711 --> 00:45:02,821
+konuşmak ve sonra kitabın sol yarısının
+sadece ortasına açılmamak,
+930
+00:45:02,821 --> 00:45:06,001 ama
+gerçekten üçüncü adıma geri dönün,
+kendimi tekrarlayın.
+931
+00:45:06,001 --> 00:45:06,601 Neden?
+
+932
+00:45:06,601 --> 00:45:10.351
+Çünkü az önce yaptığım şeyi
+tekrarlayabilirim ama daha küçük bir problemle
+933
+00:45:10,351 --> 00:45:11,711 bu
+büyük ısırığı aldı.
+934
+00:45:11,711 --> 00:45:14,453
+Ancak, kişi kitapta
+daha sonra yer aldıysa,
+
+Machine Translated by Google
+935
+00:45:14,453 --> 00:45:17,161 John
+Harvard'dan farklı bir kişinin başına
+gelmiş olabilir,
+936
+00:45:17,161 --> 00:45:19,786 o
+zaman kitabın sağ yarısının ortasına
+açmalıyım,
+937
+00:45:19,786 --> 00:45:21,776 tekrar
+üçüncü satıra geri dön, ama yine,
+ben
+938
+00:45:21,776 --> 00:45:24,151
+sonsuza kadar böyle bir şey yaparak
+emilmez
+939
+00:45:24,151 --> 00:45:27,221 çünkü
+sorunun boyutunu sürekli
+küçültüyorum.
+940
+00:45:27,221 --> 00:45:29,131
+Son olarak, olası
+tek senaryo
+941
+00:45:29,131 --> 00:45:32,606 solda,
+eğer John Harvard sayfada değilse
+ve o solda değilse
+942
+00:45:32,606 --> 00:45:34,981 ve o
+sağda değil, sonucumuz ne olmalı?
+
+943
+00:45:34,981 --> 00:45:36,023
+İZLEYİCİ: O orada değil.
+944
+00:45:36,023 --> 00:45:37,189 DAVID
+MALAN: Orada değil.
+945
+00:45:37,189 --> 00:45:38,091 Listede
+yok.
+946
+00:45:38,091 --> 00:45:40,941
+
+Machine Translated by Google
+Bu yüzden başka bir biçimde bırakmamız gerekiyor.
+
+947
+00:45:40,941 --> 00:45:44,451
+Şimdi bir kenara, bu son soruyu gömdüm
+biraz kasıtlı.
+948
+00:45:44,451 --> 00:45:48,721
+sonunda çünkü programlamada
+çok sık olan şey bu,
+949
+00:45:48,721 --> 00:45:50,691 İster
+yeni ister profesyonel olun,
+
+950
+00:45:50,691 --> 00:45:54,901
+sadece olası tüm durumları
+düşünmeden, eğer istersen köşe davaları,
+951
+00:45:54,901 --> 00:45:58,401 bu o
+kadar sık olmayabilir, ancak bunları
+tahmin etmezseniz
+952
+00:45:58,401 --> 00:46:01,251 kendi
+kodunuz, sözde kodunuz veya
+başka bir şekilde,
+953
+00:46:01,251 --> 00:46:03,801
+programların ne zaman ve neden
+çökebileceği
+954
+00:46:03,801 --> 00:46:06,811 veya
+küçük aptal dönen plaj topları veya
+kum saatleri diyebilirsiniz
+955
+00:46:06,811 --> 00:46:08,061 yoksa
+bilgisayarınız yeniden başlayabilir.
+956
+00:46:08,061 --> 00:46:08,631
+Neden?
+957
+00:46:08,631 --> 00:46:11.481
+Tahmin edilemez bir
+şey yapıyor
+
+Machine Translated by Google
+958
+
+00:46:11,481 --> 00:46:15,111
+eğer bir insan, belki de ben bunu
+beklemiyordum.
+959
+00:46:15,111 --> 00:46:18,201
+Mesela bu program ne yapıyorsa
+John Harvard telefon rehberinde yok
+960
+00:46:18,201 --> 00:46:20.809 12
+ve 13. satırları atlasaydım?
+961
+00:46:20.809 --> 00:46:21,351
+Bilmiyorum.
+962
+00:46:21,351 --> 00:46:23,351
+Belki bir Mac veya PC'de
+farklı davranırdı
+963
+00:46:23,351 --> 00:46:26,031
+çünkü bu bir tür tanımsız davranış.
+964
+00:46:26,031 --> 00:46:29,211
+Bunlar, açıkçası her zaman olduğun
+türden ihmaller.
+965
+00:46:29,211 --> 00:46:31,341
+yapacaksınız, tanıtacağınız hatalar,
+
+966
+00:46:31,341 --> 00:46:35,451
+erkenden yapacağınız hatalar ve ben
+de 25 yıl sonra.
+967
+00:46:35,451 --> 00:46:38,811
+Ama o köşe davaları
+hakkında düşünmekte daha iyi olacaksın
+968
+00:46:38,811 --> 00:46:41.731 ve
+yanlış gidebilecek her şeyi ele
+almak ve sonuç olarak,
+969
+00:46:41,731 --> 00:46:44,631
+kodunuz bunun için çok daha iyi olacaktır.
+
+Machine Translated by Google
+970
+00:46:44,631 --> 00:46:47,963
+Şimdi problem, nihayetinde nasıl
+programlanacağını öğrenmekle ilgili,
+971
+00:46:47,963 --> 00:46:49,671 özellikle
+hiç deneyiminiz olmadıysa
+
+972
+00:46:49,671 --> 00:46:54,111 veya
+bilseniz bile sadece bir dil öğrendiniz,
+
+973
+00:46:54,111 --> 00:46:57,831 hepsinin
+ilk bakışta biraz gizemli görünmesidir.
+
+974
+00:46:57,831 --> 00:46:59,961 Ancak
+bazı ortak noktaları paylaşıyorlar.
+975
+00:46:59,961 --> 00:47:02,841 Aslında,
+ilk önce bunları tanımlamak için bu
+sözde kodu kullanacağız.
+976
+00:47:02,841 --> 00:47:05,061
+Burada sarı ile
+vurgulananlar bundan böyle
+977
+00:47:05,061 --> 00:47:07,221
+fonksiyonları çağırmaya başlayacağız.
+978
+00:47:07,221 --> 00:47:10.341
+Pek çok farklı programlama dili
+mevcuttur, ancak bunların çoğu
+979
+00:47:10,341 --> 00:47:13,521, işlevler
+olarak adlandırabileceğimiz şeylere
+sahiptir, bunlar eylemlerdir
+980
+00:47:13,521 --> 00:47:16.498 veya
+daha küçük bir problemi çözen fiiller.
+
+981
+
+Machine Translated by Google
+00:47:16,498 --> 00:47:18,831
+
+Yani, bir sürü işlevi
+kullanabilirsiniz.
+982
+00:47:18,831 --> 00:47:22,941
+daha büyük bir sorunu çözmek
+için
+983
+00:47:22,941 --> 00:47:25,551 çok
+özel veya kesin bir şey.
+984
+00:47:25,551 --> 00:47:29,841
+Bunlar daha sonra İngilizce olarak
+koda çevrilebilir, gerçek bilgisayar
+985
+00:47:29,841 --> 00:47:32,061 kod,
+fonksiyon denen bu şeylere.
+986
+00:47:32,061 --> 00:47:35,631
+Şimdi sarı ile vurgulananlar,
+koşullu olarak adlandırabileceğimiz şeylerdir.
+987
+00:47:35,631 --> 00:47:38,451
+Koşullar, koşullu olarak
+yaptığınız şeylerdir.
+988
+00:47:38,451 --> 00:47:40,143 bazı
+soruların yanıtlarına dayanmaktadır.
+989
+00:47:40,143 --> 00:47:42,351
+Bunları yoldaki çatallar gibi
+düşünebilirsiniz.
+990
+00:47:42,351 --> 00:47:45,051
+Sola mı, sağa mı yoksa başka
+bir yöne mi gidiyorsun?
+991
+00:47:45,051 --> 00:47:47,509 bazı
+soruların cevabına göre mi?
+992
+00:47:47,509 --> 00:47:48,801 Peki,
+o sorular neler?
+993
+
+Machine Translated by Google
+00:47:48,801 --> 00:47:52,881
+Şimdi sarı renkle vurgulanmış veya Boolean
+ifadeleri olarak adlandırdığımız
+994
+00:47:52,881 --> 00:47:57,771 bir
+matematikçi soyadı olan Bool'dan sonra, bu
+sadece evet hayır cevapları var.
+995
+00:47:57,771 --> 00:48:03,831 Ya da
+isterseniz doğru veya yanlış cevaplar, ya da 1
+veya 0 cevap tercih ederseniz.
+996
+00:48:03,831 --> 00:48:07,011 Sadece
+bir senaryoyu diğerinden ayırmamız
+gerekiyor.
+997
+00:48:07,011 --> 00:48:09,801
+Bu sözde kodda ortaya çıkan
+son şey
+998
+00:48:09,801 --> 00:48:12,441 şimdi
+vurgulayabileceğim ve döngüleri
+çağırabileceğim şey.
+999
+00:48:12,441 --> 00:48:16,221
+Bir çeşit döngü, bize bir şeyler yapmamızı
+söyleyen bir çeşit direktif
+1000
+00:48:16,221 --> 00:48:21,561 tekrar
+tekrar arama yapmak için 1.000
+satırlık bir programa ihtiyacım yok
+1001
+00:48:21,561 --> 00:48:25,731 1000
+sayfalık bir telefon rehberi, 13 satırlık bir
+programdan kurtulabilirim ama
+1002
+00:48:25,731 --> 00:48:30,861 bir
+sorunu çözmek için o noktaya gelene kadar
+doğal olarak kendimi tekrar et
+1003
+00:48:30,861 --> 00:48:31,921 son
+adım.
+1004
+00:48:31,921 --> 00:48:34,281
+
+Machine Translated by Google
+Öyleyse bu, sözde kod olarak
+
+adlandırabileceğimiz şeydir.
+
+1005
+00:48:34,281 --> 00:48:37,851 ve
+gerçekten de başka özellikler var
+
+1006
+00:48:37,851 --> 00:48:41,241 çok
+geçmeden değineceğimiz programlar,
+argümanlar ve dönüş gibi şeyler
+1007
+00:48:41,241 --> 00:48:46,441
+değerler, değişkenler ve daha
+fazlası, ancak ne yazık ki çoğu dilde,
+1008
+00:48:46,441 --> 00:48:49,071 bu
+sınıfta çok bilinçli olarak
+kullanacağımız bazıları dahil
+1009
+00:48:49,071 --> 00:48:52,461 ve
+bugünlerde gerçek dünyadaki
+herkesin hala kullandığı,
+1010
+00:48:52,461 --> 00:48:54,901
+programları böyle görünme eğilimindedir.
+1011
+00:48:54,901 --> 00:48:57,561
+Bu, örneğin, o ilk programın
+damıtılmasıdır.
+1012
+00:48:57,561 --> 00:49:02,511
+1996'da CS50'de sadece ekrana bir
+şeyler yazdırmak için yazdım.
+1013
+00:49:02,511 --> 00:49:07,431
+Aslında, buradaki bu sürüm sadece
+"Merhaba dünya."
+1014
+00:49:07,431 --> 00:49:10.431
+Hangisi, diyelim ki, en kanonik
+ilk şey
+1015
+00:49:10,431 --> 00:49:14,301
+Herhangi bir programcının
+
+Machine Translated by Google
+bilgisayar demek için, çünkü
+1016
+00:49:14,301 --> 00:49:15,601 ama şu
+dağınıklığa bakın.
+1017
+00:49:15,601 --> 00:49:18,621
+Yani, bir kare sembolü var, bu köşeli
+parantezler, parantezler,
+1018
+00:49:18,621 --> 00:49:22,461 int, küme
+parantezleri, tırnak işaretleri, parantezler,
+noktalı virgüller ve geri gibi kelimeler
+1019
+00:49:22,461 --> 00:49:23,121 eğik çizgi.
+
+1020
+00:49:23,121 --> 00:49:26,721
+Demek istediğim, daha fazla ek yük,
+daha fazla sözdizimi ve dağınıklık var
+1021
+00:49:26,721 --> 00:49:28,641 gerçek
+bir fikir olduğundan daha fazla.
+1022
+00:49:28,641 --> 00:49:32,781
+Şimdi bu, bunu çok geçmeden
+anlayamayacağınız anlamına gelmiyor.
+1023
+00:49:32,781 --> 00:49:36,141 çünkü
+dürüst olmak gerekirse o kadar çok kalıp yok,
+aslında programlama dilleri
+1024
+00:49:36,141 --> 00:49:40,401 tipik
+olarak herhangi bir gerçek insan dilinden çok daha
+küçük bir kelime dağarcığına sahiptir,
+1025
+00:49:40,401 --> 00:49:43,281 ama ilk
+bakışta gerçekten de oldukça gizemli
+görünebilir.
+1026
+00:49:43,281 --> 00:49:47,061
+Ama belki de, bu diğer satırların henüz ne yaptığı
+hakkında hiçbir fikrim olmadığı sonucuna varabilirsiniz,
+
+1027
+
+Machine Translated by Google
+
+00:49:47,061 --> 00:49:50,871 ama
+
+"Merhaba dünya." muhtemelen
+alıntıdır ne alıntıdır
+
+Ekrana 1028 00:49:50,871 -->
+00:49:52,561 yazdırılacaktır.
+1029
+00:49:52,561 --> 00:49:55,581
+Ama bugün yapacağımız şey,
+kısa bir aradan sonra,
+1030
+00:49:55,581 --> 00:49:57,681 ve
+gelecek hafta için zemin hazırlıyor
+tanıtım
+1031
+00:49:57,681 --> 00:50:00,036 Scratch
+kullanarak bu fikirlerin tamamen
+aynısı,
+1032
+00:50:00,036 --> 00:50:01,911 sizin
+kullanmış olabileceğiniz bir şey
+
+1033
+00:50:01,911 --> 00:50:05,331 oldukça
+gençken ama aynı kelime dağarcığı
+uygulanmadığında
+1034
+00:50:05,331 --> 00:50:06,741 bu
+fikirlere.
+1035
+00:50:06,741 --> 00:50:11,121
+kullanarak yakında yapacağımız şeyin tersi
+Scratch, bu grafik programlama
+1036
+00:50:11,121 --> 00:50:14.661
+MIT'deki yoldaşlarımızdan gelen dil, bugün
+bize izin verecek
+1037
+00:50:14,661 --> 00:50:19,191
+birbirine geçen yapboz parçalarına
+benzeyen şeyleri sürükleyip bırakmaya başlar
+1038
+00:50:19,191 --> 00:50:21,171 yaparsa
+birlikte
+
+Machine Translated by Google
+bunu yapmak mantıklı,
+1039
+00:50:21,171 --> 00:50:24,411
+ancak karmaların, parantezlerin
+dikkati dağılmadan,
+1040
+00:50:24,411 --> 00:50:27,111
+kaşlı ayraçlar, açılı ayraçlar,
+noktalı virgüller ve diğer şeyler
+1041
+00:50:27,111 --> 00:50:29,011
+bunlar konunun çok dışında.
+1042
+00:50:29,011 --> 00:50:31,501
+Ama şimdilik, devam edelim
+ve burada 10 dakika ara verelim.
+1043
+00:50:31,501 --> 00:50:33,801 ve
+devam ettiğimizde programlamaya
+başlayacağız.
+1044
+00:50:33,801 --> 00:50:37,261
+Yani ekrandaki bu, adı
+verilen bir dildir.
+1045
+00:50:37,261 --> 00:50:40,621
+C önümüzdeki haftaya
+dalacak bir şey ve neyse ki
+1046
+00:50:40,621 --> 00:50:43,681
+şimdi ekranda Python adında
+başka bir dil var
+1047
+00:50:43,681 --> 00:50:46,621
+birkaç hafta sonra da inceleyeceğiz.
+
+1048
+00:50:46,621 --> 00:50:48,391
+diğer dillerle birlikte.
+1049
+00:50:48,391 --> 00:50:52,341
+Yine de bugün ve bu ilk hafta için,
+tabiri caizse, sıfır hafta,
+
+Machine Translated by Google
+1050
+00:50:52,341 --> 00:50:54,091 Scratch
+kullanıyoruz çünkü yine izin verecek
+
+1051
+00:50:54,091 --> 00:50:56,671 bu
+programlama temellerinden bazılarını
+keşfetmemiz için
+1052
+00:50:56,671 --> 00:51:01,171 C ve
+Python'da ve içinde olacak
+JavaScript ve diğer diller de,
+1053
+00:51:01,171 --> 00:51:05,221 ancak
+sözdiziminin dikkat dağıtıcı unsurları
+hakkında endişelenmemize gerek kalmayacak şekilde.
+1054
+00:51:05,221 --> 00:51:08,051 Yani
+Scratch dünyası böyle görünüyor.
+1055
+00:51:08,051 --> 00:51:10.771
+Web tabanlı veya indirilebilir bir
+programlama ortamıdır.
+1056
+00:51:10,771 --> 00:51:13,621 bu
+düzen varsayılan olarak buradadır.
+burada solda
+1057
+00:51:13,621 --> 00:51:17,701 yapboz
+parçalarından oluşan bir paleti yakında
+göreceğiz.
+1058
+00:51:17,701 --> 00:51:20.221 az önce
+tartıştığımız tüm bu fikirleri temsil
+ediyor.
+1059
+00:51:20.221 --> 00:51:22,771
+Ve bu yapboz parçalarını
+sürükleyip bırakarak
+1060
+00:51:22,771 --> 00:51:26,881 veya
+bu büyük alanın üzerindeki bloklar
+ve bunları birbirine bağlayan,
+1061
+
+Machine Translated by Google
+00:51:26,881 --> 00:51:28,951
+
+mantıklıysa,
+
+1062
+00:51:28,951 --> 00:51:31,231 bu
+ortamda programlamaya başlayın.
+1063
+00:51:31,231 --> 00:51:34,261 Çevre,
+tabiri caizse, birden fazla sprite'a sahip
+olmanızı sağlar.
+1064
+00:51:34,261 --> 00:51:36,811
+Birden fazla karakter, kedi gibi
+şeyler veya herhangi bir şey
+
+1065
+00:51:36,811 --> 00:51:41,011 başka
+ve bu spritelar bu dikdörtgen
+dünyada var
+1066
+00:51:41,011 --> 00:51:44,221
+burada daha büyük yapmak için tam
+ekran yapabilirsiniz ve bu varsayılan olarak burada
+1067
+00:51:44,221 --> 00:51:48,901
+yukarı, aşağı, sola, sağa hareket edebilen ve
+daha birçok şeyi yapabilen Scratch'tır.
+1068
+00:51:48,901 --> 00:51:51,991
+Scratch'in dünyasında
+bunu düşünebilirsiniz.
+1069
+00:51:51,991 --> 00:51:55,951 Xs ve
+Ys ile belki tanıdık bir koordinat
+sistemi olarak
+1070
+00:51:55,951 --> 00:51:59,701 bu,
+yalnızca ekrandaki şeyleri konumlandırma
+zamanı geldiğinde yardımcı olur.
+1071
+00:51:59,701 --> 00:52:04,981 Şu
+anda Scratch varsayılan olarak 0,0'dadır,
+burada x 0'a ve y 0'a eşittir.
+1072
+00:52:04,981 --> 00:52:08,761
+
+Machine Translated by Google
+
+Eğer kediyi yukarı doğru hareket
+
+ettirirseniz, x sıfır olarak kalır,
+1073
+00:52:08,761 --> 00:52:10.591 y
+pozitif 180 olur.
+1074
+00:52:10.591 --> 00:52:13,351
+Kediyi en alta kadar hareket
+ettirirseniz, x sıfır olarak kalır,
+1075
+00:52:13,351 --> 00:52:15,641 ama
+şimdi y eksi 180 olur.
+1076
+00:52:15,641 --> 00:52:20,161
+Ve sola giderseniz, x eksi 240 olur ama y 0
+kalır,
+1077
+00:52:20,161 --> 00:52:24,391 veya
+sağa doğru x 240 olur ve y sıfır
+kalır.
+1078
+00:52:24,391 --> 00:52:28,291
+Yani bu sayılar genellikle o kadar
+önemli değil çünkü sadece
+1079
+00:52:28,291 --> 00:52:30,871 bu
+dünyada göreceli olarak yukarı,
+aşağı, sola, sağa hareket eder,
+
+1080
+00:52:30,871 --> 00:52:33.931
+ancak tam olarak konumlandırma
+zamanı geldiğinde
+1081
+00:52:33,931 --> 00:52:36,301 bu
+hareketli görüntülerin veya diğer
+görüntülerin bazıları,
+
+1082
+00:52:36,301 --> 00:52:39,751
+sadece bu zihinsel modeli yukarı,
+aşağı, sola ve sağa çevirmek için yardımcı olun.
+1083
+00:52:39,751 --> 00:52:42,851
+Şimdi devam edelim ve burada belki de
+en basit programları yapalım.
+
+Machine Translated by Google
+1084
+00:52:42,851 --> 00:52:45,751
+Aynı programlama ortamına
+geçeceğim
+1085
+00:52:45,751 --> 00:52:48,671
+şimdi sol tarafta bir tur için.
+1086
+00:52:48,671 --> 00:52:53,611
+Yani burada varsayılan olarak
+mavi hareketli kategori seçilidir,
+1087
+00:52:53,611 --> 00:52:57,151
+içinde hareketle ilgili bir sürü yapboz
+parçası veya blok bulunur.
+1088
+00:52:57,151 --> 00:52:59,701
+Ve grafik bir dil olarak
+Scratch
+1089
+00:52:59,701 --> 00:53:03,388
+işleri, bu parçaların yaptıkları
+şeylerin türüne göre sınıflandırır,
+1090
+00:53:03,388 --> 00:53:05,221
+bunu tüm palet boyunca göreceğiz
+
+1091
+00:53:05,221 --> 00:53:08,161
+fonksiyonlarımız, değişkenlerimiz
+ve koşullarımız olacak
+1092
+00:53:08,161 --> 00:53:11,351 ve
+Boolean ifadeler ve daha fazlası farklı
+renk ve şekillerde.
+1093
+00:53:11.351 --> 00:53:14.881
+Örneğin, 10 adım ilerlemek veya
+bir yöne dönmek
+1094
+00:53:14,881 --> 00:53:18,391,
+burada hareket gibi şeyler olarak
+sınıflandırılan işlevler olacaktır.
+
+Machine Translated by Google
+1095
+00:53:18,391 --> 00:53:21,958
+Mor görünümün altında
+konuşma balonlarınız olabilir
+
+Sürükleyip bırakarak
+oluşturabileceğiniz 1096
+00:53:21,958 --> 00:53:23,791
+1097
+00:53:23,791 --> 00:53:27,061
+birkaç saniyeliğine "merhaba"
+ya da her neyse diyebilenler.
+1098
+00:53:27,061 --> 00:53:31,021
+Ya da kostümleri değiştirebilir, kediyi köpek ya da
+kuş gibi görünecek şekilde değiştirebilirsiniz.
+
+1099
+00:53:31,021 --> 00:53:33,181
+veya aradaki herhangi bir şey.
+1100
+00:53:33,181 --> 00:53:34,021
+Sesler de.
+1101
+00:53:34,021 --> 00:53:37,711
+"Miyav" gibi sesleri veya içe aktarabileceğiniz veya
+kaydedebileceğiniz herhangi bir şeyi çalabilirsiniz,
+
+1102
+00:53:37,711 --> 00:53:38,701
+kendiniz.
+1103
+00:53:38,701 --> 00:53:41,971
+Sonra Scratch'in olaylar dediği şeyler var
+ve bunların en önemlileri
+1104
+00:53:41,971 --> 00:53:43.891
+yeşil bayrak tıklandığında ilk.
+1105
+00:53:43,891 --> 00:53:46,921
+Çünkü burada Scratch'in
+dünyasının sağına bakarsak,
+1106
+00:53:46,921 --> 00:53:50,371 bu
+dikdörtgen bölge bu yeşil bayrak
+ve kırmızı durağa sahip
+
+Machine Translated by Google
+1107
+00:53:50,371 --> 00:53:53,581
+yukarıda kaydolun, biri Oynat için,
+biri Durdur için
+1108
+00:53:53,581 --> 00:53:57,211 ve bu
+bizim asıl programlarımızı başlatmamıza
+ve durdurmamıza izin verecek
+1109
+00:53:57,211 --> 00:54:00,541 o yeşil
+bayrak ilk tıklandığında.
+
+1110
+00:54:00,541 --> 00:54:04,561
+Ancak boşluk tuşuna basıldığında diğer
+türdeki olayları dinleyebilirsiniz.
+1111
+00:54:04,561 --> 00:54:08,611 veya
+başka bir şey, bu hareketli grafik
+tıklandığında veya başka bir şey.
+1112
+00:54:08,611 --> 00:54:12,271
+Burada zaten bir programcının
+şeylerin enkarnasyonu gibi görüyorsunuz
+1113
+00:54:12,271 --> 00:54:15,151 sen
+ve ben artık telefonlarımızda her
+gün olduğu gibi kabul ediyoruz.
+1114
+00:54:15,151 --> 00:54:19.091 Bir simgeye
+her dokunduğunuzda veya parmağınızı
+sürüklediğinizde ya da yandaki bir düğmeye bastığınızda.
+
+1115
+00:54:19,091 --> 00:54:21,251
+Bunlar bir programcının olaylar
+dediği şeylerdir,
+1116
+00:54:21,251 --> 00:54:24,151 olan
+ve genellikle bizim tarafımızdan
+tetiklenen şeyler
+1117
+00:54:24,151 --> 00:54:28,171
+insanlar ve bir programın Scratch veya
+Python'da olduğu şeyler
+
+Machine Translated by Google
+1118
+00:54:28,171 --> 00:54:31,981 veya C
+veya başka herhangi bir şey
+dinleyebilir ve yanıt verebilir.
+1119
+00:54:31,981 --> 00:54:34,681
+Gerçekten de bu yüzden telefonunuzdaki
+telefon simgesine dokunduğunuzda,
+
+1120
+00:54:34,681 --> 00:54:37,141 telefon
+uygulaması başlatılıyor çünkü birisi
+
+1121
+00:54:37,141 --> 00:54:41,341, söz
+konusu simgeye parmak basılmasını
+dinleyen bir yazılım yazdı.
+1122
+00:54:41,341 --> 00:54:43,411 Yani
+Scratch'ta da aynı şeyler var.
+1123
+00:54:43,411 --> 00:54:46,291
+Turuncu renkte Kontrol altında,
+
+1124
+00:54:46,291 --> 00:54:48,421 bir
+saniye bekleyebilir veya bir şeyi
+tekrarlayabilir
+1125
+00:54:48,421 --> 00:54:50,371 birkaç
+kez, varsayılan olarak 10, ancak biz
+
+1126
+00:54:50,371 --> 00:54:53,501 bu
+beyaz dairelerdeki herhangi bir şeyi
+başka herhangi bir şeye değiştirebilir.
+1127
+00:54:53,501 --> 00:54:55,411
+Burada sonsuza kadar başka
+bir yapboz parçası var,
+
+1128
+00:54:55,411 --> 00:54:58,291 bu, bir
+şeyleri tekrar tekrar yapabileceğimiz bir tür
+döngü anlamına gelir.
+
+Machine Translated by Google
+1129
+
+00:54:58,291 --> 00:54:59,761
+Biraz dar gibi görünse de,
+
+1130
+00:54:59,761 --> 00:55:01,831
+oraya bir şey sığdırmak için fazla
+yer yok, Scratch
+1131
+00:55:01,831 --> 00:55:03,706 bu
+şeylerin büyümesine ve
+küçülmesine neden olacak
+1132
+00:55:03,706 --> 00:55:06,694
+ancak benzer şekilli parçaları
+doldurmak istiyoruz.
+1133
+00:55:06,694 --> 00:55:07,861 İşte o
+koşul cümleleri.
+
+1134
+00:55:07,861 --> 00:55:12,761 Bir
+şey doğru veya yanlışsa, o zaman
+bir sonraki şeyi yapın.
+1135
+00:55:12,761 --> 00:55:15,541 Ve
+bu küçük yamuk benzeri şekli bu
+şekilde koyabiliriz.
+1136
+00:55:15,541 --> 00:55:19,471
+Bir tür Boole ifadesi, evet/hayır, doğru/
+yanlış içeren bir soru,
+1137
+00:55:19,471 --> 00:55:22,831 veya
+bir/sıfır cevap ve bir şey yapıp
+yapmamaya karar verin.
+1138
+00:55:22,831 --> 00:55:25,141
+Bunları da birleştirebilirsiniz.
+1139
+00:55:25,141 --> 00:55:28,606 Bir
+şey doğruysa, bunu yapın, yoksa
+bu diğer şeyi yapın.
+1140
+00:55:28,606 --> 00:55:30,481
+
+Machine Translated by Google
+Hatta birini diğerinin içine
+sokabilirsin
+1141
+00:55:30,481 --> 00:55:34,021 üç
+veya dört veya daha fazla soru
+sormak istiyorsanız.
+1142
+00:55:34,021 --> 00:55:35,711
+Algılama da bir şey olacak.
+1143
+00:55:35,711 --> 00:55:40,571
+Sprite dokunmak gibi Boolean ifadeleri
+gibi sorular sorabilirsiniz.
+1144
+00:55:40,571 --> 00:55:42,861 fare
+işaretçisi, ekrandaki ok?
+
+1145
+00:55:42,861 --> 00:55:45,501 Bu
+programlarla etkileşime
+geçebilmeniz için.
+1146
+00:55:45,501 --> 00:55:47,999
+Sprite ile fare işaretçisi arasındaki
+mesafe nedir?
+1147
+00:55:47,999 --> 00:55:50,291
+Belki anlamak için basit
+hesaplamalar yapabilirsiniz.
+1148
+00:55:50,291 --> 00:55:52,841
+düşman kediye yaklaşıyorsa.
+
+1149
+00:55:52,841 --> 00:55:56,351
+Operatör altında matematik gibi bazı daha
+düşük seviyeli şeyler, aynı zamanda yetenek
+
+1150
+00:55:56,351 --> 00:55:58,551 bir
+oyun için harika olan rastgele
+sayıları seçmek için
+1151
+00:55:58,551 --> 00:56:00,551
+çünkü o zaman kibar olabilirsiniz
+
+Machine Translated by Google
+zorluğu değiştirmek
+1152
+00:56:00,551 --> 00:56:03,009 veya
+aynı oyun oynanmayan bir oyunda
+neler oluyor
+1153
+00:56:03,009 --> 00:56:04,691 her
+seferinde aynı şekilde.
+1154
+00:56:04,691 --> 00:56:06,251 Ve
+fikirleri birleştirebilirsiniz.
+1155
+00:56:06,251 --> 00:56:10.221
+Bu tür bir karar vermek için bir şey ve bir şey
+doğru olmalı
+1156
+00:56:10.221 --> 00:56:10.721 önce.
+
+1157
+00:56:10.721 --> 00:56:12.941 Veya
+iki kelimeyi bile birleştirebiliriz.
+1158
+00:56:12,941 --> 00:56:15,881
+Varsayılan olarak elma ve muz diyor,
+ancak yazabilir veya sürükleyip bırakabilirsiniz
+1159
+00:56:15,881 --> 00:56:19,691 orada
+birden fazla kelimeyi tam olarak
+birleştirmek için ne istersen,
+1160
+00:56:19,691 --> 00:56:21,281 daha
+büyük cümleler.
+1161
+00:56:21,281 --> 00:56:25,061 Son
+olarak aşağıda, turuncu renkte
+değişkenler denen şeyler var.
+1162
+00:56:25,061 --> 00:56:27,611
+Matematikte açıkçası x ve y var ve
+ne yok.
+1163
+00:56:27,611 --> 00:56:29,621
+Programlamada yapacağımız
+
+Machine Translated by Google
+aynı yeteneğe sahip
+1164
+00:56:29,621 --> 00:56:35,711 önem
+verdiğimiz bu adlandırılmış
+sembollerde x veya y değerlerini saklamak için.
+1165
+00:56:35,711 --> 00:56:39,401
+Rakamlar veya harfler veya kelimeler veya
+nihayetinde renkler veya herhangi bir şey.
+
+1166
+00:56:39,401 --> 00:56:42,671
+Ama programlamada göreceksiniz ki,
+sadece
+1167
+00:56:42,671 --> 00:56:46,091 x, y
+ve z gibi basit harfler kullanın,
+ancak aslında
+1168
+00:56:46,091 --> 00:56:52,991
+değişkenlere ne olduklarını açıklamak
+için tam tekil veya çoğul kelimeler verir.
+1169
+00:56:52,991 --> 00:56:56,831
+Son olarak, bu sizin için
+yeterli renk blokları değilse,
+1170
+00:56:56,831 --> 00:56:58,661 kendi
+bloklarınızı oluşturabilirsiniz.
+1171
+00:56:58,661 --> 00:57:01,751
+Gerçekten de bu, bugün
+uygulayacağımız bir programlama ilkesi olacak.
+1172
+00:57:01,751 --> 00:57:05,621 ve bu
+yapbozları bir araya getirmeye başladığınız
+ilk problem seti ile
+1173
+00:57:05,621 --> 00:57:10.361 parça
+ve anlıyorsunuz ki, ah, bu birkaç parça
+yapabilseydi güzel olurdu
+1174
+00:57:10,361 --> 00:57:13.691,
+MIT'nin bana bunu vermeyi
+düşündüğü biri ile değiştirildi
+
+Machine Translated by Google
+1175
+00:57:13,691 --> 00:57:16,991 tek
+yapboz parçası, kendi bloklarınızı
+kendiniz yapabilirsiniz
+1176
+00:57:16,991 --> 00:57:19,811 hepsini
+birbirine bağlayarak, onlara bir isim
+vererek ve bum,
+1177
+00:57:19,811 --> 00:57:21,951 yeni bir
+yapboz parçası olacak.
+1178
+00:57:21,951 --> 00:57:24,281
+Öyleyse en basit, en kanonik
+programları yapalım
+1179
+00:57:24,281 --> 00:57:26,231 burada,
+kontrolle başlıyorum ve ben gidiyorum
+
+1180
+00:57:26,231 --> 00:57:30,581 yeşil
+bayrak tıklandığında bu şeyi tıklayıp
+sürükleyip bırakmak için.
+1181
+00:57:30,581 --> 00:57:33,808
+Sonra bir tane daha alacağım,
+örneğin Görünüş altında,
+1182
+00:57:33,808 --> 00:57:35,891 ve
+Görünüş altında devam edeceğim ve
+sadece şunu söyleyeceğim
+1183
+00:57:35,891 --> 00:57:40,601
+başlangıçta sadece Merhaba değil,
+aynı zamanda daha standart olan gibi bir şey
+1184
+00:57:40,601 --> 00:57:42,251
+Merhaba virgül dünyası.
+1185
+00:57:42,251 --> 00:57:44,951
+Şimdi tahmin edebilirsiniz ki bu
+programlama ortamında,
+1186
+
+Machine Translated by Google
+00:57:44,951 --> 00:57:48,311
+Şimdi buraya gidebilir ve yeşil
+bayrağa tıklayabilirim ve işte,
+1187
+00:57:48,311 --> 00:57:49,791
+Merhaba virgül dünyası.
+1188
+00:57:49,791 --> 00:57:51,706
+Yani bu benim ilk
+programım ve açıkçası çok
+1189
+00:57:51,706 --> 00:57:54,581 çok
+daha şifreli metinleri yazmaktan daha
+kullanıcı dostu
+1190
+00:57:54,581 --> 00:57:57,741 sizin
+de önümüzdeki hafta yazacağınızı
+ekranda gördü.
+1191
+00:57:57,741 --> 00:58:00,981
+Ancak şimdilik sadece bu fikirlere,
+bu durumda bir fonksiyona odaklanacağız.
+1192
+00:58:00,981 --> 00:58:02,591 Peki
+az önce ne oldu?
+1193
+00:58:02,591 --> 00:58:05,091
+Buradaki mor blok
+Söyle, fonksiyon bu,
+1194
+00:58:05,091 --> 00:58:09,791 ve
+beyaz ovalde bir tür girdi alıyor gibi
+görünüyor, özellikle Merhaba
+1195
+00:58:09,791 --> 00:58:10.696
+virgül dünyası.
+1196
+00:58:10.696 --> 00:58:12.821
+Bu aslında baktığımız
+paradigmaya uyuyor
+1197
+00:58:12,821 --> 00:58:15.146
+sadece giriş ve çıkışlardan önce.
+
+Machine Translated by Google
+1198
+
+00:58:15,146 --> 00:58:18,041
+İzin verirseniz, bu yapboz
+parçasının ne yaptığını düşünürseniz,
+1199
+00:58:18,041 --> 00:58:19,751 aslında
+bu modele uyuyor.
+1200
+00:58:19,751 --> 00:58:23,711 Bu
+durumda giriş beyaz beyaz Merhaba
+virgül dünyası olacaktır.
+1201
+00:58:23,711 --> 00:58:28,046
+Algoritma MIT tarafından Say adlı bir fonksiyon
+olarak uygulanacaktır.
+1202
+00:58:28,046 --> 00:58:30,671 ve
+bunun sonucu bir tür yan etki olacak,
+
+1203
+00:58:30,671 --> 00:58:33,971 kedi
+gibi ve konuşma balonu Merhaba
+dünya diyor.
+1204
+00:58:33,971 --> 00:58:36,461
+Yani zaten bu kadar basit
+sürükle ve bırak
+1205
+00:58:36,461 --> 00:58:40,041 tam
+olarak bu nispeten basit zihinsel
+modeli taklit eder.
+1206
+00:58:40,041 --> 00:58:41,451 O halde
+işleri biraz daha ileri götürelim.
+1207
+00:58:41,451 --> 00:58:44,623
+Şimdi devam edelim ve programı biraz
+daha etkileşimli hale getirelim.
+1208
+00:58:44,623 --> 00:58:47,081 şöyle
+bir şey söylüyor
+Merhaba David veya Merhaba Carter,
+1209
+00:58:47,081 --> 00:58:49,301
+
+Machine Translated by Google
+veya özellikle size Merhaba.
+1210
+00:58:49,301 --> 00:58:51,256 Ve
+bunun için Algılama altına
+gireceğim.
+1211
+00:58:51,256 --> 00:58:54,131
+Ve bu şeyleri ilk kez bulmak için biraz
+kurcalamanız gerekebilir.
+1212
+00:58:54,131 --> 00:58:57,173
+civarında, ama bunu birkaç kez yaptım,
+bu yüzden işlerin nerede olduğunu biliyorum
+1213
+00:58:57,173 --> 00:58:58,001 ve
+hangi renk.
+1214
+00:58:58,001 --> 00:58:59,561
+Burada bir fonksiyon var.
+1215
+00:58:59,561 --> 00:59:01,453
+Adın ne diye sor, ama bu
+beyaz,
+1216
+00:59:01,453 --> 00:59:03,161
+böylece soruyu herhangi bir şeyle
+değiştirebiliriz
+1217
+00:59:03,161 --> 00:59:07,631
+istiyoruz ve insanın cevabını yazmasını
+bekleyecek.
+1218
+00:59:07,631 --> 00:59:10.211
+Sor adlı bu işlev biraz farklı
+
+1219
+00:59:10,211 --> 00:59:14,021 Bir
+konuşma yazdırmanın bu yan etkisine
+sahip olan Say bloğundan
+1220
+00:59:14,021 --> 00:59:15,161
+ekrana kabarcık.
+1221
+
+Machine Translated by Google
+00:59:15,161 --> 00:59:19,781
+
+Sor işlevi, insandan yazmasını istedikten sonra
+daha da güçlüdür.
+1222
+00:59:19,781 --> 00:59:20.531 bir
+şey.
+1223
+00:59:20,531 --> 00:59:23,531
+Bu işlev size ne geri
+verecek
+1224
+00:59:23,531 --> 00:59:27,791 dönüş
+değeri denilen biçimde yazdılar.
+
+1225
+00:59:27,791 --> 00:59:30,641 nihai
+olarak depolanır ve varsayılan
+olarak bu şey Cevap olarak adlandırılır.
+
+1226
+00:59:30,641 --> 00:59:33,313
+Cevap denen bu küçük mavi
+oval yine
+1227
+00:59:33,313 --> 00:59:35,021
+matematikte bu değişkenlerden biri
+
+1228
+00:59:35,021 --> 00:59:38,529 sadece
+x veya y olarak adlandırılabilir ama
+programlamada ne yaptığını söylüyoruz.
+1229
+00:59:38.529 --> 00:59:40,071 Bu
+yüzden devam edeceğim ve bunu yapacağım.
+1230
+00:59:40,071 --> 00:59:41,904
+Devam edeyim ve bu
+bloğu sürükleyip bırakayım
+1231
+00:59:41,904 --> 00:59:44,331 ve bir
+şey söylemeden önce şu soruyu
+sormak istiyorum,
+1232
+00:59:44,331 --> 00:59:46,331 ama
+şunu fark edeceksiniz
+
+Machine Translated by Google
+Scratch akıllıdır ve
+1233
+00:59:46,331 --> 00:59:48,341
+araya bir şey eklemek istediğimi
+fark edeceğim
+1234
+00:59:48,341 --> 00:59:50,299 ve
+her şeyi yukarı ve aşağı hareket
+ettirecek.
+1235
+00:59:50,299 --> 00:59:53,231
+Bırakıp varsayılan soruyu
+soracağım, adınız ne?
+1236
+00:59:53,231 --> 00:59:56,471
+Ve şimdi devam edip merhaba
+demek istersem, David ya da Carter,
+1237
+00:59:56,471 --> 00:59:58,841 hadi
+merhaba virgül yapalım, çünkü
+açıkçası
+1238
+00:59:58,841 --> 01:00:01,521
+programı kimlerin kullanacağını ne
+zaman yazdığımı bilmiyorum.
+1239
+01:00:01,521 --> 01:00:07,841
+Şimdi burada başka bir bakış atmama izin
+ver, tekrar bir şey söyle ve şimdi
+1240
+01:00:07,841 --> 01:00:11,981
+Algılamaya geri dönmeme izin ver ve
+şimdi temsil edilen dönüş değerini al
+1241
+01:00:11,981 --> 01:00:15,311 bu
+diğer yapboz parçasıyla ve buraya
+sürükleyip bırakmama izin verin.
+1242
+01:00:15,311 --> 01:00:18,161 Aynı
+boyutta olmasa da aynı şekle sahip
+olduğuna dikkat edin.
+1243
+01:00:18,161 --> 01:00:20.351 İşler
+gerektiği gibi büyüyecek veya küçülecek.
+
+Machine Translated by Google
+1244
+01:00:20,351 --> 01:00:22,421
+Pekala, şimdi uzaklaştıralım.
+1245
+01:00:22,421 --> 01:00:25,331
+Gidip eski versiyonu bırakayım çünkü
+merhaba demek istemiyorum,
+1246
+01:00:25,331 --> 01:00:25,991
+artık dünya.
+1247
+01:00:25,991 --> 01:00:28,451
+Yeşil bayrağa vurmama izin verin
+ve benim adım ne?
+1248
+01:00:28,451 --> 01:00:29,351
+Pekala David.
+1249
+01:00:29,351 --> 01:00:31,103
+Girin.
+1250
+01:00:31,103 --> 01:00:32,039 Ha.
+
+1251
+01:00:32,039 --> 01:00:34,581
+Pekala, belki de yeterince dikkat
+etmedim.
+1252
+01:00:34,581 --> 01:00:35,841
+Tekrar deneyeyim.
+1253
+01:00:35,841 --> 01:00:39,061
+Yeşil bayrak, DAVID, Girin.
+1254
+01:00:39,061 --> 01:00:41,981 Bu
+bir hata gibi görünüyor.
+1255
+01:00:41,981 --> 01:00:46,001
+Sizce hata veya hata nedir?
+
+1256
+01:00:46,001 --> 01:00:46,851
+
+Machine Translated by Google
+Evet?
+
+1257
+01:00:46,851 --> 01:00:50,071
+İZLEYİCİ: Bunları bir şekilde aynı metin kutusuna
+eklemeniz mi gerekiyor?
+1258
+01:00:50,071 --> 01:00:53,461
+DAVID MALAN: Evet, onları aynı metin
+kutusunda birleştirmek istiyoruz.
+1259
+01:00:53,461 --> 01:00:56,641
+Teknik olarak bir hata çünkü bu biraz
+aptalca görünüyor.
+1260
+01:00:56,641 --> 01:00:59,611
+Adımı sorduktan sonra David diyor.
+
+1261
+01:00:59,611 --> 01:01:02,671
+Belki Merhaba,
+sonra David demesini isterim.
+1262
+01:01:02,671 --> 01:01:05,161 ama
+sadece Merhaba'yı geçiyor ve
+David'i yazdırıyor.
+1263
+01:01:05,161 --> 01:01:07,481 Ama
+bunun neden olduğuna bir
+bakalım.
+1264
+01:01:07,481 --> 01:01:10.891
+Çözüm için haklısınız ama asıl temel
+sorun nedir?
+1265
+01:01:10.891 --> 01:01:11.928
+Arkada.
+1266
+01:01:11,928 --> 01:01:15,407
+İZLEYİCİ: Merhaba diyor ama son
+adıma geliyor
+1267
+01:01:15,407 --> 01:01:16,626 o
+kadar hızlı ki göremezsiniz.
+
+Machine Translated by Google
+1268
+
+01:01:16,626 --> 01:01:17,501 DAVID
+MALAN: Mükemmel.
+1269
+01:01:17,501 --> 01:01:20,141 Demek
+istediğim, bu günlerde bilgisayarlar
+gerçekten çok hızlı.
+1270
+01:01:20,141 --> 01:01:23,051
+Merhaba diyor, hepimiz bu
+odada çok yavaşız
+1271
+01:01:23,051 --> 01:01:27,441
+görmek için bile çünkü o zaman ekranda
+David'i de çok hızlı söylüyor.
+1272
+01:01:27,441 --> 01:01:30,143
+Yani burada birkaç çözüm var ve
+sizinki yerinde,
+1273
+01:01:30,143 --> 01:01:32,351 ancak
+biraz kurcalamak için ilk örneği
+göreceksiniz
+1274
+01:01:32,351 --> 01:01:35,831
+Scratch, C veya Python veya herhangi bir şey
+olsun, programlamanın kaç yolu
+1275
+01:01:35,831 --> 01:01:38,141 yoksa
+başka sorunlar çözülecek mi?
+
+1276
+01:01:38,141 --> 01:01:40,121
+Bu haftalar boyunca size
+öğreteceğiz,
+1277
+01:01:40,121 --> 01:01:43,361 bazen
+bazı yollar diğerlerinden daha iyidir,
+
+1278
+01:01:43,361 --> 01:01:46,511 ancak
+nadiren mutlaka en iyi yol vardır,
+
+1279
+
+Machine Translated by Google
+01:01:46,511 --> 01:01:48,428
+çünkü yine makul insanlar aynı
+fikirde olmayacak.
+1280
+01:01:48,428 --> 01:01:50,636
+Ve önümüzdeki haftalarda
+size öğretmeye çalışacağımız şey
+1281
+01:01:50,636 --> 01:01:52.811 bu
+nüanslar üzerinden nasıl
+düşünüleceğidir.
+1282
+01:01:52.811 --> 01:01:54,958
+Ve ilk bakışta belli
+olmayacak,
+1283
+01:01:54,958 --> 01:01:57,041 ancak
+ne kadar çok program yazarsanız o
+kadar çok geri bildirim alırsınız
+
+1284
+01:01:57,041 --> 01:01:59,651 ne
+kadar çok hata eklerseniz,
+
+1285
+01:01:59,651 --> 01:02:03,561 Tam
+olarak bu tür bir problem çözme ile
+temelinizi o kadar çok alacaksınız.
+1286
+01:02:03,561 --> 01:02:05,831
+Bunu birkaç şekilde deneyeyim.
+1287
+01:02:05,831 --> 01:02:08,321
+Buraya kadar sorun için bir çözüm
+olabilir.
+1288
+01:02:08,321 --> 01:02:12,986
+MIT, özellikle ilk kez programcı olanlar
+için bu tür bir sorunu bekliyordu.
+1289
+01:02:12,986 --> 01:02:14,861 ve
+şunu yazan bir yapboz parçası
+kullanabilirim
+1290
+01:02:14.861 --> 01:02:17.471
+
+Machine Translated by Google
+iki saniye veya bir saniye
+boyunca şunları söyleyin
+1291
+01:02:17,471 --> 01:02:20,081 ya da
+her neyse, sonra aynısını bir sonraki
+kelimeyle yapın
+1292
+01:02:20,081 --> 01:02:22,811 ve biraz
+duraklama olabilir,
+
+1293
+01:02:22,811 --> 01:02:27,311
+Merhaba, bir saniye, iki saniye, David, bir saniye,
+iki saniye, ama en azından
+1294
+01:02:27,311 --> 01:02:29,461 gramer
+açısından biraz daha doğru görünürdü.
+
+1295
+01:02:29,461 --> 01:02:31,961 Ama
+önerdiğiniz gibi bunu biraz daha zarif
+bir şekilde yapabilirim.
+1296
+01:02:31,961 --> 01:02:34,086
+Devam edeyim ve bu bloklardan
+birini atayım,
+1297
+01:02:34,086 --> 01:02:36,881 ve
+sürükleyip bırakabilirsiniz ve bu
+kendini silecektir.
+1298
+01:02:36,881 --> 01:02:42,911
+Operators'a inmeme izin verin çünkü buradaki
+Join bloğu doğru şekil.
+1299
+01:02:42,911 --> 01:02:46,421 Neyin
+nereye gittiğinden emin olmasanız bile,
+önce şekillere odaklanın.
+1300
+01:02:46,421 --> 01:02:48,671 Bunu
+buraya sürüklememe izin verin.
+1301
+01:02:48,671 --> 01:02:50,001 Bunu
+doldurmak için büyüdü.
+
+Machine Translated by Google
+1302
+01:02:50,001 --> 01:02:52,871 Dur
+da virgülle boşluk bırakayım.
+
+1303
+01:02:52,871 --> 01:02:55,031
+Şimdi varsayılan olarak
+Merhaba, muz, diyebilir.
+1304
+01:02:55,031 --> 01:03:00,401
+ama geri döneyim
+Algılama, Sürükle cevap,
+1305
+01:03:00,401 --> 01:03:02,201 ve
+bu oraya sürükleyip bırakacak.
+1306
+01:03:02,201 --> 01:03:06,861
+Şimdi bir bloğu diğerinin üzerine
+yığdığımıza veya yerleştirdiğimize dikkat edin.
+
+1307
+01:03:06,861 --> 01:03:10.721
+böylece birinin çıktısı diğerinin girdisi
+olur, ama burada sorun değil.
+1308
+01:03:10.721 --> 01:03:14.724
+Devam edip uzaklaştırmama izin
+verin, Durdur'a ve Oynat'a basın.
+
+1309
+01:03:14.724 --> 01:03:15,891
+Pekala, adın ne?
+1310
+01:03:15,891 --> 01:03:18,251
+DAVID, Enter ve işte.
+1311
+01:03:18,251 --> 01:03:21,471
+Şimdi muhtemelen ilk başta
+amaçladığımız gibi.
+1312
+01:03:21,471 --> 01:03:22,059
+[ALKIŞ]
+1313
+01:03:22,059 --> 01:03:23,101
+(GÜLLER) Oh, teşekkürler.
+
+Machine Translated by Google
+1314
+01:03:28,101 --> 01:03:28,761
+Teşekkürler.
+1315
+01:03:28,761 --> 01:03:30,511 Bu
+sefer eksi 2 yok.
+1316
+01:03:30,511 --> 01:03:35,428
+Öyleyse, bu ek örnekle bile,
+
+1317
+01:03:35,428 --> 01:03:38,511 hala
+aynı zihinsel modele uyuyor ama biraz
+daha ilginç bir şekilde.
+1318
+01:03:38,511 --> 01:03:41,661 İşte
+o yeni fonksiyon Bir şey sor ve
+bekle.
+1319
+01:03:41,661 --> 01:03:45,171
+Ve bu durumda da bir girdi
+olduğuna dikkat edin, aksi halde bilinen
+1320
+01:03:45,171 --> 01:03:48,321
+bundan böyle bir argüman veya
+parametre olarak, programlama
+1321
+01:03:48,321 --> 01:03:51,381 bir
+işlev bağlamında yalnızca bir girdi
+için konuşur.
+1322
+01:03:51,381 --> 01:03:54,531
+Bu şeyi burada temsil etmek için
+çizimimizi önceki gibi kullanırsak,
+1323
+01:03:54,531 --> 01:03:58,761
+Şimdi girdinin alıntı olacağını göreceğiz
+unquote "Adın ne?"
+1324
+01:03:58,761 --> 01:04:02,781
+Algoritma, bu yeni yapboz parçası aracılığıyla
+uygulanacak,
+1325
+
+Machine Translated by Google
+01:04:02,781 --> 01:04:06,081 Ask
+adlı fonksiyon ve bu sefer o şeyin
+çıktısı
+1326
+01:04:06,081 --> 01:04:08,811
+henüz bir şey söyleyen kedi
+olmayacak,
+1327
+01:04:08,811 --> 01:04:12,421 ama
+asıl cevap bu olacak.
+
+1328
+01:04:12,421 --> 01:04:15,831
+Böylece konuşma balonunun ortaya
+çıkan görsel yan etkisi yerine,
+1329
+01:04:15,831 --> 01:04:18,321
+şimdi henüz görünür bir şey olmuyor.
+1330
+01:04:18,321 --> 01:04:22,371
+Bu işlev sayesinde beni bir nevi kağıt
+parçası gibi geri veriyor
+1331
+01:04:22,371 --> 01:04:28,401
+DAVID'i bir veya daha fazlasını yeniden
+kullanabilmem için üzerine yazdıklarım ile birlikte
+1332
+01:04:28,401 --> 01:04:30,651 kez
+benim yaptığım gibi.
+1333
+01:04:30,651 --> 01:04:32,751
+Şimdi bu değerle ne yaptım?
+1334
+01:04:32,751 --> 01:04:37,521
+Bunu sonraki işlevle
+birlikte düşünün
+1335
+01:04:37,521 --> 01:04:40,981 Bu
+Say bloğunu da bir birleştirme ile
+birleştirdik.
+1336
+01:04:40,981 --> 01:04:44,481
+Yani Cevap adında bir
+değişkenimiz var, ona katılıyoruz
+
+Machine Translated by Google
+1337
+01:04:44,481 --> 01:04:46,903 ilk
+argümanla Merhaba.
+1338
+01:04:46,903 --> 01:04:48,861
+Yani şimdiden Join gibi bazı
+işlevlerin olduğunu görüyoruz.
+
+1339
+01:04:48,861 --> 01:04:52,701
+bir değil iki argüman veya girdi alabilir
+ve sorun değil.
+1340
+01:04:52,701 --> 01:04:57,591
+Join'in çıktısı muhtemelen Hello, David
+veya Hello, Carter olacaktır.
+1341
+01:04:57,591 --> 01:04:59,871 ya
+da insan ne yazıyorsa onu.
+1342
+01:04:59,871 --> 01:05:04,281
+Bu çıktı bildirimi, esasen başka
+bir işlevin girdisi haline geliyor,
+1343
+01:05:04,281 --> 01:05:06,651
+Söyle, çünkü biz bir tür
+yığılmış şeyler var
+1344
+01:05:06,651 --> 01:05:08,551
+veya bunları birbirinin üzerine yerleştirdi.
+1345
+01:05:08,551 --> 01:05:12,981
+Ama metodik olarak, gerçekten
+aynı fikir.
+1346
+01:05:12,981 --> 01:05:17.601
+Girdi şimdi iki şeydir,
+
+Merhaba virgül ve dönüş değeri
+
+1347
+01:05:17,601 --> 01:05:20,001
+önceki Sor işlevinden.
+1348
+01:05:20,001 --> 01:05:23,931
+Şimdi işlev Join olacak,
+
+Machine Translated by Google
+çıktı Merhaba David olacak.
+1349
+01:05:23,931 --> 01:05:25,761
+Ama bu Merhaba,
+David çıktısı şimdi gidiyor
+1350
+01:05:25,761 --> 01:05:30,201
+başka bir işlevin, yani Say adlı ilk bloğun
+girdisi olmak için,
+1351
+01:05:30,201 --> 01:05:34,311 ve
+bu da çıktının yan etkisine sahip olacak
+Merhaba David
+1352
+01:05:34,311 --> 01:05:35,371
+ekranda.
+1353
+01:05:35,371 --> 01:05:39,111
+Yani yine sizinki kadar bizimki
+kadar karmaşık, diğer programlar kadar
+1354
+01:05:39,111 --> 01:05:41.931
+alacaklar, bu çok basit zihinsel
+modele gerçekten uyuyorlar
+1355
+01:05:41,931 --> 01:05:45,441
+girdiler ve çıktılar ve sadece kelimeleri
+tanımayı öğrenmelisin
+1356
+01:05:45,441 --> 01:05:49,731 ve
+nihayetinde ne tür yapboz parçaları
+veya konseptler uygulanacağını bilmek.
+1357
+01:05:49,731 --> 01:05:52,351
+Ama nihayetinde bu şeyleri
+gerçekten biraz renklendirebilirsiniz.
+1358
+01:05:52,351 --> 01:05:54,021
+Programıma geri
+dönmeme izin verin, bu sadece
+1359
+01:05:54,021 --> 01:05:55,611 şu
+anda konuşma balonu kullanılıyor.
+
+Machine Translated by Google
+1360
+
+01:05:55,611 --> 01:05:58,791
+Scratch'in içinde de oldukça hoş
+etkileşimli özellikler var.
+1361
+01:05:58,791 --> 01:06:01,671 Sol alt
+köşedeki Uzantılar butonuna
+tıklıyorum.
+1362
+01:06:01,671 --> 01:06:05,948 Ve
+devam edip Metin Okuma uzantısını
+seçmeme izin verin.
+1363
+01:06:05,948 --> 01:06:08,781
+Bu bir Bulut hizmeti kullanıyor, yani
+internet bağlantınız varsa
+1364
+01:06:08,781 --> 01:06:11,841
+Bulut veya üçüncü taraf hizmeti,
+1365
+01:06:11,841 --> 01:06:15,111 ve bu
+bana birkaç yeni yeşil yapboz parçası
+verecek, yani
+1366
+01:06:15,111 --> 01:06:17,871
+konuşmacılarımdan bir şeyler
+konuşma yeteneği
+1367
+01:06:17,871 --> 01:06:19,791 Sadece
+metin olarak söylemek yerine.
+1368
+01:06:19,791 --> 01:06:21,274 Öyleyse
+devam edeyim ve bunu sürükleyeyim.
+1369
+01:06:21,274 --> 01:06:24,441
+Şimdi dikkat edin, eğer sadece bir tür oyun
+oynuyorsam onları kilitlemek zorunda değilim.
+1370
+01:06:24,441 --> 01:06:25,671 ve bazı
+şeyleri hareket ettirmek istiyorum.
+1371
+01:06:25,671 --> 01:06:27,981
+Bunu sadece şu şekilde kullanmak istiyorum
+
+Machine Translated by Google
+geçici bir tuval gibi.
+1372
+01:06:27,981 --> 01:06:30,841
+Devam edip Join'i
+buradan çalayım,
+1373
+01:06:30,841 --> 01:06:34,281
+oraya koy, sadece hareket
+ettirerek Say bloğunu atmama izin ver
+1374
+01:06:34,281 --> 01:06:37,341
+kaldı ve bıraktım, şimdi buna
+katılmama izin verin
+1375
+01:06:37,341 --> 01:06:41,281 bu
+yüzden programımı biraz daha ilginç
+olacak şekilde değiştirdim.
+1376
+01:06:41,281 --> 01:06:43,041
+Şimdi eski sürümü durdurmama izin verin.
+1377
+01:06:43,041 --> 01:06:44,631
+Yenisine başlayayım.
+1378
+01:06:44,631 --> 01:06:45,411
+Adın ne?
+1379
+01:06:45,411 --> 01:06:46,311
+David yazın.
+1380
+01:06:46,311 --> 01:06:47,421
+
+Ve işte:
+
+1381
+01:06:47,421 --> 01:06:48,396
+PROGRAM: Merhaba muz.
+1382
+01:06:51,066 --> 01:06:52,941
+DAVID MALAN: (GÜLER)
+Tamam, gerçekten eksi 2.
+
+1383
+01:06:52,941 --> 01:06:59,961
+Pekala, yanlışlıkla oraya attığım
+şeyi kasten
+
+Machine Translated by Google
+1384
+01:06:59,961 --> 01:07:02,871
+öğretim amaçlı, asıl cevap buydu
+
+1385
+01:07:02,871 --> 01:07:05,361 ask
+bloğundan geri geldi.
+1386
+01:07:05,361 --> 01:07:06,321 Bu
+utanç verici.
+1387
+01:07:06,321 --> 01:07:10.293
+Şimdi bunu tekrar oynarsam
+yeşil simgeye tıklayalım.
+1388
+01:07:10.293 --> 01:07:11,001
+Adın ne?
+1389
+01:07:11,001 --> 01:07:11.541
+David.
+1390
+01:07:11.541 --> 01:07:13,011
+Ve şimdi:
+
+1391
+01:07:13,011 --> 01:07:14,099
+PROGRAM: Merhaba David.
+1392
+01:07:14,099 --> 01:07:15,141
+DAVID MALAN: İşte başlıyoruz.
+1393
+01:07:15,141 --> 01:07:16,521
+Merhaba David.
+1394
+01:07:16,521 --> 01:07:18,116
+Pekala, teşekkürler.
+1395
+01:07:18,116 --> 01:07:22,971
+[ALKIŞ]
+1396
+01:07:22,971 --> 01:07:27,181
+Tamam, o zaman bu fonksiyonlara
+sahibiz, ama daha ne yapabiliriz?
+
+Machine Translated by Google
+1397
+01:07:27,181 --> 01:07:30,141
+Peki ya şu koşullu ifadeler, döngüler
+ve diğer yapılar?
+1398
+01:07:30,141 --> 01:07:32,511
+Bu programları nasıl hayata
+geçirebiliriz?
+1399
+01:07:32,511 --> 01:07:34,651 bir
+düğmeye tıklayın ve işte, bir
+şeyler mi oluyor?
+1400
+01:07:34,651 --> 01:07:36,951
+Devam edelim ve bunu şimdi
+daha da etkileşimli hale getirelim.
+1401
+01:07:36,951 --> 01:07:39,201
+Devam edeyim ve bu
+parçaların çoğunu atayım
+1402
+01:07:39,201 --> 01:07:42,171 ve
+Sound'un altında biraz daha ses
+ile işleri renklendirmeme izin verin.
+1403
+01:07:42,171 --> 01:07:44,871
+Bitene kadar Play Sound Meow'a
+gideceğim.
+1404
+01:07:44,871 --> 01:07:46,281 İşte
+başlıyoruz, yeşil bayrak.
+1405
+01:07:46,281 --> 01:07:47,951
+[MİYAV]
+1406
+01:07:47,951 --> 01:07:51,221
+Tamam, biraz gürültülü ama
+dediğini aynen yaptı.
+1407
+01:07:51,221 --> 01:07:52,595
+Tekrar dinleyelim.
+1408
+01:07:52,595 --> 01:07:53,991
+
+Machine Translated by Google
+[daha sessiz miyav]
+1409
+01:07:53,991 --> 01:07:54,491
+Tamam.
+1410
+01:07:54,491 --> 01:07:56,191
+Sonunda bir tür ezici program
+
+1411
+01:07:56,191 --> 01:07:59,251 çünkü
+kedinin kendi kendine miyavlayacağını
+düşünmek istersiniz, ama.
+1412
+01:07:59,251 --> 01:07:59,641
+[MİYAV]
+1413
+01:07:59,641 --> 01:08:01,058
+Düğmeye basmaya devam etmem gerekiyor.
+
+1414
+01:08:01,058 --> 01:08:04,086 Bu
+bir şeyleri tekrar tekrar yapmak için bir
+fırsat gibi görünüyor.
+1415
+01:08:04,086 --> 01:08:06,211
+Pekala, eğer miyavlamak
+istersem, miyav, miyav,
+1416
+01:08:06,211 --> 01:08:09,871
+bunlardan birkaçını almama izin verin,
+hatta sağ tıklayabilir veya Kontrol tıklayabilirsiniz
+1417
+01:08:09,871 --> 01:08:12,061 ve
+buradaki kodda bile Kopyala
+Yapıştır yapabilirsiniz.
+1418
+01:08:12,061 --> 01:08:13,706 Şimdi
+bunu çalayım.
+1419
+01:08:13,706 --> 01:08:15,931
+[ÜÇ MEOWS]
+1420
+01:08:15,931 --> 01:08:17,928
+Pekala, şimdi beğen
+
+Machine Translated by Google
+bu gerçekten duygusal değil
+
+1421
+01:08:17,928 --> 01:08:19,261
+mutluluk aynı şekilde.
+1422
+01:08:19,261 --> 01:08:20.521 Aç
+veya üzgün olabilir.
+1423
+01:08:20.521 --> 01:08:22,121
+Öyleyse yavaşlayalım.
+1424
+01:08:22,121 --> 01:08:25,181
+Kontrole gideyim, arada bir
+saniye bekle,
+1425
+01:08:25,181 --> 01:08:28,561 biraz
+daha az endişe verici olabilir.
+1426
+01:08:28,561 --> 01:08:29,581 İşte
+başlıyoruz, Oynat.
+1427
+01:08:29,581 --> 01:08:34,151
+[ÜÇ YAVAŞ MEOWS]
+1428
+01:08:34,151 --> 01:08:39,011
+Tamam, amacım kediyi üç kez
+miyavlatmaksa,
+1429
+01:08:39,011 --> 01:08:42,701 Bu kodun
+veya algoritmanın doğru olduğunu
+söylemeye cüret ediyorum.
+
+1430
+01:08:42,701 --> 01:08:45,641 Ama
+şimdi tasarımını eleştirelim.
+1431
+01:08:45,641 --> 01:08:47,381 Bu iyi
+tasarlanmış mı?
+1432
+01:08:47,381 --> 01:08:50,481
+Değilse neden olmasın?
+1433
+01:08:50,481 --> 01:08:51,871
+
+Machine Translated by Google
+Buradaki düşünceleriniz neler?
+1434
+01:08:51,871 --> 01:08:54,201 Evet?
+
+1435
+01:08:54,201 --> 01:08:59,753
+İZLEYİCİ: Daha fazlasını yapmak için sonsuza
+kadar veya tekrar kullanabilirsiniz-1436
+01:08:59,753 --> 01:09:01,211 DAVID
+MALAN: Evet, evet, anlaştık.
+1437
+01:09:01,211 --> 01:09:04,001 Sonsuza
+kadar kullanabilir veya tekrarlayabilirim
+ama biraz daha zorlamama izin verin.
+
+1438
+01:09:04,001 --> 01:09:04,691 Ama
+neden?
+1439
+01:09:04,691 --> 01:09:08,771 Bu
+işler gibi, ödevleri biraz bitirdim, nesi kötü?
+
+1440
+01:09:08,771 --> 01:09:10.581
+İZLEYİCİ: Çok fazla tekrar var.
+1441
+01:09:10.581 --> 01:09:12.831 DAVID
+MALAN: Evet, çok fazla tekrar var,
+değil mi?
+1442
+01:09:12,831 --> 01:09:15,291
+Kedinin çıkardığı sesi
+değiştirmek isteseydim
+1443
+01:09:15,291 --> 01:09:18,741 farklı
+bir miyav çeşidine veya onun yerine
+köpek gibi havlamasını sağlayın,
+1444
+01:09:18,741 --> 01:09:21,051
+Görünüşe göre buradaki açılır
+menüden değiştirebilirim,
+1445
+01:09:21,051 --> 01:09:24,051
+
+Machine Translated by Google
+ama sonra onu burada değiştirmek zorunda
+kalırdım ve sonra burada değiştirmek zorunda kalırdım,
+
+1446
+01:09:24,051 --> 01:09:26,811 ve
+Tanrım, eğer bu daha uzun olsaydı, bu
+çok çabuk sıkıcı olur
+1447
+01:09:26,811 --> 01:09:28,731 ve
+muhtemelen olasılığı artırıyorsunuz
+
+1448
+01:09:28,731 --> 01:09:29,781
+batıracaksın ve gideceksin
+
+1449
+01:09:29,781 --> 01:09:32,772 açılır
+menülerden birini veya aptalca bir
+şeyi kaçırmak ve bir hata tanıtmak.
+1450
+01:09:32,772 --> 01:09:35,480
+Veya beklediğiniz saniye sayısını
+değiştirmek isterseniz,
+1451
+01:09:35,480 --> 01:09:37,851 İki,
+belki daha fazla yerde değiştirmeniz
+gerekiyor.
+1452
+01:09:37,851 --> 01:09:40,281
+Yine, sadece kendin
+için risk yaratıyorsun
+1453
+01:09:40,281 --> 01:09:41,851 ve
+programdaki olası hatalar.
+1454
+01:09:41,851 --> 01:09:45,741
+Kendimi tekrar etmemek için tekrar veya
+sonsuza kadar fikrini seviyorum.
+1455
+01:09:45,741 --> 01:09:48,501
+Ve gerçekten de,
+mümkün olmakla kastettiğim şey,
+1456
+01:09:48,501 --> 01:09:51,351 daha
+önce kopyala yapıştır, olmuyor
+
+Machine Translated by Google
+demek ki bu iyi bir şey.
+1457
+01:09:51,351 --> 01:09:53,121
+Ve kodda, genel olarak
+konuşursak,
+1458
+01:09:53,121 --> 01:09:56,541 gelecek
+hafta yapboz parçalarını veya metinleri
+kopyalayıp yapıştırmaya başlayın,
+
+1459
+01:09:56,541 --> 01:09:59,610
+Muhtemelen pek iyi bir şey
+yapmıyorsunuz.
+1460
+01:09:59,610 --> 01:10:03,381
+Öyleyse devam edeyim ve çoğaltmadan
+kurtulmak için bunların çoğunu atayım,
+1461
+01:10:03,381 --> 01:10:06,381
+önemsediğim bloklardan sadece
+ikisini tutuyorum.
+1462
+01:10:06,381 --> 01:10:10,581
+Şimdilik Tekrarlama bloğunu almama izin verin,
+bunu Tekrarlamanın içine taşımama izin verin
+1463
+01:10:10,581 --> 01:10:13,641 blok,
+ona uyacak şekilde büyüyecek, tüm
+bunları yeniden bağlamama izin verin
+
+1464
+01:10:13,641 --> 01:10:17,150 ve
+10'u sadece 3 olarak değiştirin ve
+şimdi Oynat.
+1465
+01:10:17,150 --> 01:10:22,301
+[ÜÇ YAVAŞ MEOWS]
+1466
+01:10:22,301 --> 01:10:23,360 Yani,
+daha iyi.
+1467
+01:10:23,360 --> 01:10:24,321 Aynı
+şey.
+1468
+
+Machine Translated by Google
+01:10:24,321 --> 01:10:26,238
+
+Hala doğru, ama şimdi
+sahneyi kurdum
+1469
+01:10:26,238 --> 01:10:29,741
+örneğin bir şeyi değiştirerek kedinin
+dört kez miyavlamasına izin vermek,
+1470
+01:10:29,741 --> 01:10:33,131 Bir
+şeyi değiştirerek 40 kez veya Forever
+bloğunu kullanabilir
+1471
+01:10:33,131 --> 01:10:35,860 ve
+sadece uzaklaşın ve bunun yerine
+sonsuza kadar miyavlayacak.
+1472
+01:10:35,860 --> 01:10:37,931
+Hedefiniz buysa, bu daha iyi olur.
+
+1473
+01:10:37,931 --> 01:10:40,270 Daha
+iyi bir tasarım ama yine de doğru.
+1474
+01:10:40,270 --> 01:10:41,020 Ama
+biliyor musun?
+1475
+01:10:41,020 --> 01:10:42,971
+Şimdi tasarlanmış
+bir programım olduğuna göre
+1476
+01:10:42,971 --> 01:10:46,331 kedi
+miyavlaması olsun, vay be neden?
+1477
+01:10:46,331 --> 01:10:49.060
+Yani, MIT icat etti
+Tırma, kedi gibi tırmalama,
+1478
+01:10:49.060 --> 01:10:51,071 Neden
+Miyav adında bir yapboz parçası
+yok?
+1479
+01:10:51,071 --> 01:10:52,781 Bu
+kaçırılmış bir fırsat gibi geliyor.
+
+Machine Translated by Google
+1480
+01:10:52,781 --> 01:10:55,451
+Adil olmak gerekirse, bize
+tüm yapı taşlarını verdiler.
+1481
+01:10:55,451 --> 01:10:58,732
+bu fikri uygulayabileceğimiz, ancak
+bir programlama ilkesi
+1482
+01:10:58,732 --> 01:11:00,940 ve
+gerçekten bilgisayar bilimi, sahip
+olduğumuz şeyden yararlanmaktır.
+
+1483
+01:11:00,940 --> 01:11:03,190
+şimdi Soyutlama çağırmaya başlayacak.
+1484
+01:11:03,190 --> 01:11:07,181
+Burada adım adım talimatlarımız
+var, Tekrar Et, Oynat,
+1485
+01:11:07,181 --> 01:11:09,701
+ve bu fikri topluca uygulayan
+Wait
+1486
+01:11:09,701 --> 01:11:11,471
+biz insanlar buna miyavlama diyoruz.
+1487
+01:11:11,471 --> 01:11:14,531
+Bu birkaç bulmacayı soyutlamak
+güzel olmaz mıydı?
+1488
+01:11:14,531 --> 01:11:18,401
+tam anlamıyla ne yaptığını
+söyleyen tek bir parçaya, miyav?
+1489
+01:11:18,401 --> 01:11:20,981 İşte
+burada kendi bloklarımızı yapabiliriz.
+
+1490
+01:11:20.981 --> 01:11:25,031
+Buraya pembe blok kategorisi
+altında Scratch'e geçeyim
+1491
+01:11:25,031 --> 01:11:28,633
+
+Machine Translated by Google
+
+burada ve Blok Yap'a tıklamama izin verin.
+
+1492
+01:11:28,633 --> 01:11:30,341
+Burada biraz farklı bir
+arayüz görüyorum
+1493
+01:11:30,341 --> 01:11:33,191 bunun
+için bir ad seçebilirim
+ve ben buna Miyav diyeceğim.
+1494
+01:11:33,191 --> 01:11:33,941 Basit
+tutacağım.
+1495
+01:11:33,941 --> 01:11:34,441 İşte
+bu kadar.
+1496
+01:11:34,441 --> 01:11:35,981 Henüz
+miyavlamak için giriş yok.
+1497
+01:11:35,981 --> 01:11:37,881
+Tamam'ı tıklayacağım.
+1498
+01:11:37,881 --> 01:11:40,901 Şimdi
+burayı biraz temizleyeceğim.
+
+1499
+01:11:40,901 --> 01:11:44,721 Play
+Sound ve Wait'i buraya sürükleyip
+bırakayım.
+1500
+01:11:44,721 --> 01:11:45,731 Ve ne
+var biliyor musunuz?
+1501
+01:11:45,731 --> 01:11:48,551
+Ben sadece bu yolu buraya
+sürükleyeceğim, çok aşağı
+1502
+01:11:48,551 --> 01:11:50,891
+burada çünkü artık Miyav
+uygulamasını bitirdim,
+1503
+01:11:50,891 --> 01:11:53,751
+kelimenin tam anlamıyla soyutlayacağım
+
+Machine Translated by Google
+uzakta, bir nevi gözden uzak,
+1504
+01:11:53,751 --> 01:11:58,001
+aklımı kaçırdı, çünkü şimdi sol üstte
+yeni bir pembe yapboz olduğuna dikkat edin
+1505
+01:11:58,001 --> 01:11:59,411 adlı
+parça Miyav.
+1506
+01:11:59,411 --> 01:12:04,241 Bu
+noktada, Meow'un nasıl uygulandığının
+gerçekten önemli olmadığını savunuyorum.
+1507
+01:12:04,241 --> 01:12:07,721
+Açıkçası Sor or Say'ın MIT tarafından
+nasıl uygulandığını bilmiyorum.
+1508
+01:12:07,721 --> 01:12:09,911 O
+şeyleri bizim için soyutladılar.
+
+1509
+01:12:09,911 --> 01:12:12,821
+Şimdi elimde ne olduğunu söyleyen
+yepyeni bir yapboz parçası var.
+1510
+01:12:12,821 --> 01:12:17,141 Ve
+bu şimdi hala doğru, ancak
+tartışmasız daha iyi bir tasarım.
+1511
+01:12:17,141 --> 01:12:17,741
+Neden?
+1512
+01:12:17,741 --> 01:12:20,141
+Çünkü benim için, sizin
+için daha okunaklı,
+1513
+01:12:20,141 --> 01:12:22,391
+kodunuza baktığınızda daha fazla
+bakım yapılabilir
+1514
+01:12:22,391 --> 01:12:24,941
+bundan sonra her yıl ilk kez çünkü
+sonunda
+
+Machine Translated by Google
+1515
+
+01:12:24,941 --> 01:12:26,649
+yazdığınız ilk programa geri dönün.
+
+1516
+01:12:26,649 --> 01:12:28,241 Ne
+yaptığını söyler.
+1517
+01:12:28,241 --> 01:12:31,931 İşlevin
+kendisinde olup biteni ileten bir anlam
+bilgisi vardır.
+1518
+01:12:31,931 --> 01:12:34,661
+Meow'un nasıl uygulandığını
+gerçekten önemsiyorsanız,
+1519
+01:12:34,661 --> 01:12:37,631 aşağı
+kaydırabilir ve temel bilgilerle
+uğraşmaya başlayabilirsiniz.
+1520
+01:12:37,631 --> 01:12:42,401
+uygulama ayrıntıları, ancak bunun dışında
+artık ilgilenmenize gerek yok.
+1521
+01:12:42,401 --> 01:12:45,911
+Şimdi daha da fazla bir fırsat
+varmış gibi hissediyorum
+1522
+01:12:45,911 --> 01:12:50,411
+soyutlama ve bu işlevselliğin bazılarını
+dışlamak için burada.
+1523
+01:12:50,411 --> 01:12:53,861
+Bu Tekrar bloğuna sahip
+olmam biraz topal
+1524
+01:12:53,861 --> 01:12:57,211 Miyav
+işlevini çağırmama izin veriyor, tabiri
+caizse Miyav işlevini kullanmama izin veriyor
+1525
+01:12:57,211 --> 01:12:58,271 üç kez.
+
+1526
+01:12:58,271 --> 01:13:01,181
+
+Machine Translated by Google
+
+Onlara sadece Miyav işlevi diyebilsem
+
+güzel olmaz mıydı?
+1527
+01:13:01,181 --> 01:13:05,561 aka
+Miyav işlevini kullanın ve bulmacayı söyleyen
+girdiye iletin
+1528
+01:13:05,561 --> 01:13:07,811 parça
+kaç kez miyavlamasını istiyorum?
+1529
+01:13:07,811 --> 01:13:10.671 Pekala,
+devam edip uzaklaştırıp aşağı
+kaydırmama izin verin.
+1530
+01:13:10.671 --> 01:13:14.261
+Buradaki pembe parçaya sağ tıklamama veya
+Kontrol etmeme izin verin ve Düzenle'yi seçin,
+1531
+01:13:14,261 --> 01:13:17,651 yoksa
+sıfırdan başlayabilirdim, hiçbir kelime
+oyunu amaçlamadım, yeni bir tane ile.
+1532
+01:13:17,651 --> 01:13:21,491
+Şimdi burada, bu şeye sadece Miyav adını
+vermek yerine, devam edeyim.
+1533
+01:13:21,491 --> 01:13:23,501 ve
+buraya bir girdi ekleyin.
+1534
+01:13:23,501 --> 01:13:25,781
+Devam edeceğim ve şunu
+yazacağım, örneğin, n,
+1535
+01:13:25,781 --> 01:13:28,841 kez
+miyavlamak ve sadece yapmak için
+
+1536
+01:13:28,841 --> 01:13:31,206 bu daha
+da kullanıcı dostu ve kendini açıklayıcı,
+
+1537
+01:13:31,206 --> 01:13:33,581
+İşlevsel bir etkisi olmayan bir
+etiket ekleyeceğim,
+
+Machine Translated by Google
+1538
+01:13:33,581 --> 01:13:35,771 bu
+sadece bir estetik ve ben sadece
+gidiyorum
+1539
+01:13:35,771 --> 01:13:38,441 Times
+demek için, sadece İngilizce gibi
+okunmasını sağlamak için
+1540
+01:13:38,441 --> 01:13:40,901 bu
+durumda bana yapboz parçasının
+ne yaptığını söylüyor.
+1541
+01:13:40,901 --> 01:13:42,381 Şimdi
+Tamam'ı tıklayacağım.
+1542
+01:13:42,381 --> 01:13:44,901 Ve
+şimdi bunu biraz düzeltmem
+gerekiyor.
+1543
+01:13:44,901 --> 01:13:51,181
+Devam edeyim ve Kontrol
+altında bir tekrar bloğu alayım,
+1544
+01:13:51,181 --> 01:13:54,881 Play,
+Sound ve Wait öğelerini tekrar
+bloğuna taşımama izin verin.
+1545
+01:13:54,881 --> 01:13:57,421
+Burada 10 istemiyorum ve ayrıca
+burada 3 istemiyorum.
+1546
+01:13:57,421 --> 01:14:02,581
+Şimdi istediğim şey, Scratch'in gerçek
+değişkenim olan bu n.
+1547
+01:14:02,581 --> 01:14:05,971 benim
+için insan programcının girdisi ne
+olursa olsun temsil eden yaratıyor
+1548
+01:14:05,971 --> 01:14:06,726 sağlar.
+
+1549
+
+Machine Translated by Google
+
+01:14:06,726 --> 01:14:08,101 Tam
+
+yerine oturduğuna dikkat edin.
+1550
+01:14:08,101 --> 01:14:12,151
+Bunu bağlayayım ve şimdi işte, Meow'un
+daha da meraklı bir versiyonuna sahibim
+1551
+01:14:12,151 --> 01:14:13,651
+parametreli.
+1552
+01:14:13,651 --> 01:14:17,579
+Davranışını buna göre etkileyen
+girdileri alır.
+1553
+01:14:17,579 --> 01:14:20.371
+Şimdi yukarı kaydıracağım çünkü
+gözden uzak, akıldan çıkmış,
+1554
+01:14:20.371 --> 01:14:21.721 Ben sadece
+Miyav'ın var olmasını önemsiyorum.
+
+1555
+01:14:21,721 --> 01:14:25,261
+Artık kodumu sıkılaştırabilirim, tabiri
+caizse daha da az satır kullanabilirim
+1556
+01:14:25,261 --> 01:14:28,441 Yinele
+bloğunu atarak aynı şeyi yapmak
+için,
+1557
+01:14:28,441 --> 01:14:32,791 3 ve
+voila gibi bir girdi alan bu yeni yapboz parçasını
+buraya yeniden bağlayarak,
+1558
+01:14:32,791 --> 01:14:34,921 şimdi
+gerçekten programlama yapıyoruz, değil mi?
+1559
+01:14:34,921 --> 01:14:37,261 İşlevsel
+olarak herhangi bir ilerleme
+kaydetmedik.
+1560
+01:14:37,261 --> 01:14:39,571 Bu
+şey sadece üç kez fareyi çalıştırıyor.
+1561
+
+Machine Translated by Google
+
+01:14:39,571 --> 01:14:41.761 Ama
+
+bu daha iyi bir tasarım.
+1562
+01:14:41,761 --> 01:14:44,071
+Gittikçe daha fazla
+programladıkça, bunlar
+1563
+01:14:44,071 --> 01:14:46,561
+içgüdünün hala kazanmaya başlaması
+öyle ki,
+1564
+01:14:46,561 --> 01:14:49,411 büyük
+bir görev, büyük bir problem seti, bir şeyler
+almaya başlayabilirsiniz.
+1565
+01:14:49,411 --> 01:14:53,071 ev
+ödevi için bile, bu ilk başta biraz bunaltıcı
+geliyor, aman Tanrım
+1566
+01:14:53,071 --> 01:14:54,241 nereden
+başlamalıyım?
+1567
+01:14:54,241 --> 01:14:58,141 Ama
+daha büyük bir problemin alt problemlerini
+belirlemeye başlarsanız?
+1568
+01:14:58,141 --> 01:15:00,091
+Ardından ilerlemeye başlayabilirsiniz.
+1569
+01:15:00,091 --> 01:15:04,771
+Bunu, programlamayla ilgili bir projeyle
+uğraşmak zorunda kalırsam, bugüne kadar yapıyorum.
+1570
+01:15:04,771 --> 01:15:08,821
+Ayaklarımı sürüklemek o kadar kolay ki,
+başlamak sonsuza kadar sürecek,
+1571
+01:15:08,821 --> 01:15:11,521 bir
+yapılacaklar listesi gibi yazmaya
+başlayana kadar
+1572
+01:15:11,521 --> 01:15:14,191 ve
+programı modülerleştirmeye
+başlıyorum ve tamam diyorum
+
+Machine Translated by Google
+1573
+01:15:14,191 --> 01:15:15,301 Bu
+şeyin ne yapmasını istiyorum?
+1574
+01:15:15,301 --> 01:15:15,751
+Miyavlama.
+1575
+01:15:15,751 --> 01:15:16,381 Bu ne
+anlama geliyor?
+1576
+01:15:16,381 --> 01:15:18,381
+Ekranda bir şeyler söylemesini
+sağlamalıyım.
+1577
+01:15:18,381 --> 01:15:20.851
+Pekala, ekranda bir şey
+söylemesini sağlamalıyım.
+1578
+01:15:20.851 --> 01:15:21,781 birkaç
+kez.
+1579
+01:15:21,781 --> 01:15:25,121
+Kelimenin tam anlamıyla zihinsel veya yazılı
+bir kontrol listesi veya sözde kod kodu gibi,
+
+1580
+01:15:25,121 --> 01:15:28,321
+İngilizce olarak bir kağıt parçası
+veya metin dosyası üzerinde,
+1581
+01:15:28,321 --> 01:15:30,511 ve
+sonra karar verebilirsiniz,
+tamam ilk işim
+1582
+01:15:30,511 --> 01:15:33.491 Bu
+gerçek dünya problemini çözmek
+için ödev için yapmanız gereken,
+1583
+01:15:33,491 --> 01:15:34,861
+Sadece bir Miyav işlevine ihtiyacım var.
+1584
+01:15:34,861 --> 01:15:36,961
+Benim de bir sürü başka
+kod kullanmam gerekiyor,
+
+Machine Translated by Google
+1585
+01:15:36,961 --> 01:15:39,361 ancak
+bir
+Miyav fonksiyonu ve bom,
+1586
+01:15:39,361 --> 01:15:43,141 şimdi
+telefonda yaptığımızdan farklı olarak
+sorunun bir parçası çözüldü
+1587
+01:15:43,141 --> 01:15:47,551 kitap
+orada, ama bu durumda, muhtemelen
+çözmemiz gereken başka problemlerimiz olacak.
+1588
+01:15:47,551 --> 01:15:49,211 Pekala,
+daha ne yapabiliriz?
+1589
+01:15:49,211 --> 01:15:51,693 Burada
+yapboza birkaç parça daha ekleyelim.
+
+1590
+01:15:51,693 --> 01:15:53,401 Şimdi
+kediyle gerçekten etkileşime geçelim.
+
+1591
+01:15:53,401 --> 01:15:56,731
+Devam edeyim ve şimdi yeşil bayrak
+tıklandığında devam edeyim
+1592
+01:15:56,731 --> 01:15:59,521 ve
+burada bir olay kullanarak soru sorun.
+1593
+01:15:59,521 --> 01:16:03,781
+Devam edeyim ve
+diyelim ki, görelim, istiyorum
+1594
+01:16:03,781 --> 01:16:07,031 kediyi
+okşama fikrini uygulamak gibi bir şey
+yapmak için.
+1595
+01:16:07,031 --> 01:16:12,541
+Yani imleç kediye buradaki gibi
+dokunuyorsa, bunun gibi bir şey,
+1596
+
+Machine Translated by Google
+01:16:12,541 --> 01:16:15.173 kedi, bir
+kediyi sever gibi miyavlarsa sevimli
+olur.
+1597
+01:16:15.173 --> 01:16:17,881
+Bu yüzden yeşil bayrak tıklandığında
+soruyu soracağım,
+1598
+01:16:17,881 --> 01:16:21,071 bir
+bakalım, sanırım Algılamaya ihtiyacım var.
+1599
+01:16:21,071 --> 01:16:23,461
+Yani fare işaretçisine
+dokunuyorsanız, bu çok büyük
+1600
+01:16:23,461 --> 01:16:25,591 ama
+yine şekil iyi, yani gidiyor.
+
+1601
+01:16:25,591 --> 01:16:26,431
+Doldurmak için büyüdü.
+1602
+01:16:26,431 --> 01:16:28,981
+Ve sonra fare işaretçisine
+dokunuyorsa,
+1603
+01:16:28,981 --> 01:16:32,461 yani bu
+betiğin veya bu programın kime ait
+olduğu kedi,
+1604
+01:16:32,461 --> 01:16:35,731 ne
+zaman yapboz parçaları eklesem MIT
+onlara komut dosyası diyor
+1605
+01:16:35,731 --> 01:16:39,931 veya bir
+program gibi, isterseniz devam edeyim
+ve bir ses seçeyim
+1606
+01:16:39,931 --> 01:16:42.919 ve bitene
+kadar miyav sesi çal deyin.
+1607
+01:16:42,919 --> 01:16:44,461 Pekâlâ,
+işte burada açıklığa kavuşturmak gerekiyor.
+
+Machine Translated by Google
+1608
+
+01:16:44,461 --> 01:16:46,591
+Yeşil bayrak tıklandığında
+soruyu sorun,
+1609
+01:16:46,591 --> 01:16:50,881 Eğer
+kedi fare imlecine dokunuyorsa
+sesli miyavlayın.
+1610
+01:16:50,881 --> 01:16:51,421 İşte
+başlıyoruz.
+1611
+01:16:51,421 --> 01:16:53,434
+Oynat.
+1612
+01:16:53,434 --> 01:16:56,191
+[SESSİZLİK]
+1613
+01:16:56,191 --> 01:16:58,051
+Pekala, tekrar deneyelim.
+1614
+01:16:58,051 --> 01:16:58,741
+Oynat.
+1615
+01:16:58,741 --> 01:17:01,071
+[SESSİZLİK]
+1616
+01:17:01,071 --> 01:17:02,281 Ha.
+
+1617
+01:17:02,281 --> 01:17:07,051 Scratch'in
+hatası olmadığından endişeleniyorum.
+Benim gibi hissettiriyor.
+
+1618
+01:17:07,051 --> 01:17:10.251
+Buradaki hata nedir?
+1619
+01:17:10,251 --> 01:17:12,081 Bu
+neden çalışmıyor?
+1620
+01:17:12,081 --> 01:17:14.931 Evet,
+arkada, az önce dönen.
+
+Machine Translated by Google
+1621
+
+01:17:14,931 --> 01:17:18,787
+İZLEYİCİ: [DUYULMAZ]
+1622
+01:17:20.636 --> 01:17:23,511
+DAVID MALAN: Evet, sorun şu yeşil bayrağa
+tıkladığım an,
+1623
+01:17:23,511 --> 01:17:26,961
+Scratch şu soruyu soruyor: Kedi fare
+imlecine mi dokunuyor?
+1624
+01:17:26,961 --> 01:17:29,961
+Ve belli ki, imleç bir an önce orada
+olduğu için değil.
+1625
+01:17:29,961 --> 01:17:31,131 ve
+aşağıda değil.
+1626
+01:17:31,131 --> 01:17:34,071 İmleci
+oraya taşırsam sorun olmaz ama
+çok geç.
+1627
+01:17:34,071 --> 01:17:35,841
+Program zaten soruyu sordu.
+1628
+01:17:35,841 --> 01:17:39,511
+Cevap hayır ya da yanlış ya da sıfırdı,
+nasıl düşünmek istersen,
+1629
+01:17:39,511 --> 01:17:40,891 yani
+ses çalınmadı.
+1630
+01:17:40,891 --> 01:17:43,041 Peki
+buradaki çözüm ne olabilir?
+1631
+01:17:43,041 --> 01:17:45,591
+İmlecimi hızlı bir şekilde
+hareket ettirebilirim, ama bu
+
+1632
+01:17:45,591 --> 01:17:47,601 asla
+yolunda gitmeyecek gibi.
+1633
+
+Machine Translated by Google
+01:17:47,601 --> 01:17:49,641 Burada
+başka çözümler mi var?
+1634
+01:17:49,641 --> 01:17:50,751 Evet,
+dönüş yolunda mı?
+1635
+01:17:50,751 --> 01:17:53,221 Sonsuza
+kadar döngüyü kullanabilir misiniz?
+1636
+01:17:53,221 --> 01:17:54,041 Sonsuza
+Kadar Döngü.
+1637
+01:17:54,041 --> 01:17:57,301
+Yani bu Forever döngüsünü gerçekten
+kullanabilirim çünkü eğer programımı istiyorsam
+1638
+01:17:57,301 --> 01:18:00,781 beni
+sürekli dinlemek için, hadi kelimenin tam
+anlamıyla sonsuza kadar bir şeyler yapalım,
+1639
+01:18:00,781 --> 01:18:02,851 veya en
+azından program olduğu sürece
+sonsuza kadar
+1640
+01:18:02,851 --> 01:18:05,018 Açıkça
+Durdur'a basana kadar koşuyorum.
+1641
+01:18:05,018 --> 01:18:05,851 O halde
+şunu alayım.
+1642
+01:18:05,851 --> 01:18:09,181
+Kontrole gitmeme izin ver,
+Forever bloğunu almama izin ver,
+1643
+01:18:09,181 --> 01:18:12,961 bunun
+içindeki If'i hareket ettirmeme izin ver
+Sonsuza kadar engelle, bunu yeniden bağla,
+
+1644
+01:18:12,961 --> 01:18:16,651 buraya
+geri dönün, yeşil bayrağa tıklayın ve
+şimdi henüz hiçbir şey olmadı,
+1645
+01:18:16,651 --> 01:18:18,421
+
+Machine Translated by Google
+ama şimdi imlecimi hareket ettirmeye çalışmama izin verin.
+
+1646
+01:18:18,421 --> 01:18:19,921
+[MİYAV]
+1647
+01:18:19,921 --> 01:18:20.521 Ah.
+
+1648
+01:18:20.521 --> 01:18:21.421 Yani
+şimdi.
+1649
+01:18:21,421 --> 01:18:22,021
+[MİYAV]
+1650
+01:18:22,021 --> 01:18:23,081 Bu
+çok şirin.
+1651
+01:18:23,081 --> 01:18:24,998
+Yani şimdi kedi aslında tepki
+veriyor ve
+1652
+01:18:24,998 --> 01:18:27,541 bunu
+tekrar tekrar yapmaya devam
+edecek.
+1653
+01:18:27,541 --> 01:18:31,351
+Şimdi bu farklı fikirleri, bu farklı bulmacaları
+alma fikrine sahibiz.
+1654
+01:18:31,351 --> 01:18:34,201
+parça, onları daha karmaşık bir
+şekilde bir araya getiriyor.
+1655
+01:18:34,201 --> 01:18:36,321 Buna
+kesinlikle bir isim koyabilirim.
+1656
+01:18:36,321 --> 01:18:38,071
+Özel bir blok oluşturabilirim,
+ancak şimdilik
+1657
+01:18:38,071 --> 01:18:40,774 ne
+tür daha fazla etkileşim
+yapabileceğimizi düşünelim.
+
+Machine Translated by Google
+1658
+01:18:40,774 --> 01:18:41.941
+Devam edip şunu yapayım.
+1659
+01:18:41,941 --> 01:18:45,631
+Yeşil bayrak
+tıklandığında tekrar a'yı yakalayarak,
+1660
+01:18:45,631 --> 01:18:48,704
+devam edip video algılamaya
+tıklamama izin verin,
+1661
+01:18:48,704 --> 01:18:51,121 ve
+dizüstü bilgisayarı döndüreceğim
+çünkü aksi takdirde
+1662
+01:18:51,121 --> 01:18:54,163
+burada kameranın aldığı küçük bir
+başlangıç olayı olacak
+1663
+01:18:54,163 --> 01:18:55,171
+kamera yukarıda.
+1664
+01:18:55,171 --> 01:18:58,681
+Bu yüzden sana kürsüde ne
+olduğunu açıklamaya gideceğim.
+1665
+01:18:58,681 --> 01:19:02,611 biz
+bunu döndürürken.
+1666
+01:19:02,611 --> 01:19:07,681
+Artık video olmayan bir fonumuz
+olduğuna göre şunu söyleyeceğim.
+1667
+01:19:07,681 --> 01:19:09,811
+Tıklanan yeşil bayrak
+yerine, aslında ben
+1668
+01:19:09,811 --> 01:19:13,471
+video hareketinin rastgele bir değerden
+büyük olduğunu söyleyecek
+1669
+01:19:13,471 --> 01:19:19,933
+
+Machine Translated by Google
+Hareket ölçümü, devam edeceğim ve bitene
+kadar sesli miyav çalacağım.
+1670
+01:19:19,933 --> 01:19:21,641 Ve
+sonra yoldan çekileceğim.
+
+1671
+01:19:21,641 --> 01:19:23,211 İşte
+kedi.
+1672
+01:19:23,211 --> 01:19:26,041 Onları
+oraya koyacağız.
+1673
+01:19:26,041 --> 01:19:27,171
+[MİYAV]
+1674
+01:19:27,171 --> 01:19:28,491
+Tamam.
+1675
+01:19:28,491 --> 01:19:30,159 Pekala,
+işte başlıyoruz.
+1676
+01:19:30,159 --> 01:19:33,151
+[MİYAV]
+1677
+01:19:33,151 --> 01:19:35,871
+Yani elim 50'den daha hızlı
+hareket ediyor.
+1678
+01:19:35,871 --> 01:19:37,721 ölçü
+birimi ne olursa olsun.
+1679
+01:19:37,721 --> 01:19:39,039
+[MİYAV]
+1680
+01:19:39,039 --> 01:19:39,581
+İZLEYİCİ: Ay.
+1681
+01:19:39,581 --> 01:19:40,998 DAVID
+MALAN: (GÜLLER) Teşekkürler.
+1682
+01:19:40,998 --> 01:19:43,661
+
+Machine Translated by Google
+Şimdi daha da etkileşimli bir
+
+versiyonumuz var.
+
+1683
+01:19:43.661 --> 01:19:44,781
+[MİYAV]
+1684
+01:19:44,781 --> 01:19:48,421
+Ama sanırım biraz yavaşlarsam.
+1685
+01:19:48,421 --> 01:19:50,461
+[Gülüyor]
+1686
+01:19:50,461 --> 01:19:51,481
+(GÜLLER) Doğru mu?
+1687
+01:19:51,481 --> 01:19:56,271
+Tamamen ürkütücü, ama eşiği
+aşmak gibi değilim-1688
+01:19:56,271 --> 01:19:57,061
+[MİYAV]
+1689
+01:19:57,061 --> 01:19:59,861
+Sonunda elim bu kadar hızlı
+hareket edene kadar.
+1690
+01:19:59,861 --> 01:20:02,041
+Ve işte aslında size
+göstermek için bir fırsat
+1691
+01:20:02,041 --> 01:20:03,961 eski
+bir öğrencinin yaptığı bir şey.
+1692
+01:20:03,961 --> 01:20:05,231
+Buradan devam edeyim ve-1693
+01:20:05,231 --> 01:20:05,731
+[MİYAV İKİ KEZ]
+1694
+01:20:05,731 --> 01:20:08,201
+Tamam, bunu durdurmalıyım.
+
+1695
+
+Machine Translated by Google
+
+01:20:08,201 --> 01:20:11,091
+
+Devam edip birazdan bu konuyu
+uzaklaştırmama izin verin.
+1696
+01:20:11,091 --> 01:20:11.591
+[MİYAV]
+1697
+01:20:11.591 --> 01:20:12,631
+Eğer birisi...
+
+1698
+01:20:12,631 --> 01:20:13,311
+[Gülüyor]
+1699
+01:20:13,311 --> 01:20:15,061
+(GÜLER) Eğer biri rahat
+olsaydı
+1700
+01:20:15,061 --> 01:20:17,571
+sadece maskeli değil internette
+de kameralarda çıkıyor
+1701
+01:20:17,571 --> 01:20:21,451 Eski
+sınıf arkadaşınızın projelerinden birini
+burada sahnede oynayacağımızı düşündüm.
+
+1702
+01:20:21,451 --> 01:20:24,101
+Burada gönüllü olmak ve sahneye
+çıkmak isteyen var mı?
+1703
+01:20:24,101 --> 01:20:24,601
+Kim o?
+1704
+01:20:24,601 --> 01:20:25,101
+Evet.
+1705
+01:20:25,101 --> 01:20:25,651
+Aşağı gel.
+1706
+01:20:25,651 --> 01:20:26,401
+Adın ne?
+1707
+01:20:26,401 --> 01:20:27,361
+İZLEYİCİ: Sahar.
+
+Machine Translated by Google
+1708
+01:20:27,361 --> 01:20:28,201
+DAVID MALAN: Sahar.
+1709
+01:20:28,201 --> 01:20:29,711
+Pekala, aşağı gel.
+1710
+01:20:29,711 --> 01:20:31,681
+Burada sizin için ayarlamama izin verin.
+1711
+01:20:31,681 --> 01:20:32,653
+[MİYAV]
+1712
+01:20:32,653 --> 01:20:37,999
+[ALKIŞ]
+1713
+01:20:37,999 --> 01:20:42,881
+[MİYAV]
+1714
+01:20:42,881 --> 01:20:45,941
+Pekala, buradan tam ekran olarak
+devam edeyim.
+1715
+01:20:45,941 --> 01:20:50,341 Yani
+bu, daha sıkı öncüllerinizden biri
+tarafından yapılan bir köstebek vuruşu.
+
+1716
+01:20:50,341 --> 01:20:53,371
+Başınıza odaklanan kamerayı kullanacak,
+bu da
+1717
+01:20:53,371 --> 01:20:55,028 bu
+dikdörtgenin içine yerleştirmek için.
+1718
+01:20:55,028 --> 01:20:57,361 Hiç
+atari salonunda köstebek vurma
+oyununu oynadınız mı?
+1719
+01:20:57,361 --> 01:20:57,931
+İZLEYİCİ: Evet.
+1720
+01:20:57,931 --> 01:20:58,171
+
+Machine Translated by Google
+DAVID MALAN: Tamam.
+1721
+01:20:58,171 --> 01:21:00,318
+Yani yapmayanlar için bu
+küçük benler ortaya çıkıyor
+1722
+01:21:00,318 --> 01:21:02,401 ve
+çok bulanık bir çekiçle yere
+çakılıyorsunuz.
+1723
+01:21:02,401 --> 01:21:04,193
+Yine de sakıncası
+yoksa gidiyorsun
+1724
+01:21:04,193 --> 01:21:06,821 bunu
+sanal olarak yapmak için kafanızı kullanın.
+1725
+01:21:06,821 --> 01:21:11,821
+Öyleyse, mümkünse, başınızı bu
+kırmızı dikdörtgenle hizalayalım,
+1726
+01:21:11,821 --> 01:21:12.721 acemi
+yapacağız.
+1727
+01:21:12,721 --> 01:21:14,251
+[MÜZİK ÇALIYOR]
+1728
+01:21:14,251 --> 01:21:15,461
+Pekala, başlıyoruz.
+1729
+01:21:15,461 --> 01:21:17,221 Sahar.
+
+1730
+01:21:17,221 --> 01:21:18,691 Bir
+dakika verin.
+1731
+01:21:18,691 --> 01:21:19,921
+Tamam, biraz daha yaklaşın.
+1732
+01:21:19,921 --> 01:21:20.911
+[DINGING]
+1733
+
+Machine Translated by Google
+01:21:20.911 --> 01:21:23,101 Ve
+şimdi kafanızla benlere vurun.
+1734
+01:21:23,101 --> 01:21:24,541
+[DING]
+1735
+01:21:24,541 --> 01:21:25,826 İşte
+başlıyoruz, bir nokta.
+1736
+01:21:25,826 --> 01:21:26,326
+[DING]
+1737
+01:21:26,326 --> 01:21:28,813 Bir
+puan.
+1738
+01:21:28,813 --> 01:21:30,711
+[DINGING]
+1739
+01:21:30,711 --> 01:21:32,721
+Güzel.
+1740
+01:21:32.721 --> 01:21:33,801 15
+saniye kaldı.
+1741
+01:21:33,801 --> 01:21:34,411 İşte
+başlıyoruz.
+1742
+01:21:34,411 --> 01:21:34,911 Ah
+evet.
+1743
+01:21:34,911 --> 01:21:36,911 Bir
+puan.
+1744
+01:21:36,911 --> 01:21:38,911
+[Gülüyor]
+1745
+01:21:38,911 --> 01:21:40,396
+[DINGING]
+1746
+01:21:40,396 --> 01:21:42,171 Altı
+saniye.
+
+Machine Translated by Google
+1747
+
+01:21:42,171 --> 01:21:43.619
+İZLEYİCİ: Ah hayır.
+1748
+01:21:43.619 --> 01:21:44,661 DAVID
+MALAN: İşte başlıyoruz.
+1749
+01:21:44,661 --> 01:21:45,381 Çabuk!
+
+1750
+01:21:45,381 --> 01:21:47,631
+[DINGING]
+1751
+01:21:47,631 --> 01:21:49,551 Pekala,
+Sahar için bir alkış.
+
+1752
+01:21:49,551 --> 01:21:50,828
+Teşekkürler.
+1753
+01:21:50,828 --> 01:21:54,804
+[ALKIŞ]
+1754
+01:21:57,301 --> 01:21:59,433
+Yani burada biraz
+eğlenmenin ötesinde,
+1755
+01:21:59,433 --> 01:22:01,141 Amaç
+şunu kullanarak göstermekti:
+
+1756
+01:22:01,141 --> 01:22:04,591
+oldukça basit, ilkel, bazı temel yapı
+taşları
+1757
+01:22:04,591 --> 01:22:06,961 ama
+onları biraz müzikle eğlenceli bir
+şekilde bir araya getirmek, belki
+
+1758
+01:22:06,961 --> 01:22:10.481 bazı
+yeni kostümler veya sanat eserleri,
+programları gerçekten hayata geçirebilirsiniz.
+1759
+
+Machine Translated by Google
+01:22:10,481 --> 01:22:13,541
+Ama günün sonunda,
+gerçekten dahil olan tek yapboz parçaları
+1760
+01:22:13,541 --> 01:22:16.291 az
+önce sürükleyip bıraktıklarımın
+benzeriydi ve birkaç tane daha,
+1761
+01:22:16,291 --> 01:22:18,011
+çünkü açıkça çok fazla ben vardı.
+
+1762
+01:22:18,011 --> 01:22:21,991
+Yani öğrenci muhtemelen tek bir başlık
+değil, birkaç farklı sprite yarattı,
+1763
+01:22:21.991 --> 01:22:23.408
+ama en az dört farklı mol.
+1764
+01:22:23,408 --> 01:22:26,158
+Ekranda Sahar'ı gösteren bir çeşit
+grafik vardı.
+1765
+01:22:26,158 --> 01:22:27,301
+başını nereye koyacağını.
+1766
+01:22:27,301 --> 01:22:29,791
+Bir çeşit zamanlayıcı vardı,
+belki bir değişken
+1767
+01:22:29,791 --> 01:22:32,376
+her saniye geri sayıyordu.
+1768
+01:22:32,376 --> 01:22:35,251
+Böylece oldukça etkileyici bir projeye benzeyen
+bir projeyi almayı hayal edebilirsiniz.
+
+1769
+01:22:35,251 --> 01:22:37,261 ilk
+bakışta ve belki de bunaltıcı
+
+1770
+01:22:37,261 --> 01:22:40,681
+kendinizi çözmek için, ancak temel yapı
+taşlarının neler olduğunu bir düşünün?
+
+Machine Translated by Google
+1771
+01:22:40,681 --> 01:22:45,061 Ve
+tabiri caizse her seferinde
+yapbozun bir parçasını koparın.
+1772
+01:22:45,061 --> 01:22:47,801 Yani
+gerçekten biraz geri sararsak.
+1773
+01:22:47,801 --> 01:22:50,581
+Burada devam edeyim
+ve bir program tanıtayım
+1774
+01:22:50,581 --> 01:22:53,221
+yüksek lisans okulunda kendim
+yaptım
+1775
+01:22:53,221 --> 01:22:55,781
+Scratch MIT tarafından ilk
+geliştirildiğinde.
+1776
+01:22:55,781 --> 01:22:59,101
+Devam edeyim ve burayı
+açayım, bana bir saniye verin,
+1777
+01:22:59,101 --> 01:23:03,331
+Oscar Time zamanında aradığım
+bir şey
+1778
+01:23:03,331 --> 01:23:05,461 biraz
+buna benziyor.
+1779
+01:23:05,461 --> 01:23:07,291 Tam
+ekran yapıp Oynat'a basarsam.
+1780
+01:23:07,291 --> 01:23:10.866
+[MÜZİK - SUSAM SOKAK, "ÇÖPÜ SEVİYORUM"]
+1781
+01:23:10.866 --> 01:23:12.741
+OSCAR THE GROUCH: (ŞARKI
+SÖYLÜYOR) Ah, çöpü severim.
+1782
+01:23:12,741 --> 01:23:15,158
+DAVID MALAN: Fark edeceksiniz
+
+Machine Translated by Google
+bir çöp parçası düşüyor.
+1783
+01:23:15,158 --> 01:23:18,631
+Üzerine tıklayıp sürükleyebilirim ve çöp
+kutusuna yaklaştıkça fark edebilirim
+1784
+01:23:18,631 --> 01:23:20.631
+OSCAR THE GROUCH: (ŞARKI SÖYLÜYOR)
+Düzensiz herhangi bir şey ya da--
+
+1785
+01:23:20,631 --> 01:23:22,521
+DAVID MALAN: İstiyor
+içeri girmek, öyle görünüyor.
+
+1786
+01:23:22,521 --> 01:23:23,601
+Ve eğer bırakırsam...
+
+1787
+01:23:23,601 --> 01:23:25,101
+OSCAR THE GROUCH: (ŞARKI SÖYLÜYOR) Evet, ben-1788
+01:23:25,101 --> 01:23:26,844 DAVID
+MALAN: Bir puan.
+1789
+01:23:26,844 --> 01:23:27,636 Bir
+başkası daha geliyor.
+1790
+01:23:27,636 --> 01:23:29,301
+OSCAR THE GROUCH: (ŞARKI SÖYLÜYOR) Gerçekten
+değersiz bir şey görmek istiyorsan-1791
+01:23:29,301 --> 01:23:30,441
+DAVID MALAN: Ben de aynısını
+yapacağım, iki nokta.
+1792
+01:23:30,441 --> 01:23:32,841
+OSCAR THE GROUCH: (ŞARKI SÖYLÜYOR) Burada
+yıpranmış ve yıpranmış bir spor ayakkabım var-1793
+01:23:32,841 --> 01:23:34,521
+DAVID MALAN: Gökten bir spor
+ayakkabı düşüyor,
+1794
+01:23:34,521 --> 01:23:35,989
+
+Machine Translated by Google
+yani bir çeşit başka sprite.
+1795
+01:23:35,989 --> 01:23:37,947
+OSCAR THE GROUCH: (ŞARKI SÖYLÜYOR)
+Danteller yırtılmış.
+1796
+01:23:37,947 --> 01:23:39,771
+Annemden bir hediye...
+1797
+01:23:39,771 --> 01:23:41.991
+DAVID MALAN: Ben de biraz
+tembelleşebilirim
+1798
+01:23:41,991 --> 01:23:45,934 ve
+eğer istersem kendilerinin çöpe
+düşmesine izin ver.
+1799
+01:23:45,934 --> 01:23:48,351
+Yani bunun fare imlecimle ilgisi
+olmadığını görebilirsiniz,
+1800
+01:23:48,351 --> 01:23:50,971
+Görünüşe göre buradaki mesafeyle
+ilgili.
+1801
+01:23:50,971 --> 01:23:52,431 Biraz
+daha dinleyelim.
+1802
+01:23:52,431 --> 01:23:56,001
+Sanırım bazı ek çöpler ortaya
+çıkmak üzere.
+1803
+01:23:56,001 --> 01:23:59,571
+Muhtemelen bu skorun kaydını tutan bir çeşit
+değişken var.
+1804
+01:23:59,571 --> 01:24:01,071
+OSCAR THE GROUCH: (ŞARKI SÖYLÜYOR) Seviyorum-1805
+01:24:01,071 --> 01:24:03,404 DAVID
+MALAN: Tamam, bakalım son koro
+neymiş.
+1806
+
+Machine Translated by Google
+01:24:03,404 --> 01:24:05,421 OSCAR
+THE GROUCH: (ŞARKI SÖYLÜYOR)
+Çürük şey.
+1807
+01:24:05,421 --> 01:24:08,511
+Burada biraz gazetem var, huysuz ve
+1808
+01:24:08,511 --> 01:24:10.491 DAVID
+MALAN: Tamam ve devam ediyor.
+1809
+01:24:10.491 --> 01:24:13.401
+Ve şarkı aslında devam
+ediyor ve devam ediyor
+1810
+01:24:13,401 --> 01:24:16.071 ve
+bunu uygulamak ve duymakla ilgili hoş
+anılarım yok
+1811
+01:24:16,071 --> 01:24:19,101 10
+saat boyunca bu şarkı, ama
+
+1812
+01:24:19,101 --> 01:24:22,756 Bu
+programın nasıl oluşturulduğunu
+düşünmek için iyi bir örnek?
+1813
+01:24:22,756 --> 01:24:25,131 İlk
+seferinde bunu uygulamaya nasıl
+başladım?
+1814
+01:24:25,131 --> 01:24:27,456
+Ve şimdi devam edeyim ve
+şimdi bazı programları açayım
+1815
+01:24:27,456 --> 01:24:29,331
+önceden yazdığım
+
+1816
+01:24:29,331 --> 01:24:31,611
+bunların nasıl bir araya getirildiğini görün.
+1817
+01:24:31,611 --> 01:24:35,031
+Dürüst olmak gerekirse, ilk şey
+
+muhtemelen yaptım muhtemelen
+
+Machine Translated by Google
+1818
+01:24:35,031 --> 01:24:37,431 biraz
+böyle bir şey yapmak için.
+1819
+01:24:37,431 --> 01:24:39,861
+İşte programın sadece
+bir versiyonu
+1820
+01:24:39,861 --> 01:24:42,561
+İlk önce sadece bir
+sorunu çözmek için yola çıktım
+
+1821
+01:24:42,561 --> 01:24:44,821
+programa bir sokak lambası dikilmesi.
+1822
+01:24:44,821 --> 01:24:45,321 Doğru
+mu?
+1823
+01:24:45,321 --> 01:24:47,091 Ne
+istediğime dair bir vizyona sahiptim.
+1824
+01:24:47,091 --> 01:24:48,681
+Biliyorsun, zamanla
+gelişti, kesinlikle,
+1825
+01:24:48,681 --> 01:24:50,121 ama
+çöpün düşmesini istediğimi
+biliyordum, istiyordum
+1826
+01:24:50,121 --> 01:24:51,829
+Grouch'un çıkması için sevimli küçük
+bir Oscar
+1827
+01:24:51,829 --> 01:24:54,741 çöp
+tenekesi ve diğer bazı şeyler, ama
+vay be bu çok fazla
+1828
+01:24:54,741 --> 01:24:56,391 hepsini
+aynı anda halletmek için.
+1829
+01:24:56,391 --> 01:24:59,271
+Kolaydan başlayacağım, bir lamba
+direğinin resmini indir,
+
+Machine Translated by Google
+1830
+01:24:59,271 --> 01:25:03,651 ve
+sonra kostüm ve patlama olarak
+sahneye sürükleyip bırakın, işte bu
+1831
+01:25:03,651 --> 01:25:04,671 birinci
+versiyon.
+1832
+01:25:04,671 --> 01:25:06,441
+İşlevsel olarak hiçbir şey yapmıyor.
+1833
+01:25:06,441 --> 01:25:09,531 Yani,
+kelimenin tam anlamıyla bunu
+yapmak için yazdığım kod bu.
+1834
+01:25:09,531 --> 01:25:11,691
+Tek yaptığım Arka Plan
+özelliği gibi kullanmaktı
+1835
+01:25:11,691 --> 01:25:13,741 ve
+nesneleri sürükleyip bırakın ve
+hareket ettirin,
+1836
+01:25:13,741 --> 01:25:16,881 ama
+programımın bir sürümüne
+geçmemi sağladı.
+1837
+01:25:16,881 --> 01:25:18,711 O
+halde ikinci versiyon ne olabilir?
+1838
+01:25:18,711 --> 01:25:21,291
+Peki hangi işlevsellik
+parçası olduğunu düşündüm
+1839
+01:25:21,291 --> 01:25:24,783
+Açıkçası bir sonraki ve çöp tenekesi
+toplaması en kolayı olabilir.
+1840
+01:25:24,783 --> 01:25:26,991 Bu
+oldukça temel bir işlevsellik parçası
+gibi görünüyor.
+1841
+01:25:26,991 --> 01:25:29,251
+
+Machine Translated by Google
+Sadece çoğu zaman
+orada oturması gerekiyor.
+1842
+01:25:29,251 --> 01:25:32,631
+Bu yüzden muhtemelen
+yaptığım bir sonraki şey açılmaktı,
+1843
+01:25:32,631 --> 01:25:38,301 örneğin,
+burada çöp kutusu sürümü şimdi biraz
+görünüyor
+1844
+01:25:38,301 --> 01:25:38,814 bunun
+gibi.
+1845
+01:25:38,814 --> 01:25:40,731 Bu sefer
+size burada ne olduğunu göstereceğim.
+
+1846
+01:25:40,731 --> 01:25:43,101 Biraz
+kod var ama fazla değil.
+1847
+01:25:43,101 --> 01:25:47,121
+Sağ altta dikkat edin, varsayılan kediyi bir
+çöp tenekesi resmiyle değiştiriyorum,
+Bunun
+yerine 1848 01:25:47,121 -->
+01:25:50,151 ama benim kontrol
+edebildiğim prensip aynı.
+1849
+01:25:50,151 --> 01:25:52.821 Ve sonra
+buraya bu kodu ekledim.
+1850
+01:25:52,821 --> 01:25:55,731
+Yeşil bayrak tıklandığında
+kostümü değiştir
+1851
+01:25:55,731 --> 01:25:57,811 keyfi
+olarak Oscar 1 dediğim bir şeye.
+
+1852
+01:25:57,811 --> 01:25:59,571
+Bu yüzden birkaç farklı
+resim buldum
+
+Machine Translated by Google
+1853
+
+01:25:59,571 --> 01:26:02,691 kapalı
+görünen, kısmen açık görünen bir
+çöp kutusu,
+1854
+01:26:02,691 --> 01:26:04,851 ve
+sonunda Oscar'ın çıkacağı bir film,
+
+1855
+01:26:04,851 --> 01:26:06,511 ve
+ben onlara farklı isimler verdim.
+1856
+01:26:06,511 --> 01:26:09,681
+Ben de varsayılan olarak kapalı olan
+Oscar 1'e geç dedim,
+1857
+01:26:09,681 --> 01:26:13,491 o
+zaman sonsuza kadar aşağıdakileri
+yapın: fare işaretçisine dokunursanız,
+1858
+01:26:13,491 --> 01:26:18,411 sonra
+kostümü Oscar 2'ye, yoksa Oscar
+1'e geçin.
+1859
+01:26:18,411 --> 01:26:22,011
+Yani, ben sadece bu konserve
+açma fikrini uygulamak istedim.
+1860
+01:26:22,011 --> 01:26:24,831 ve
+kapanış, tam olarak istediğim gibi
+olmasa da,
+1861
+01:26:24,831 --> 01:26:26,881
+Sadece biraz ilerleme kaydetmek
+istedim.
+1862
+01:26:26,881 --> 01:26:32,641
+Burada, Play'i tıklayarak bu programı
+çalıştırdığımda ne olduğuna dikkat edin.
+1863
+01:26:32,641 --> 01:26:36,141
+Henüz bir şey yok, ama çöp
+kutusuna yaklaşırsam,
+1864
+
+Machine Translated by Google
+01:26:36,141 --> 01:26:40.011
+
+gerçekten de açılıyor çünkü
+sonsuza kadar dinliyor
+1865
+01:26:40.011 --> 01:26:43,201 için
+sprite olup olmadığı, bu durumda
+çöp tenekesi,
+1866
+01:26:43,201 --> 01:26:44,451 fare
+işaretçisine dokunuyor.
+1867
+01:26:44,451 --> 01:26:45,141 Ve
+bu kadar.
+1868
+01:26:45,141 --> 01:26:48,201 Eğer
+isterseniz, bu sürüm 2 idi.
+1869
+01:26:48,201 --> 01:26:51,351
+Şimdi içeri girip lamba direği eklesem ve
+programı birlikte oluştursam,
+1870
+01:26:51,351 --> 01:26:52,851 şimdi
+ilerleme kaydetmeye başlıyoruz.
+1871
+01:26:52,851 --> 01:26:53,061
+Doğru mu?
+1872
+01:26:53,061 --> 01:26:55,641
+Şimdi biraz daha programa
+benziyor
+1873
+01:26:55,641 --> 01:26:57,831
+Eninde sonunda yaratmayı amaçladım.
+1874
+01:26:57,831 --> 01:27:00,661
+Bundan sonra muhtemelen hangi
+parçayı ısırdım?
+1875
+01:27:00,661 --> 01:27:02,931
+Sanırım yaptığım şey
+muhtemelen karar verdim
+1876
+01:27:02,931 --> 01:27:06,441
+
+Machine Translated by Google
+gazetedeki ayakkabıyı değil, çöp parçalarından
+birini uygulamama izin ver
+1877
+01:27:06,441 --> 01:27:07,051 hepsi
+aynı anda.
+1878
+01:27:07,051 --> 01:27:10.581 Önce
+bir parça çöpün düzgün çalışmasını
+sağlayalım.
+1879
+01:27:10.581 --> 01:27:12,981
+Öyleyse devam edip şunu açayım.
+1880
+01:27:12,981 --> 01:27:16.551
+Ve yine, tüm bu örnekler kursun web
+sitesinde mevcut olacak.
+1881
+01:27:16,551 --> 01:27:18,741
+böylece tüm bu örnekleri de
+görebilirsiniz.
+1882
+01:27:18,741 --> 01:27:21,141
+Çok uzun değil, önceden
+uyguluyorum
+1883
+01:27:21,141 --> 01:27:23,511
+böylece hızlı bir şekilde geçiş
+yapabildik.
+1884
+01:27:23,511 --> 01:27:25,041 İşte
+burada yaptıklarım.
+1885
+01:27:25,041 --> 01:27:28,851
+Sağ tarafta, sprite'ımı bir çöp
+parçasına çevirdim
+1886
+01:27:28,851 --> 01:27:31,471 bu
+sefer kedi yerine çöp kutusu yerine,
+
+1887
+01:27:31,471 --> 01:27:36,831 ve
+ben de Carter'ın yardımıyla ikinci bir sprite
+yarattım, bu bir zemin.
+
+Machine Translated by Google
+1888
+
+01:27:36,831 --> 01:27:39,891
+Kelimenin tam anlamıyla sadece siyah
+bir çizgi çünkü sadece başlangıçta istedim
+
+1889
+01:27:39,891 --> 01:27:42,321 bir
+zemin kavramına sahip olmak için
+
+1890
+01:27:42,321 --> 01:27:44,841 çöp
+yere değiyorsa.
+1891
+01:27:44,841 --> 01:27:48,111
+Şimdi henüz kodu görmeden, sadece
+bu açıklamayı duymadan,
+1892
+01:27:48,111 --> 01:27:53,001
+ikinci hareketli grafiği ve bu siyah çizgiyi
+bir zemin için neden istemiş olabilirim?
+1893
+01:27:53,001 --> 01:27:55,448
+gökten yağmaya niyetlenen
+çöplerle mi?
+1894
+01:27:55,448 --> 01:27:56,781 Ne
+düşünüyor olabilirim?
+1895
+01:27:56,781 --> 01:27:58,741
+Hangi sorunu çözmeye çalışıyor
+olabilirim?
+1896
+01:27:58,741 --> 01:27:58,971
+Evet?
+1897
+01:27:58,971 --> 01:28:01,431
+İZLEYİCİ: İlk perinin bunu yaşamasını
+istemezsiniz.
+1898
+01:28:01,431 --> 01:28:04,389
+DAVID MALAN: Evet, ilk sprite'ın en baştan
+başlamasını istemezsiniz,
+1899
+01:28:04,389 --> 01:28:06,981
+geçin ve sonra bum,
+
+Machine Translated by Google
+onu tamamen kaybedersin.
+1900
+01:28:06,981 --> 01:28:09,633 Bu pek
+yararlı bir şey olmazdı.
+1901
+01:28:09,633 --> 01:28:12,591
+Ya da bilgisayarın hafızasını giderek daha fazla
+tüketiyor gibi görünebilir.
+1902
+01:28:12,591 --> 01:28:15,261 çöp
+durmadan düşüyorsa ve onu
+tutamıyorum.
+1903
+01:28:15,261 --> 01:28:17.031
+Almaya çalışırsan biraz travmatik
+olabilir
+1904
+01:28:17,031 --> 01:28:19.573 ve onu
+geri çekemezsiniz ve programı
+düzeltemezsiniz.
+1905
+01:28:19,573 --> 01:28:21,249 Bu
+yüzden sadece bu şeyin durmasını istedim.
+1906
+01:28:21,249 --> 01:28:22,791 Peki
+bunu nasıl uygulayabilirdim?
+1907
+01:28:22,791 --> 01:28:24,441 Soldaki
+koda bakalım.
+1908
+01:28:24,441 --> 01:28:29,061 Burada
+daha önce önerdiğim gibi biraz
+rastgelelik var.
+1909
+01:28:29,061 --> 01:28:31,941
+Go To x adında bir
+mavi fonksiyon var.
+1910
+01:28:31,941 --> 01:28:35,751 y bir
+hareketli grafiği herhangi bir konuma
+taşımama izin veriyor,
+
+1911
+01:28:35,751 --> 01:28:40,431
+
+Machine Translated by Google
+
+yukarı, aşağı, sol, sağ, rastgele bir x
+konumu seçtim, ya burada ya da burada,
+1912
+01:28:40.431 --> 01:28:45,171
+eksi 240'dan artı 240'a ve ardından ay
+değeri 180'dir, bu en üsttekidir.
+1913
+01:28:45,171 --> 01:28:46,921 Bu
+sadece oyunu daha ilginç kılıyor.
+
+1914
+01:28:46,921 --> 01:28:51,111
+Çöp her zaman aynı noktadan
+düşüyorsa, oldukça çabuk topallıyor.
+1915
+01:28:51,111 --> 01:28:54,351
+İşte bu, çoğu oyunda olduğu gibi biraz
+rastgelelik,
+1916
+01:28:54,351 --> 01:28:55,821
+ortalığı renklendiren.
+1917
+01:28:55,821 --> 01:28:59,394
+Şimdi yeşil bayrağa tıklarsam,
+düştüğünü göreceksiniz,
+1918
+01:28:59,394 --> 01:29:01,311
+ilginç bir şey olmayacak ama
+
+1919
+01:29:01,311 --> 01:29:05,751
+siyah çizgiye dokunduğunda duruyor
+çünkü burada ne yaptığımıza dikkat edin.
+1920
+01:29:05,751 --> 01:29:10.521
+Sonsuza kadar şu soruyu soruyorum,
+sprite, çöpün mesafesi,
+1921
+01:29:10.521 --> 01:29:14.251
+zemin sıfırdan büyük, sorun değil.
+
+1922
+01:29:14,251 --> 01:29:17.061 y
+konumunu eksi 3 ile değiştirin.
+
+Machine Translated by Google
+1923
+01:29:17,061 --> 01:29:21,561
+Bu yüzden zemine olan mesafeye kadar
+3 piksel aşağı, 3 piksel aşağı hareket ettirin.
+1924
+01:29:21.561 --> 01:29:25,401 sıfırdan
+büyük değil, sıfır veya hatta negatif, bu
+noktada
+1925
+01:29:25,401 --> 01:29:27,128
+tamamen hareket etmeyi bırakmalı.
+1926
+01:29:27,128 --> 01:29:29,211
+Bunu uygulayabilmemizin başka
+yolları da var,
+1927
+01:29:29,211 --> 01:29:31,431 ama bu
+mantıklı ve mantıklı bir şekilde güzel
+ve temiz bir yol gibi geldi.
+1928
+01:29:31,431 --> 01:29:32,223 mantıklı
+geldi.
+1929
+01:29:32,223 --> 01:29:36,411
+Tamam, şimdi düşen bir çöp var, açılıp
+kapanan bir çöp kutum var,
+1930
+01:29:36,411 --> 01:29:40.911 Bir
+sokak lambası direğim var, şimdi
+programa üç adımlık iyi bir adım atıyorum.
+1931
+01:29:40.911 --> 01:29:42,111 İlerleme
+kaydediyoruz.
+1932
+01:29:42,111 --> 01:29:45,111
+Bir veya iki son parçayı ele
+alırsak, bir şey
+1933
+01:29:45,111 --> 01:29:50,271 çöpün
+sürüklenmesi gibi, devam edeyim ve bu
+sürüm 2'yi açayım.
+1934
+01:29:50,271 --> 01:29:53,871
+
+Machine Translated by Google
+Çöp kutusunu sürüklemek
+farklı türde bir soru gerektirir.
+1935
+01:29:53,871 --> 01:29:55,071
+Burayı yakınlaştırayım.
+1936
+01:29:55,071 --> 01:29:56,821 İşte
+çöp parçası.
+1937
+01:29:56,821 --> 01:29:59,601
+Sadece bir sprite'a ihtiyacım var,
+burada zemin yok çünkü ben sadece
+
+1938
+01:29:59,601 --> 01:30:02,421
+insanın onu yukarı, aşağı, sola,
+sağa hareket ettirmesini ve insanın
+1939
+01:30:02,421 --> 01:30:05,451
+fiziksel olarak onu dünyanın dışına
+çıkaramayacak.
+1940
+01:30:05,451 --> 01:30:09,181 Bu
+kodu yakınlaştırırsak, bunu çözme
+şeklimiz aşağıdaki gibidir.
+1941
+01:30:09,181 --> 01:30:13,371
+Daha önce gördüğümüz bu Ve
+bağlacını kullanıyoruz çünkü
+1942
+01:30:13,371 --> 01:30:17,001 yeşil
+bayrak tıklandı, sürekli bu soruyu
+soruyoruz ya da gerçekten
+1943
+01:30:17,001 --> 01:30:20.271 bu
+sorular, çoğul, eğer fare aşağıdaysa
+
+1944
+01:30:20.271 --> 01:30:25,911 ve
+çöp kutusu fare işaretçisine
+dokunuyor, bu eşdeğer
+1945
+01:30:25,911 --> 01:30:28,221
+mantıksal olarak çöp kutusuna tıklamak.
+
+Machine Translated by Google
+1946
+
+01:30:28,221 --> 01:30:31,531 Devam
+edin ve çöp kutusunu fare işaretçisine
+taşıyın.
+1947
+01:30:31,531 --> 01:30:33,591
+Yani yine bu çok tanıdık
+fikri alır
+1948
+01:30:33,591 --> 01:30:36,711 sen ve
+ben her gün Mac'lerde ve PC'lerde
+tıklama olarak kabul ediyoruz
+1949
+01:30:36,711 --> 01:30:37,971 ve
+sürükleyip bırakma.
+1950
+01:30:37,971 --> 01:30:39,321 Bu
+nasıl uygulanır?
+1951
+01:30:39,321 --> 01:30:43,521 Mac
+OS veya Windows muhtemelen bir
+soru soruyor.
+1952
+01:30:43,521 --> 01:30:48,021 Her
+simge için fare aşağıda mı ve simge
+fareye dokunuyor mu?
+1953
+01:30:48,021 --> 01:30:52,161
+Eğer öyleyse, sonsuza kadar
+farenin konumuna gidin
+1954
+01:30:52,161 --> 01:30:54,261 fare
+tuşu basılıyken.
+1955
+01:30:54,261 --> 01:30:56,421 Peki
+bu şimdi gerçekte nasıl çalışıyor?
+1956
+01:30:56,421 --> 01:30:58,671 Devam
+edip Oynat'a tıklamama izin verin.
+1957
+01:30:58,671 --> 01:31:02,731
+İlk başta hiçbir şey olmuyor, ama eğer
+Üzerine tıklıyorum, yukarı taşıyabilirim,
+
+Machine Translated by Google
+1958
+
+01:31:02,731 --> 01:31:04,071 aşağı,
+sol, sağ.
+1959
+01:31:04,071 --> 01:31:05,821
+Bundan sonra hareket etmez.
+1960
+01:31:05,821 --> 01:31:09,571
+Şimdi bu sürükleme fikrini düşme ile
+birleştirmem gerekiyor.
+1961
+01:31:09,571 --> 01:31:12,304 ama
+bahse girerim sadece tek bir
+program kullanmaya başlayabilirim.
+1962
+01:31:12,304 --> 01:31:14.721
+Şu anda farklı fikirleri göstermek
+için ayrı olanları kullanıyorum,
+1963
+01:31:14,721 --> 01:31:17,871 ama
+şimdi bu, problemin bir başka ısırığı.
+
+1964
+01:31:17,871 --> 01:31:20.728
+Son bir tane yaparsak,
+skor tutma gibi bir şey
+1965
+01:31:20.728 --> 01:31:23,811 ilginç,
+çünkü her seferinde bir çöpü
+sürüklediğimizi hatırlayın
+1966
+01:31:23,811 --> 01:31:27,361
+kutunun içine Oscar çıktı ve bize
+mevcut skoru söyledi.
+1967
+01:31:27,361 --> 01:31:31,941
+Öyleyse devam edeyim ve şunu
+bulayım, Oscar değişkenleri,
+1968
+01:31:31,941 --> 01:31:33,921 ve
+buna yakınlaştırmama izin verin.
+1969
+01:31:33,921 --> 01:31:37,124
+Bu daha uzun çünkü biz
+
+Machine Translated by Google
+tüm bu unsurları birleştirdi.
+
+1970
+01:31:37,124 --> 01:31:40,041
+Yani bu, ilk bakışta baktığınızda
+şöyle bir şey,
+1971
+01:31:40,041 --> 01:31:42,561
+nasıl yapacağım hakkında hiçbir fikrim yok
+
+bunu uyguladı
+1972
+01:31:42,561 --> 01:31:44,841
+sıfırdan, kelimenin tam anlamıyla sıfırdan.
+1973
+01:31:44,841 --> 01:31:49,191
+Ama yine de vizyonunuzu alır
+ve onu birleştirirseniz
+1974
+01:31:49,191 --> 01:31:51,291 Bu
+küçük, ısırık büyüklüğündeki
+problemlere
+1975
+01:31:51,291 --> 01:31:53,721
+tabiri caizse bu bebek adımlarını
+atabilir ve sonra
+1976
+01:31:53,721 --> 01:31:55,291 her
+şeyi toplu olarak çöz.
+1977
+01:31:55,291 --> 01:31:58,461
+Burada yeni olan şey bu alttaki.
+1978
+01:31:58,461 --> 01:32:03,111
+Her zaman şunları yapın:
+çöp dokunuyorsa
+1979
+01:32:03,111 --> 01:32:06,561
+Oscar, programa eklediğimiz
+diğer sprite,
+1980
+01:32:06,561 --> 01:32:08,541
+skoru 1 değiştir.
+1981
+01:32:08,541 --> 01:32:10.551
+
+Machine Translated by Google
+Bu bir portakal ve gerçekten
+de biraz kurcalarsak
+1982
+01:32:10,551 --> 01:32:15,111
+turuncunun x veya y gibi bir değişken
+olduğunu ancak daha iyi bir ada sahip olduğunu göreceğiz,
+1983
+01:32:15,111 --> 01:32:19,101 bunu
+değiştirmek 1 eklemek veya eksi ise 1
+çıkarmak anlamına gelir.
+1984
+01:32:19,101 --> 01:32:24,171 Öyleyse
+devam edin ve çöpleri rastgele
+seçsinler.
+1985
+01:32:24,171 --> 01:32:25,791 Bütün
+bunlar ne hakkında?
+1986
+01:32:25,791 --> 01:32:29,641 Peki, izin
+verin size ne yaptığını göstereyim, sonra geriye
+dönük çıkarımlarda bulunabiliriz.
+1987
+01:32:29,641 --> 01:32:31,041 Devam
+edeyim ve Oynat'a basayım.
+1988
+01:32:31,041 --> 01:32:34,191
+Pekala, düşüyor, tıklayıp sürüklüyorum,
+hareket ettiriyorum,
+1989
+01:32:34,191 --> 01:32:35,474 ve ben
+bırakıyorum.
+1990
+01:32:35,474 --> 01:32:36,891 Pekala,
+bir kez daha yapayım.
+1991
+01:32:36,891 --> 01:32:39,531 Bırakalım,
+bırakayım.
+1992
+01:32:39,531 --> 01:32:46,071 Neden
+sonunda x ve y'ye rastgele Git adlı bu işleve
+sahibim?
+1993
+01:32:46,071 --> 01:32:48,741
+
+Machine Translated by Google
+Bu, buradaki hangi sorunu çözüyor?
+1994
+01:32:48,741 --> 01:32:50,833
+Evet, dönüş yolunda.
+1995
+01:32:50,833 --> 01:32:54,270
+İZLEYİCİ: En üste ışınlanan
+aynı parça
+1996
+01:32:54,270 --> 01:32:56,086 çöp
+kutusuna attıktan sonra.
+1997
+01:32:56,086 --> 01:32:57,211
+DAVID MALAN: Evet, aynen.
+1998
+01:32:57,211 --> 01:33:00,003
+İnsan bunu bir sürü çöpün düşmesi
+gibi algılasa da
+1999
+01:33:00,003 --> 01:33:01,971
+gökten, aslında aynı parça
+
+2000
+01:33:01,971 --> 01:33:04,851
+çöp, sihirli bir şekilde en üste geri
+taşınıyor
+2001
+01:33:04,851 --> 01:33:06,351
+sanki yeniymiş gibi.
+2002
+01:33:06,351 --> 01:33:09,231
+Orada da yeniden kullanılabilir
+kod fikrine sahipsiniz.
+2003
+01:33:09,231 --> 01:33:12.861
+Çöp parçalarınızı sürekli kopyalayıp
+yapıştırıyorsanız
+2004
+01:33:12,861 --> 01:33:15,891 ve
+sırf siz diye 20 parça çöp, 30 parça
+çöp yaratmak
+2005
+01:33:15,891 --> 01:33:19,521
+
+Machine Translated by Google
+oyunun bu kadar çok seviyeye sahip
+olmasını istiyorum, muhtemelen yanlış bir şey yapıyor.
+2006
+01:33:19,521 --> 01:33:22,611
+Yazdığınız kodu tekrar kullanın,
+yazdığınız spriteları tekrar kullanın,
+2007
+01:33:22,611 --> 01:33:27,381 ve bu
+size sadece doğruluk değil, aynı
+zamanda daha iyi bir tasarım da verecektir.
+2008
+01:33:27,381 --> 01:33:30,366
+Pekala, hadi son bir dizi yapı
+taşına bir göz atalım
+2009
+01:33:30,366 --> 01:33:32,241 sonuçta
+bir şeyler oluşturabileceğimiz
+
+2010
+01:33:32,241 --> 01:33:34,711 özellikle
+aşağıdaki gibi etkileşimlidir.
+2011
+01:33:34,711 --> 01:33:36,621
+Devam edeyim ve burayı
+uzaklaştırayım ve izin verin
+2012
+01:33:36,621 --> 01:33:41,271 bana
+bir tür labirent tabanlı oyun gibi bir şey uygulamamızı
+öneriyorum.
+2013
+01:33:41,271 --> 01:33:42,691 Buradan
+devam edeyim.
+2014
+01:33:42,691 --> 01:33:46,011
+Bu yüzden labirent tabanlı
+bir oyun uygulamak istiyorum.
+2015
+01:33:46,011 --> 01:33:47,761 ilk
+bakışta böyle görünüyor.
+2016
+01:33:47,761 --> 01:33:48,436 Oynat'a
+basayım.
+2017
+
+Machine Translated by Google
+01:33:48,436 --> 01:33:50,811
+
+Henüz çok eğlenceli bir oyun
+değil, ama işte biraz Harvard
+2018
+01:33:50.811 --> 01:33:54,891 kalkan,
+birkaç siyah çizgi, bu sefer yatay yerine
+dikey,
+2019
+01:33:54,891 --> 01:33:56,931 ama
+burada elimi tam olarak göremediğine
+dikkat et,
+2020
+01:33:56,931 --> 01:34:01,649 ama
+aşağı gitmek, yukarı gitmek, sola gitmek, sağa
+gitmek için ok tuşlarını kullanıyorum,
+2021
+01:34:01,649 --> 01:34:04,191 ama
+doğru devam edersem, doğru,
+doğru, doğru, doğru, doğru, doğru,
+2022
+01:34:04,191 --> 01:34:05,541 hiçbir
+yere gitmiyor.
+2023
+01:34:05,541 --> 01:34:08,021
+Ve sol, sol, sol, sol, sol, sol, sol, sol, sol,
+sol, sol, sol,
+2024
+01:34:08,021 --> 01:34:09,441 kaldı,
+sonunda duruyor.
+2025
+01:34:09,441 --> 01:34:13,941 Peki
+koda bakmadan önce bu nasıl
+çalışıyor olabilir?
+2026
+01:34:13,941 --> 01:34:17.691
+Ne tür senaryolar, yapboz
+parçaları koleksiyonları,
+2027
+01:34:17,691 --> 01:34:20,191 toplu
+olarak bunu uygulamamıza yardımcı
+olabilir mi?
+2028
+01:34:20,191 --> 01:34:21,231 Ne
+düşünüyorsun?
+
+Machine Translated by Google
+2029
+01:34:21,231 --> 01:34:25,071
+İZLEYİCİ: [DUYULMAZ]
+2030
+01:34:29,246 --> 01:34:30,371
+DAVID MALAN: Mükemmel, evet.
+2031
+01:34:30,371 --> 01:34:33,539
+Muhtemelen sorulan bazı sorular vardır,
+eğer siyah çizgiye dokunuyorsanız,
+2032
+01:34:33,539 --> 01:34:35,831 ve
+her biri
+
+2033
+01:34:35,831 --> 01:34:39,081
+kelimenin tam anlamıyla dikey bir siyah
+çizgidir, muhtemelen şöyle bir soru soruyoruz:
+2034
+01:34:39,081 --> 01:34:40,151 ona
+dokunuyor musunuz?
+2035
+01:34:40,151 --> 01:34:43,151
+Uzaklık sıfır mı yoksa sıfıra yakın
+mı?
+2036
+01:34:43,151 --> 01:34:48,831 Ve
+eğer öyleyse, o noktada sol veya sağ
+oku görmezden geliriz.
+2037
+01:34:48,831 --> 01:34:49,571 Yani
+işe yarıyor.
+2038
+01:34:49,571 --> 01:34:51,641
+Ama aksi halde, bir
+duvara dokunmuyorsak,
+2039
+01:34:51,641 --> 01:34:55,181
+Muhtemelen burada sonsuza
+kadar ne yapıyoruz?
+2040
+01:34:55,181 --> 01:34:57,521
+Hareket muhtemelen nasıl çalışıyor?
+
+Machine Translated by Google
+2041
+01:34:57,521 --> 01:34:59,531 Evet
+ve geri.
+2042
+01:34:59,531 --> 01:35:01,321 Ah,
+kaşınıyor musun?
+2043
+01:35:01,321 --> 01:35:02,341
+Tamam, elbette.
+2044
+01:35:02,341 --> 01:35:03,433
+Devam edelim.
+2045
+01:35:03,433 --> 01:35:06,391
+İZLEYİCİ: [DUYULMAZ]
+2046
+01:35:06,391 --> 01:35:08,265 DAVID
+MALAN: Üzgünüm, biraz daha yüksek sesle söyle.
+2047
+01:35:08,265 --> 01:35:11,499
+İZLEYİCİ: Muhtemelen sürekli olarak yön
+tuşlarına basmanızı arıyordur.
+2048
+01:35:11,499 --> 01:35:12,891 ve
+sonra hareket ettiğinizde hareket edin.
+2049
+01:35:12,891 --> 01:35:13,766 DAVID
+MALAN: Kesinlikle.
+2050
+01:35:13,766 --> 01:35:17,631
+Sürekli, sonsuza dek yukarı, aşağı, sol, sağ
+ok tuşlarını dinliyor,
+2051
+01:35:17,631 --> 01:35:19,971 ve
+yukarı oka basılırsa, muhtemelen
+
+2052
+01:35:19,971 --> 01:35:22,501 y'nin
+pozitif bir değerle değiştirilmesi.
+2053
+01:35:22,501 --> 01:35:25,101
+Aşağı oka basılırsa,
+
+Machine Translated by Google
+y ile aşağı gidiyoruz,
+2054
+01:35:25,101 --> 01:35:26,791 ve
+buna göre sola ve sağa.
+2055
+01:35:26,791 --> 01:35:28,371
+Şimdi kısaca bir göz atalım.
+2056
+01:35:28,371 --> 01:35:31,701
+Burayı uzaklaştırırsam ve bunu
+uygulayan koda bir göz atarsam,
+2057
+01:35:31,701 --> 01:35:34,256 İlk
+bakışta çok şey oluyor ama bir
+bakalım.
+2058
+01:35:34,256 --> 01:35:36,381
+Her şeyden önce, bazı
+şeyleri yoldan çekeyim
+2059
+01:35:36,381 --> 01:35:38,541
+çünkü ilk bakışta bunaltıcı geliyor,
+
+2060
+01:35:38,541 --> 01:35:41,991
+özellikle, örneğin, problem setiyle ilgili
+olarak internette dolaşıyorsanız
+2061
+01:35:41,991 --> 01:35:44,634 0
+sadece ilham almak için, çoğu
+proje orada
+2062
+01:35:44,634 --> 01:35:46,551 ilk
+bakışta bunaltıcı görünecek
+
+2063
+01:35:46,551 --> 01:35:49,021
+neler olup bittiğini anlamaya
+başlayana kadar.
+2064
+01:35:49,021 --> 01:35:52,281
+Ancak bu durumda, bazı
+soyutlamalar uyguladık.
+
+Machine Translated by Google
+2065
+
+01:35:52,281 --> 01:35:55,431
+başından itibaren kendimize ve
+arayan herkese açıklamaya gidin
+2066
+01:35:55,431 --> 01:35:57,381
+kodda neler oluyor.
+2067
+01:35:57,381 --> 01:36:01,801
+Bu, iki siyah çizgili ve Harvard kalkanının
+kalktığı o program,
+2068
+01:36:01,801 --> 01:36:02,781
+aşağı, sola ve sağa.
+2069
+01:36:02,781 --> 01:36:06,501
+Önce kalkanı ortaya koyar,
+0,0, sonra
+2070
+01:36:06,501 --> 01:36:09,951
+sonsuza kadar klavyeyi dinler,
+sanırım tarif ettiğiniz gibi,
+2071
+01:36:09,951 --> 01:36:13,161 ve
+sanırım tarif ettiğiniz gibi duvarlar
+için hissediyor.
+2072
+01:36:13,161 --> 01:36:14.721
+Şimdi bu nasıl uygulanıyor?
+2073
+01:36:14,721 --> 01:36:15,561
+Henüz bilmiyorum.
+2074
+01:36:15,561 --> 01:36:19,101
+Bunlar, bir tür gizlemek için soyutlamalar
+olarak oluşturduğumuz özel bloklardır.
+
+2075
+01:36:19,101 --> 01:36:21,351 bu
+uygulama ayrıntıları çünkü
+dürüst olmak gerekirse bu
+2076
+01:36:21,351 --> 01:36:22,831 Şu
+anda bilmem gereken her şey.
+
+Machine Translated by Google
+2077
+01:36:22,831 --> 01:36:25,551
+Ancak, hevesli programcılar olarak,
+şimdi merak ediyorsak,
+
+2078
+01:36:25,551 --> 01:36:28,161
+gerçek uygulamaya geçelim
+
+2079
+01:36:28,161 --> 01:36:29,961
+klavye dinleme.
+2080
+01:36:29,961 --> 01:36:32,401
+Bu soldaki ve biraz uzun,
+
+2081
+01:36:32,401 --> 01:36:35,161
+ama çok benzer bir yapıya sahip.
+2082
+01:36:35,161 --> 01:36:40,071
+Aşağıdakileri yapıyoruz, yukarı oka
+basılırsa y'yi 1 ile değiştirin.
+2083
+01:36:40,071 --> 01:36:40,731
+Yukarı çık.
+2084
+01:36:40,731 --> 01:36:44,301
+Aşağı oka basılırsa, y'yi eksi 1 ile
+değiştirin.
+2085
+01:36:44,301 --> 01:36:45,041
+Aşağı git.
+2086
+01:36:45,041 --> 01:36:48,061
+Sağ ok, sol ok, hepsi bu.
+2087
+01:36:48,061 --> 01:36:50,691
+Böylece tüm bu fikirleri
+bir araya getirir, birleştirir.
+2088
+01:36:50,691 --> 01:36:53,151
+yeni bir blokta, çünkü biraz
+bunaltıcı,
+
+Machine Translated by Google
+2089
+
+01:36:53,151 --> 01:36:55,381
+Bir kere uygulayalım ve bir
+kenara koyalım.
+2090
+01:36:55,381 --> 01:36:59,421
+Ve şimdi Duvarları Hisset
+işlevine geçersek,
+2091
+01:36:59,421 --> 01:37:02,781
+bu şimdi soruyu varsayımsal
+olarak soruyor,
+2092
+01:37:02,781 --> 01:37:07,701
+Eğer sol duvara dokunuyorsam, x
+değerimi 1 değiştir, bir nevi ondan uzaklaş
+2093
+01:37:07,701 --> 01:37:08,421
+biraz.
+2094
+01:37:08,421 --> 01:37:11.361
+Sağ duvara
+dokunuyorsam, x'i eksi 1 ile hareket ettirin
+2095
+01:37:11,361 --> 01:37:13,293
+ondan biraz uzaklaşmak için.
+2096
+01:37:13,293 --> 01:37:14,751
+Yani bir nevi duvardan sekiyor.
+2097
+01:37:14,751 --> 01:37:20,151
+Biraz fazla gitmesi ihtimaline karşı
+tepeyi bu iki duvarın içinde tutuyoruz.
+2098
+01:37:20,151 --> 01:37:23,931
+Pekala, o zaman burada
+tanıtmak için birkaç parça daha.
+2099
+01:37:23,931 --> 01:37:27,141
+Ya gerçekten bir tür düşman
+veya rakip eklemek istiyorsak?
+2100
+01:37:27,141 --> 01:37:28,011
+bu oyuna mı?
+
+Machine Translated by Google
+
+2101
+01:37:28,011 --> 01:37:34,731
+Pekala, devam edeyim, belki de bu
+oyundaki rakibin burada olduğu
+2102
+01:37:34,731 --> 01:37:38,159,
+örneğin, yolunuza çıkmak için
+zıplayacak şekilde tasarlanmış olabilir.
+2103
+01:37:38,159 --> 01:37:41,451
+Bu bir labirent gibi ve alttan Harvard
+kalkanını almaya çalışıyorsun
+2104
+01:37:41,451 --> 01:37:42,511
+en üste veya tam tersi.
+2105
+01:37:42,511 --> 01:37:47,061
+Ah oh, Yale yolda ve otomatik
+olarak zıplıyor gibi görünüyor
+2106
+01:37:47,061 --> 01:37:48,241
+burada ileri geri.
+2107
+01:37:48,241 --> 01:37:49,491
+Peki, başka birine sorayım.
+2108
+01:37:49,491 --> 01:37:50,151
+Varsayım.
+2109
+01:37:50,151 --> 01:37:51,951
+Bu nasıl çalışıyor?
+2110
+01:37:51,951 --> 01:37:54,081
+Bu sahip olduğunuz bir fikir,
+gördüğünüz bir fikir.
+2111
+01:37:54,081 --> 01:37:59,191
+Nasıl çalıştığını kafanızda
+tersine çevirelim.
+2112
+01:37:59,191 --> 01:38:00,391
+Bu nasıl çalışıyor olabilir?
+
+Machine Translated by Google
+2113
+
+01:38:00,391 --> 01:38:01,636 Evet,
+arkada.
+2114
+01:38:01,636 --> 01:38:05,356
+İZLEYİCİ: Yale sembolü bir sağ duvara
+veya sol duvara dokunuyorsa,
+2115
+01:38:05,356 --> 01:38:07,339
+sonra zıplamasını sağlayın.
+2116
+01:38:07,339 --> 01:38:09,131
+DAVID MALAN: Evet, yani Yale
+sembolü
+2117
+01:38:09,131 --> 01:38:11,831 sol
+duvara veya sağ duvara dokunarak,
+bir şekilde sıçramasını sağlıyoruz.
+2118
+01:38:11,831 --> 01:38:14.456
+Ve gerçekten de tam olarak yapabilecek
+bir yapboz parçası olduğunu göreceğiz.
+
+2119
+01:38:14,456 --> 01:38:16,766
+teknik olarak uç noktada,
+göreceğimiz gibi,
+2120
+01:38:16,766 --> 01:38:18,391 ama
+bunu yapmanın başka bir yolu var.
+2121
+01:38:18,391 --> 01:38:19,451
+Şimdi koda bakalım.
+2122
+01:38:19,451 --> 01:38:21,971
+Kendimiz tam olarak
+uygulayabileceğimiz yol
+2123
+01:38:21,971 --> 01:38:24,711 bu
+fikir sıçraması sadece biraz
+mantıkla olur.
+2124
+01:38:24,711 --> 01:38:27,281 İşte
+programın bu sürümünün yaptığı
+şey.
+
+Machine Translated by Google
+2125
+01:38:27,281 --> 01:38:31,421
+Yale'i rastgele bir yere koymak için
+varsayılan olarak 0,0'a taşıyor,
+2126
+01:38:31,421 --> 01:38:35,951 90
+derecelik bir yöne işaret ediyor, yani sadece
+yatay olarak, aslında,
+2127
+01:38:35,951 --> 01:38:39,191 ve sonra
+bunu sonsuza kadar yapıyor: eğer sol
+duvara dokunuyorsa
+2128
+01:38:39,191 --> 01:38:43,151 veya
+sağ duvara dokunmak, işte sıçrama
+çevirimiz.
+2129
+01:38:43,151 --> 01:38:44,653 Sadece
+180 derece dönüyoruz.
+2130
+01:38:44,653 --> 01:38:46,361
+Ve bununla ilgili güzel
+şey, biz yapmıyoruz
+2131
+01:38:46,361 --> 01:38:49.069 Sağdan
+sola mı yoksa soldan sağa mı gideceğimiz
+konusunda endişelenmeliyiz.
+2132
+01:38:49.069 --> 01:38:52,181 180
+derece her iki duvarda da çalışacak.
+
+2133
+01:38:52,181 --> 01:38:54,011 İşte
+bu kadar.
+2134
+01:38:54,011 --> 01:38:57,371
+Bunu yaptıktan sonra, her seferinde
+bir adım, bir piksel hareket ediyoruz.
+2135
+01:38:57,371 --> 01:39:00,851 ama
+bunu sonsuza kadar yapıyoruz, bu
+yüzden sürekli bir şeyler oluyor
+2136
+
+Machine Translated by Google
+01:39:00,851 --> 01:39:03,341 ve
+Yale simgesi ileri geri zıplıyor.
+
+2137
+01:39:03,341 --> 01:39:06,251
+Pekala, burada son
+bir parça, ya şimdi biz
+2138
+01:39:06,251 --> 01:39:12,411
+başka bir rakip istiyor, örneğin yolun
+aşağısında daha gelişmiş bir rakip,
+2139
+01:39:12,411 --> 01:39:17,531 bu
+sefer nerede olursak olalım bizi
+takip etmek için
+2140
+01:39:17,531 --> 01:39:23,861
+diğer hareketli grafiğin sadece
+ileri geri sıçramamasını istiyoruz,
+2141
+01:39:23,861 --> 01:39:28,301 ama
+nereye gidersek gidelim kelimenin tam
+anlamıyla bizi takip edin.
+
+2142
+01:39:28,301 --> 01:39:31,811 Bu
+ekranda nasıl uygulanabilir?
+
+2143
+01:39:31,811 --> 01:39:34,241 Bahse
+girerim bu başka bir sonsuza kadar
+bloktur, ama içinde ne var?
+
+2144
+01:39:34,241 --> 01:39:38,321
+İZLEYİCİ: Öyleyse sonsuza dek
+Harvard kalkanının yerini öğrenin
+2145
+01:39:38,321 --> 01:39:39,544 ve
+ona doğru bir adım ilerleyin.
+2146
+01:39:39,544 --> 01:39:42,461
+DAVID MALAN: Evet, sonsuza kadar Harvard
+kalkanının yerini işaret edin
+2147
+01:39:42,461 --> 01:39:43,841
+
+Machine Translated by Google
+ve ona doğru bir adım at.
+
+2148
+01:39:43,841 --> 01:39:48,041 Eğer
+pes edersem bu sonsuza kadar sürecek,
+en azından bu versiyonda.
+2149
+01:39:48,041 --> 01:39:51,251
+Bir ileri bir geri gittiğine dikkat
+edin çünkü bir tane gidiyor
+2150
+01:39:51,251 --> 01:39:52,901
+piksel, sonra bir piksel, sonra bir piksel.
+2151
+01:39:52,901 --> 01:39:54,611
+Burası çılgınca bir durumda.
+2152
+01:39:54,611 --> 01:39:58,121
+Oyunu henüz bitirmedik ama içini görürsek
+tam olarak bunu göreceğiz.
+2153
+01:39:58,121 --> 01:40:00,821 Bu
+basit fikri uygulamak çok fazla
+zaman almadı.
+2154
+01:40:00,821 --> 01:40:03,611
+Adil olmak için rastgele bir
+pozisyona gidin,
+2155
+01:40:03,611 --> 01:40:06,441
+önce, sonra sonsuza kadar
+Harvard'ı işaret edin,
+2156
+01:40:06,441 --> 01:40:09,761
+Harvard arması dediğimiz şey, bir adım
+ilerleyin.
+2157
+01:40:09,761 --> 01:40:12,401
+Şimdi daha ileri bir seviye yapmak
+istediğimizi varsayalım.
+2158
+01:40:12,401 --> 01:40:15,311
+Bu kodda mantıksal olarak
+yapabileceğim küçük bir değişiklik nedir?
+
+Machine Translated by Google
+2159
+
+01:40:15,311 --> 01:40:17,738 MIT'yi bu
+konuda daha da iyi hale getirmek için mi?
+
+2160
+01:40:17,738 --> 01:40:19,571
+İZLEYİCİ: Adım sayısını ikiye
+değiştirin.
+2161
+01:40:19,571 --> 01:40:21,011
+DAVID MALAN: Pekala, adım sayısını ikiye
+değiştirin.
+2162
+01:40:21,011 --> 01:40:22,091 Hadi
+bunu deneyelim.
+2163
+01:40:22,091 --> 01:40:24,071
+Böylece şimdi iki kat daha hızlı oldular.
+2164
+01:40:24,071 --> 01:40:26,451
+Devam edeyim ve bunu aradan
+çıkarayım.
+2165
+01:40:26,451 --> 01:40:29,541 Hata,
+adil bir dövüş yapmama izin verin.
+2166
+01:40:29,541 --> 01:40:31,011 Yeşil
+bayrak.
+2167
+01:40:31,011 --> 01:40:34,231
+Pekala, ne yazık ki hala bir pikseli
+hareket ettiriyorum.
+2168
+01:40:34,231 --> 01:40:35,781 yani
+bu işin sonu iyi olmayacak.
+2169
+01:40:35,781 --> 01:40:36,921
+Aklıma geldi.
+2170
+01:40:36,921 --> 01:40:42,931
+Ve eğer gerçekten agresifsek ve bir
+seferde 20 adım gibi bir şey yaparsak,
+2171
+01:40:42,931 --> 01:40:44,631
+
+Machine Translated by Google
+yeşil bayrağa tıklayın.
+2172
+01:40:44,631 --> 01:40:49,071
+Tanrım, tamam, o zaman seviyelerinizi
+kademeli olarak böyle yapabilirsiniz.
+2173
+01:40:49,071 --> 01:40:50,461
+gitgide daha sert.
+2174
+01:40:50,461 --> 01:40:53,394
+Yani bu özel örnekleri seçmemiz
+bir tesadüf değil.
+2175
+01:40:53,394 --> 01:40:56,061
+burada bu belirli okulları içeriyor
+çünkü elimizde bir tane daha var
+2176
+01:40:56,061 --> 01:40:58,381
+bugün sunmayı düşündüğümüz
+gösteri
+2177
+01:40:58,381 --> 01:41:02,721 Bir
+başka gönüllünün gelip oynamasını
+sağlayabilirsek
+2178
+01:41:02,721 --> 01:41:07,101
+seleflerinizden biri tarafından
+Ivy'nin En Zor Oyunu olarak adlandırılan oyun.
+2179
+01:41:07,101 --> 01:41:08,361
+Ortada bir bakalım.
+2180
+01:41:08,361 --> 01:41:09,444
+Yukarı gelmek ister misin?
+2181
+01:41:09,444 --> 01:41:10.364 Adın
+ne?
+2182
+01:41:10,364 --> 01:41:11,114
+İZLEYİCİ: Celeste.
+2183
+01:41:11,114 --> 01:41:12,072
+DAVID MALAN: Tekrar söyle?
+
+Machine Translated by Google
+2184
+01:41:12,072 --> 01:41:12,861
+İZLEYİCİ: Celeste.
+2185
+01:41:12,861 --> 01:41:14,694
+DAVID MALAN: Biraz daha
+yaklaşın aslında.
+2186
+01:41:14,694 --> 01:41:17,141
+Üzgünüm, burada duymak zor.
+
+2187
+01:41:17,141 --> 01:41:19,767
+Pekala, biz de burada alkışlayalım.
+
+2188
+01:41:19,767 --> 01:41:23,099
+[ALKIŞ]
+2189
+01:41:25,937 --> 01:41:27,187
+Tamam, pardon, adın neydi?
+2190
+01:41:27,187 --> 01:41:27,901
+İZLEYİCİ: Celeste.
+2191
+01:41:27,901 --> 01:41:28,426
+DAVID MALAN: Ceweste
+2192
+01:41:28,426 --> 01:41:28,791
+İZLEYİCİ: Celeste.
+2193
+01:41:28,791 --> 01:41:29,171
+DAVID MALAN: Celeste.
+2194
+01:41:29,171 --> 01:41:29,921
+İZLEYİCİ: Evet.
+2195
+01:41:29,921 --> 01:41:30,621
+DAVID MALAN: Hadi gel.
+2196
+01:41:30,621 --> 01:41:31,721 Ben de
+tanıştığıma memnun oldum.
+
+Machine Translated by Google
+2197
+
+01:41:31,721 --> 01:41:35,381
+İşte diğer ekranda Ivy'nin En
+Zor Oyunu
+2198
+01:41:35,381 --> 01:41:37,451 eski
+bir CS50 öğrencisi tarafından yazılmıştır.
+
+2199
+01:41:37,451 --> 01:41:40,151
+Sanırım aynı ilkeleri birleştirdiğini
+göreceksiniz.
+2200
+01:41:40,151 --> 01:41:42,641
+Labirent açıkça biraz daha
+gelişmiş.
+2201
+01:41:42,641 --> 01:41:47,021
+Eldeki hedef, başlangıçta Harvard
+armasını tüm sprite'a taşımaktır.
+2202
+01:41:47,021 --> 01:41:49,808 bu
+durumda ona yetişmeniz için
+sağda,
+2203
+01:41:49,808 --> 01:41:51,641
+ama göreceksiniz ki farklı
+seviyeler var
+2204
+01:41:51,641 --> 01:41:54,051 ve
+farklı gelişmişlik seviyeleri.
+2205
+01:41:54,051 --> 01:41:57,521
+Yani buna hazırsanız, sadece bu ok
+tuşlarını yukarı, aşağı, sol, sağ kullanabilirsiniz.
+2206
+01:41:57,521 --> 01:42:00,221
+kontrol edeceksin
+Harvard sprite ve eğer biz
+2207
+01:42:00,221 --> 01:42:04,991 sesi
+biraz yükseltebilir, bunu son
+örneğimiz yapacağız.
+2208
+01:42:04,991 --> 01:42:07,121
+
+Machine Translated by Google
+İşte başlıyoruz, yeşil bayrağa tıklayarak.
+2209
+01:42:07,121 --> 01:42:10.831
+[MÜZİK ÇALIYOR]
+2210
+01:42:10.831 --> 01:42:12,301 Hazır
+hissediyor musun?
+2211
+01:42:12,301 --> 01:42:12,911
+İZLEYİCİ: Evet.
+2212
+01:42:12,911 --> 01:42:14,145 DAVID
+MALAN: Boşluk çubuğu.
+2213
+01:42:14,145 --> 01:42:15,895
+[MÜZİK - MC HAMMER, "Dokunamazsın
+BU"]
+2214
+01:42:15,895 --> 01:42:17,801 MC
+HAMMER: (ŞARKI SÖYLÜYOR) Buna dokunamam.
+2215
+01:42:17,801 --> 01:42:21,366 Buna
+dokunamazsınız.
+2216
+01:42:21,366 --> 01:42:22,621 Buna
+dokunamazsınız.
+2217
+01:42:25,213 --> 01:42:27,891 Buna
+dokunamam.
+2218
+01:42:27,891 --> 01:42:29,333
+Benim, benim, benim müziğim...
+
+2219
+01:42:29,333 --> 01:42:30,291 DAVID
+MALAN: Mükemmel.
+2220
+01:42:30,291 --> 01:42:31,501 MC
+HAMMER: (ŞARKI SÖYLÜYOR) çok zor.
+2221
+01:42:31,501 --> 01:42:33,251 Aman
+Tanrım demek istiyorum.
+
+Machine Translated by Google
+2222
+
+01:42:33,251 --> 01:42:34,741
+Beni kutsadığın için teşekkürler...
+2223
+01:42:34,741 --> 01:42:36,221 DAVID
+MALAN: Şimdi iki Yales.
+2224
+01:42:36,221 --> 01:42:38,863 MC
+HAMMER: (ŞARKI SÖYLÜYOR)
+Yorulduğunuzu bilmek iyi hissettiriyor.
+2225
+01:42:38,863 --> 01:42:40,029
+Süper bir ev arkadaşı-2226
+01:42:40,029 --> 01:42:40,571
+İZLEYİCİ: Ah!
+2227
+01:42:40,571 --> 01:42:41,891 DAVID
+MALAN: Ah!
+2228
+01:42:41,891 --> 01:42:43,051
+Devam edin.
+2229
+01:42:43,051 --> 01:42:45,221 MC
+HAMMER: (ŞARKI SÖYLÜYOR)
+Buna dokunamazsın.
+2230
+01:42:45,221 --> 01:42:46,571 Sana
+söyledim, kanka.
+2231
+01:42:46,571 --> 01:42:48,559 Buna
+dokunamam.
+2232
+01:42:48,559 --> 01:42:49,601
+Evet, yaşamak böyle...
+2233
+01:42:49,601 --> 01:42:50,559 DAVID
+MALAN: Pekala.
+2234
+01:42:50,559 --> 01:42:52,491 MC
+HAMMER: (ŞARKI SÖYLÜYOR) Buna dokunamam.
+2235
+
+Machine Translated by Google
+01:42:52,491 --> 01:42:53,607
+
+Gözlerime bak dostum.
+2236
+01:42:53,607 --> 01:42:56,319 Buna
+dokunamazsınız.
+2237
+01:42:56,319 --> 01:42:57,901 Müthiş
+şarkı sözlerini söylememe izin verdin.
+
+2238
+01:42:57,901 --> 01:42:58,776 Buna
+dokunamazsınız.
+2239
+01:42:58,776 --> 01:43:000,014
+Yepyeni tekmeler ve pantolonlar.
+2240
+01:43:00,014 --> 01:43:02,181 Böyle
+anladın ve dans etmek istediğini
+biliyorsun.
+2241
+01:43:02,181 --> 01:43:06,003 O
+halde koltuğunuzdan kalkın ve bir
+sinek kız bulun ve bu ritmi yakalayın.
+2242
+01:43:06,003 --> 01:43:06,503
+[Gülüyor]
+2243
+01:43:06,503 --> 01:43:07,634
+Bekleyin.
+2244
+01:43:07,634 --> 01:43:10.983 Biraz
+pompalayın ve neler olup bittiğini
+onlara bildirin.
+2245
+01:43:10,983 --> 01:43:12,441 Bir
+görevde soğuk, o yüzden geri çekilin.
+2246
+01:43:12,441 --> 01:43:13.733
+Onlara senin de-2247
+01:43:13,733 --> 01:43:14.816
+DAVID MALAN: Buyrun.
+2248
+
+Machine Translated by Google
+
+01:43:14.816 --> 01:43:15,951 İşte
+
+başlıyorsunuz.
+2249
+01:43:15,951 --> 01:43:19,079
+[ALKIŞ]
+2250
+01:43:19,079 --> 01:43:21.499 MC
+HAMMER: (ŞARKI SÖYLÜYOR) Buna dokunamam.
+2251
+01:43:21.499 --> 01:43:22,951
+Neden orada duruyorsun dostum?
+2252
+01:43:22,951 --> 01:43:24,341 Buna
+dokunamazsınız.
+2253
+01:43:24,341 --> 01:43:25,421 Yo,
+zili çal.
+2254
+01:43:25,421 --> 01:43:26,753 Okul
+başladı, enayi.
+2255
+01:43:26,753 --> 01:43:27,461 Buna
+dokunamam.
+2256
+01:43:27,461 --> 01:43:31,016 Bana
+bir şarkı ya da ritim ver, onları terletecek
+olan bu.
+2257
+01:43:31,016 --> 01:43:32,201
+[TEŞEKKÜR]
+2258
+01:43:32,201 --> 01:43:32,921
+Biliyorlar.
+2259
+01:43:32,921 --> 01:43:35,254 Bir
+şovdan bahsederken Hammer'dan
+bahsediyorsunuz.
+2260
+01:43:35,254 --> 01:43:36,451 Bu
+abartılı ve gergin.
+2261
+01:43:36,451 --> 01:43:39,301
+
+Machine Translated by Google
+Şarkıcılar terliyorlar, bu yüzden öğrenmeleri
+gereken bir silme ya da evcilleştirme.
+
+2262
+01:43:39,301 --> 01:43:40,811
+DAVID MALAN: Sondan ikinci seviyeye.
+2263
+01:43:40.811 --> 01:43:41,311 Ah!
+
+2264
+01:43:41,311 --> 01:43:43,151 MC
+HAMMER: (ŞARKI SÖYLÜYOR) Bu liste doğru.
+2265
+01:43:43,151 --> 01:43:45,901 Ya
+çok çalışın ya da istifa edin.
+
+2266
+01:43:45,901 --> 01:43:47,601
+Bu kelime çünkü biliyorsun-2267
+01:43:47,601 --> 01:43:48,391
+DAVID MALAN: Ah!
+2268
+01:43:48,391 --> 01:43:50,161
+Devam et, devam et!
+2269
+01:43:50,161 --> 01:43:50,791
+Evet!
+2270
+01:43:50,791 --> 01:43:53,091 MC
+HAMMER: (ŞARKI SÖYLÜYOR)
+Buna dokunamazsın.
+2271
+01:43:53,091 --> 01:43:55,113
+DAVID MALAN: Neredeyse geldin.
+2272
+01:43:55,113 --> 01:43:56,571 MC
+HAMMER: (ŞARKI SÖYLÜYOR) Kes şunu.
+2273
+01:43:56,571 --> 01:43:57,654
+DAVID MALAN: Buyrun.
+2274
+01:43:57,654 --> 01:43:59,081
+
+Machine Translated by Google
+Yürü! Yürü! Yürü!
+
+2275
+01:43:59,081 --> 01:44:00,131 Ah.
+
+2276
+01:44:00,131 --> 01:44:00,671 Bir
+tane daha.
+2277
+01:44:03,491 --> 01:44:03,991 Evet!
+
+2278
+01:44:03,991 --> 01:44:04,965
+[TEŞEKKÜR]
+2279
+01:44:04,965 --> 01:44:05,939 İşte
+başlıyorsunuz.
+2280
+01:44:08,861 --> 01:44:10.967 MC
+HAMMER: (ŞARKI SÖYLÜYOR) Dur, Çekiç zamanı.
+2281
+01:44:10,967 --> 01:44:12,579
+"Akışla git" deniyor.
+2282
+01:44:12,579 --> 01:44:14.871 Eğer
+buna uyamıyorsan, muhtemelen
+ölmüşsündür.
+2283
+01:44:14,871 --> 01:44:16,941
+Ellerinizi havada sallayın,
+birkaç hamle yapın,
+2284
+01:44:16,941 --> 01:44:17,841
+parmaklarınızı saçlarınızda gezdirin.
+2285
+01:44:17,841 --> 01:44:18,341 İşte
+bu.
+
+2286
+01:44:18,341 --> 01:44:19,321 Bir
+kazanan için.
+2287
+01:44:19,321 --> 01:44:21,751
+Bununla dans et ve sen
+
+Machine Translated by Google
+daha ince olacak.
+
+2288
+01:44:21,751 --> 01:44:23,351
+Şimdi hareket edin, kıçınızı kaydırın.
+2289
+01:44:23,351 --> 01:44:26,005
+Sadece bir dakikalığına hepimiz toparlayalım.
+2290
+01:44:26,005 --> 01:44:26,977
+[TEŞEKKÜR]
+2291
+01:44:26,977 --> 01:44:27,949
+DAVID MALAN: Evet!
+2292
+01:44:27,949 --> 01:44:29,407
+[ALKIŞ]
+2293
+01:44:29,407 --> 01:44:30,379
+Tebrikler.
+2294
+01:44:36,101 --> 01:44:38,106
+Pekala, CS50 için bu kadar.
+2295
+01:44:38,106 --> 01:44:38,981
+Sınıfa hoş geldiniz.
+2296
+01:44:38,981 --> 01:44:41.501 Bir
+dahaki sefere görüşürüz.
+2297
+01:44:41,501 --> 01:44:44,851
+[MÜZİK ÇALIYOR]
+
+
